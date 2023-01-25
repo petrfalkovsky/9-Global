@@ -220,11 +220,7 @@ h5 {
     background-color: #f3f5fa;
   }
   
-  .space-between {
-    display: flex;
-    justify-content: space-between;
-    max-width: 500px;
-  }
+
   
   .section-title {
     text-align: center;
