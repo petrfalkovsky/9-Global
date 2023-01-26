@@ -1,9 +1,9 @@
 /*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
-/**
+/*
   * Desktop Navigation 
-  */
+*/
 .navbar {
   padding: 0;
 }
@@ -135,17 +135,17 @@
   }
 }
 
-/**
+/*
   * Mobile Navigation 
-  */
+*/
+
+#navbar .container-fluid {
+  padding-right: 0px;
+}
 
 #navbar button {
   background-image: url("../img/navbar-icon.png") no-repeat;
 }
-
-/* .navbar-icon {
-    img: url("../img/navbar-icon.png") no-repeat;
-  } */
 
 .mobile-nav-toggle {
   color: rgb(24, 12, 12);
@@ -253,7 +253,7 @@
 
 /*--------------------------------------------------------------
   # Navbar icon animadet
-  --------------------------------------------------------------*/
+--------------------------------------------------------------*/
 
 label {
   display: flex !important;
