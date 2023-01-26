@@ -255,7 +255,7 @@
   # Navbar icon animadet
 --------------------------------------------------------------*/
 
-label {
+#navbar label {
   display: flex !important;
   flex-direction: column;
   width: 27px;
