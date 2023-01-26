@@ -2,19 +2,29 @@
   # Calc Form
   --------------------------------------------------------------*/
 
-/* 
-#calc-form .form-col-md {
-    .row-cols-5 {
-        flex: 0 0 auto;
-        width: 33%;
-    }
-} */
 
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
     #calc-form .row-cols-5>* {
         flex: 0 0 auto;
         width: 33%;
+    }
+
+    #calc-form .php-email-form {
+        padding: 46px 40px 65px 20px;
+    }
+
+    #calc-form .container {
+        min-width: 0px !important;
+    }
+    
+
+  }
+
+  @media (max-width: 990px) {
+    #calc-form .row-cols-5>* {
+        flex: 0 0 auto;
+        width: 50%;
     }
 
   }
@@ -22,6 +32,10 @@
 /*--------------------------------------------------------------
   # Calc
   --------------------------------------------------------------*/
+
+  #calc-form label {
+    padding-top: 34px;
+}
 
 #calc {
   width: 100%;
@@ -39,6 +53,10 @@
 #calc .haed-calc-container {
   height: 82px;
   position: relative;
+}
+
+#calc-form label {
+    padding-top: 34px;
 }
 
 #calc .haed-calc-container-centred {
