@@ -1,18 +1,60 @@
 /*--------------------------------------------------------------
   # Calc Form
   --------------------------------------------------------------*/
+#calc-form .active {
+  color: #e72e20;
+  /* padding-left: 15px; */
+}
+
+#calc-form .center {
+  text-align: center;
+}
+
+#calc-form h3 {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 0px;
+  color: #000000;
+}
+
+/* #calc-form p {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  color: #000000;
+} */
 
 @media (max-width: 991.8px) {
   #calc-form .btn-active button {
     border-radius: 5px;
-    /* min-width: 100%; */
-
     font-size: 16px;
     padding: 15px 5px 15px 5px;
   }
 }
 
+@media (min-width: 1199.98px) {
+  #calc-form h3 {
+    display: none;
+  }
+
+  #calc-form p {
+    display: none;
+  }
+}
+
 @media (max-width: 1199.98px) {
+  #calc-form h4 {
+    display: none;
+  }
+
+  #calc h3 {
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 32px;
+    color: #000000;
+  }
+
   #calc-form .row-cols-5 > * {
     flex: 0 0 auto;
     width: 33%;
@@ -71,7 +113,7 @@
   }
 
   #calc-form .php-email-form {
-    width: 104%;
+    width: 105%;
     padding: 46px 2px 65px 2px;
   }
 
@@ -91,6 +133,15 @@
 /*--------------------------------------------------------------
   # Calc
   --------------------------------------------------------------*/
+/* * Положение по вертикали блока Онлайн калькулятор */
+.contact .php-email-form {
+  width: 100%;
+  padding: 46px 117px 65px;
+  background: #fff;
+  box-shadow: 0 4 20px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+  margin-bottom: -340px;
+}
 
 .contact .shadows {
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
@@ -135,6 +186,10 @@
     font-size: 15px;
     line-height: 15px;
     color: #000;
+  }
+
+  #calc-form .php-email-form {
+    border-radius: 0;
   }
 }
 
@@ -190,18 +245,13 @@
 
 #calc h2 {
   color: #000000;
-  margin-bottom: 30px;
+  line-height: 82px;
+  /* margin-bottom: 30px; */
   font-size: 60px;
   font-weight: 600;
 }
 
-#calc h3 {
-  margin: 0 0 10px 0;
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 40.92px;
-  color: #000000;
-}
+
 
 #calc .btn-watch-video {
   font-size: 16px;
@@ -246,13 +296,13 @@
   position: relative;
   bottom: 330px;
   float: right;
-  margin-right: -36px;
+  margin-right: -28px;
 }
 
 #calc .relative-left-frame {
   position: relative;
   float: left;
-  margin-left: -80px;
+  margin-left: -86px;
   bottom: 370px;
 }
 
@@ -280,11 +330,11 @@
     line-height: 36px;
   }
 
-  #calc h2 {
+  /* #calc h2 {
     font-size: 40px;
     line-height: 24px;
     margin-bottom: 30px;
-  }
+  } */
 
   #calc h3 {
     font-size: 20px;
