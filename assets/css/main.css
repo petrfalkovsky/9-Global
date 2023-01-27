@@ -1262,7 +1262,7 @@ h5 {
   }
   
   .contact .php-email-form label {
-    padding-bottom: 8px;
+    /* padding-bottom: 8px; */
   }
   
   .contact .php-email-form input,
