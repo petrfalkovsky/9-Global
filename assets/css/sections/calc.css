@@ -5,7 +5,7 @@
 @media (max-width: 991.8px) {
   #calc-form .btn-active button {
     border-radius: 5px;
-    min-width: 180px;
+    /* min-width: 100%; */
 
     font-size: 16px;
     padding: 15px 5px 15px 5px;
@@ -28,14 +28,56 @@
 
   #calc-form .btn-active button {
     border-radius: 5px;
-    min-width: 260px;
+    /* min-width: 260px; */
   }
 }
 
-@media (max-width: 731px) {
+@media (max-width: 731.98px) {
   #calc-form .row-cols-5 > * {
     flex: 0 0 auto;
     width: 50%;
+  }
+
+  #calc-form .btn-active button {
+    display: none;
+  }
+}
+
+@media (min-width: 731.98px) {
+  #calc-form .new-row-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 731.98px) {
+  #calc-form .btn-active-hidden {
+    /* flex: 0 0 auto; */
+    width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 20px;
+  }
+
+  #calc-form .row > * {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  #calc-form .php-email-form {
+    width: 104%;
+    padding: 46px 2px 65px 2px
+  }
+
+  #calc-form .col {
+    padding: 0px 5px 0px 5px !important;
+  }
+
+  #calc-form .col-md-3 {
+    padding: 0px 5px 0px 5px;
+  }
+
+  #calc-form .row-padding {
+    padding: 0px 0px 0px 22px;
   }
 }
 
