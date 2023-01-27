@@ -294,7 +294,7 @@
   color: #e72e20;
 }
 
-.form label {
+#calc .form label {
   font-weight: 400;
   font-size: 17px;
   line-height: 22px;
