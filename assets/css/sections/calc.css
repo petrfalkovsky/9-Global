@@ -22,6 +22,10 @@
     padding: 46px 0px 65px 20px;
   }
 
+  #calc-form .php-email-form label {
+    padding-top: 20px;
+  }
+
   #calc-form .shadows {
     box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.15);
   }
@@ -40,6 +44,10 @@
 
   #calc-form .btn-active button {
     display: none;
+  }
+
+  #calc-form .php-email-form label {
+    padding-top: 10px;
   }
 }
 
@@ -65,7 +73,7 @@
 
   #calc-form .php-email-form {
     width: 104%;
-    padding: 46px 2px 65px 2px
+    padding: 46px 2px 65px 2px;
   }
 
   #calc-form .col {
@@ -91,6 +99,38 @@
 
 #calc-form label {
   padding-top: 34px;
+}
+
+#calc-form label {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #e72e20;
+}
+
+@media (max-width: 731.98px) {
+  #calc-form label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #e72e20;
+  }
+}
+
+#calc-form input {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000;
+}
+
+@media (max-width: 731.98px) {
+  #calc-form input {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000;
+  }
 }
 
 #calc {
@@ -294,7 +334,7 @@
   color: #e72e20;
 }
 
-.form label {
+#calc .form label {
   font-weight: 400;
   font-size: 17px;
   line-height: 22px;

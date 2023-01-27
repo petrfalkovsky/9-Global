@@ -156,6 +156,10 @@
   transition: 0.5s;
 }
 
+#navbar .navbar-toggler {
+  border: transparent;
+}
+
 .mobile-nav-toggle.bi-x {
   color: #000000;
 }
