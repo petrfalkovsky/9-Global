@@ -110,17 +110,6 @@ h5 {
     min-width: 100%;
   }
   
-  @media (max-width: 575px) {
-    .btn-active button {
-      font-size: 16px;
-      padding: 10px 24px 11px 24px;
-    }
-  
-    .btn-active:hover button {
-      font-size: 16px;
-      padding: 10px 24px 11px 24px;
-    }
-  }
   
   .container {
     max-width: 1366px;
