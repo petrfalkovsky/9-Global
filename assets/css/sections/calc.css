@@ -8,6 +8,7 @@
 
 #calc-form .center {
   text-align: center;
+  align-items: center;
 }
 
 #calc-form h3 {
@@ -199,7 +200,9 @@
 }
 
 #calc .container {
-  padding-top: 290px;
+  padding-top: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #calc .calc-container {
@@ -248,10 +251,9 @@
   line-height: 82px;
   /* margin-bottom: 30px; */
   font-size: 60px;
-  font-weight: 600;
+  /* font-weight: 600; */
+  /* margin-left: -26px; */
 }
-
-
 
 #calc .btn-watch-video {
   font-size: 16px;
@@ -272,11 +274,9 @@
 }
 
 #calc .calc-img-background-bottom {
-  background: url("../img/frame.png") right bottom no-repeat;
-  /* margin-right: 40px; Отступ справа */
+  background: url("../../img/frame.png") right bottom no-repeat;
   margin-top: 60px;
   margin-left: 100px;
-  /* width: 100%; */
   height: 90px;
   padding: 0px 0px 0px 0px;
 }

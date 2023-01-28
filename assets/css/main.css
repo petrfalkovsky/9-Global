@@ -3,13 +3,17 @@
 @import "sections/hero.css";
 @import "sections/calc.css";
 @import "sections/service.css";
+@import "sections/tabs.css";
 
 /*--------------------------------------------------------------
   # Fonts
   --------------------------------------------------------------*/
 
 @font-face {
-  font-family: "Nunito Sans" !important;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
   src: url("../font/nunito-sans/NunitoSans-Regular.ttf") format("truetype");
 }
 
@@ -19,6 +23,19 @@
   src: url("../font/bert-sans/BertSans-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Nunito Sans SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../font/nunito-sans/NunitoSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bert Sans SemiBold";
+  src: url("../font/bert-sans/BertSans-SemiBold.ttf") format("truetype");
+}
+
 body {
   font-family: "Nunito Sans", sans-serif;
 }
@@ -26,10 +43,10 @@ body {
 p {
   font-family: "Nunito Sans", sans-serif;
   margin: 0 0 10px 0;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 27.2px;
-    color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  color: #000000;
 }
 
 h5 {
@@ -151,10 +168,6 @@ hr {
   width: 640px;
   height: 650px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
-}
-
-.spacer-v40 {
-  height: 40px;
 }
 
 .spacer-h30 {
@@ -435,8 +448,6 @@ section {
   opacity: 1;
 }
 
-
-
 /*--------------------------------------------------------------
   # Contact
   --------------------------------------------------------------*/
@@ -565,10 +576,6 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form label {
-  /* padding-bottom: 8px; */
-}
-
 .contact .php-email-form input,
 .contact .php-email-form textarea {
   border-radius: 0;
@@ -618,7 +625,6 @@ section {
     transform: rotate(360deg);
   }
 }
-
 
 /*--------------------------------------------------------------
   # Footer

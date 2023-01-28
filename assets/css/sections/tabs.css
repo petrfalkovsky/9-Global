@@ -1,0 +1,141 @@
+@media (max-width: 768px) {
+  #tabs .calc-white-container {
+    width: 246px;
+    height: 246px;
+    border-radius: 4px;
+    padding: 12px 16px 17px 16px;
+  }
+
+  #tabs .spacer-right-hor-30 {
+    border: 12px solid transparent;
+  }
+
+  #tabs .calc-img-background-top {
+    z-index: 0;
+  }
+
+
+  #tabs .image-1 {
+    background: url("../../img/train.png") left center no-repeat;
+    background-size: 100%;
+    width: 88px;
+    height: 48px;
+    padding: 90px 0px 0px 0px;
+  }
+
+  #tabs .image-2 {
+    background: url("../../img/track.png") left center no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 50.53px;
+    padding: 90px 0px 0px 0px;
+  }
+
+  #tabs .image-3 {
+    background: url("../../img/plain.png") left center no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 71.11px;
+    padding: 90px 0px 0px 0px;
+  }
+
+  #tabs .image-4 {
+    background: url("../../img/ship.png") left center no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 60px;
+    padding: 90px 0px 0px 0px;
+  }
+
+  #tabs .image-5 {
+    background: url("../../img/auto.png") left center no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 48px;
+    padding: 90px 0px 0px 0px;
+  }
+
+  #tabs .image-6 {
+    background: url("../../img/customs.png") left center no-repeat;
+    background-size: 100%;
+    width: 56px;
+    height: 70px;
+    padding: 90px 0px 0px 0px;
+  }
+
+  #tabs .frame-mobile-view {
+    background: url("../../img/frame.png") no-repeat;
+    background-size: 100%;
+    width: 63px;
+    height: 52px;
+    float: right;
+    margin-top: -62px;
+  }
+
+  #tabs .haed-calc-container {
+    height: 100%;
+  }
+
+  #tabs p {
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0 0 0px 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+  }
+
+  #calc h3 {
+    font-size: 16px;
+    line-height: 21.82px;
+    /* margin-bottom: 30px; */
+  }
+
+  #tabs .spacer-v40 {
+    height: 38px;
+  margin-top: 12px;
+  }
+
+  /* #tabs .calc-img-background-bottom {
+        background-size: 63px;
+        margin-top: -100%;
+        margin-left: -10px;
+    } */
+}
+
+/* #tabs .calc-img-background-bottom {
+  background: url("../../img/frame.png") right bottom no-repeat;
+  margin-top: 60px;
+  margin-left: 100px;
+  height: 90px;
+  padding: 0px 0px 0px 0px;
+}
+
+@media (max-width: 991px) {
+  #tabs .calc-img-background-bottom {
+    text-align: left;
+  }
+} */
+
+/* 
+*блок скрывается только на размерах меньше 1200px 
+*/
+/* @media (max-width: 1199.98px) {
+  #tabs .calc-img-background-bottom {
+    display: none;
+  }
+} */
+
+/* 
+*блок скрывается только на размерах от 991px до 1200px 
+*/
+@media /* (min-width: 991px) and */ (max-width: 1199.98px) {
+  #tabs .calc-img-background-bottom {
+    display: none;
+  }
+}
+
+@media (max-width: 791.98px) {
+  #tabs .calc-img-background-top {
+    display: none;
+  }
+}
