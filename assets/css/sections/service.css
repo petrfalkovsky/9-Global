@@ -9,10 +9,10 @@
 
 #calc h3 {
 
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito Sans SemiBold", sans-serif;
   margin: 0 0 10px 0;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 40.92px;
   color: #000000;
 }
@@ -22,11 +22,6 @@ width: 100%;
 }
 
 @media (max-width: 768px) {
-  #calc h3 {
-    font-size: 20px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
 
   #calc .calc-img img {
     width: 70%;
