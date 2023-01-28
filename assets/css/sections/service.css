@@ -1,12 +1,11 @@
+#calc section {
+  padding: 460px 0px 30px 0px;
+  overflow: hidden;
+}
+
 #calc .center {
   text-align: center;
 }
-
-#calc .clearfix {
-    /* margin-top: 1000px; */
-    height: 30px;
-}
-
 
 #calc h3 {
   margin: 0 0 10px 0;
@@ -36,16 +35,20 @@
     display: none;
   }
 
+  #calc .clearfix {
+    height: 30px;
+  }
+
+  #calc .width-100 {
+    width: 100%;
+  }
+
   #calc button {
     display: none;
   }
 
   #calc .text-description {
     display: none;
-  }
-
-  #calc .container {
-    padding-top: 200px;
   }
 
   #calc h2 {
@@ -66,5 +69,15 @@
 
   #calc .mobile-text-description {
     display: none;
+  }
+
+  #calc .container {
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #calc .frame-position {
+    padding-top: 300px;
   }
 }
