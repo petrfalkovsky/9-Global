@@ -274,7 +274,7 @@
 }
 
 #calc .calc-img-background-bottom {
-  background: url("../img/frame.png") right bottom no-repeat;
+  background: url("../../img/frame.png") right bottom no-repeat;
   /* margin-right: 40px; Отступ справа */
   margin-top: 60px;
   margin-left: 100px;
