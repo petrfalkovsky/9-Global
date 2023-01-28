@@ -15,6 +15,10 @@
   color: #000000;
 }
 
+#calc .head-services-container {
+width: 100%;
+}
+
 @media (max-width: 768px) {
   #calc h3 {
     font-size: 20px;
@@ -27,11 +31,13 @@
   }
 }
 
+
+
 /* 
 *блок скрывается только на размерах меньше 1200px 
 */
 @media (max-width: 1199.98px) {
-  #calc .desctop-head {
+  #calc .desktop-head {
     display: none;
   }
 
