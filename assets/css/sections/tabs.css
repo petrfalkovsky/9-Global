@@ -1,3 +1,11 @@
+@media (min-width: 768.1px) {
+    #tabs .calc-white-container {
+        padding: 40px;
+        width: 435px;
+        height: 430px;
+      }
+}
+
 @media (max-width: 768px) {
   #tabs .calc-white-container {
     width: 246px;
@@ -13,7 +21,6 @@
   #tabs .calc-img-background-top {
     z-index: 0;
   }
-
 
   #tabs .image-1 {
     background: url("../../img/train.png") left center no-repeat;
@@ -92,7 +99,7 @@
 
   #tabs .spacer-v40 {
     height: 38px;
-  margin-top: 12px;
+    margin-top: 12px;
   }
 
   /* #tabs .calc-img-background-bottom {
@@ -128,14 +135,21 @@
 /* 
 *блок скрывается только на размерах от 991px до 1200px 
 */
-@media /* (min-width: 991px) and */ (max-width: 1199.98px) {
+@media /* (min-width: 991px) and */ (max-width: 768.1px) {
   #tabs .calc-img-background-bottom {
     display: none;
   }
+
+
 }
 
-@media (max-width: 791.98px) {
+@media (max-width: 768px) {
   #tabs .calc-img-background-top {
     display: none;
   }
 }
+
+/* #tabs .row > * {
+  padding-right: none;
+  padding-left: 40px !important;
+} */
