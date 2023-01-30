@@ -1,0 +1,23 @@
+.send {
+width: 203px;
+height: 60px;
+background: #E72E20;
+border-radius: 40px;
+color: #fff;
+border: 1px solid #fff;
+font-weight: 600;
+}
+.send:hover {
+  background: #fff;
+  color: #E72E20;
+  border: 1px solid #E72E20;
+}
+#order {
+  background: #F5F5F5;
+  font-family: "Nunito Sans", sans-serif;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+#span {
+  color: #E72E20;
+}
