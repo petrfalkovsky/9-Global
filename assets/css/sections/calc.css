@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------
   # Calc Form
   --------------------------------------------------------------*/
-#calc-form .active {
+#calc-form .active-text {
   color: #e72e20;
   /* padding-left: 15px; */
 }
@@ -242,7 +242,7 @@
   color: #000000;
 }
 
-#calc .active {
+#calc .active-text {
   color: #e72e20;
 }
 
