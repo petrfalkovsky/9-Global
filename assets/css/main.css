@@ -4,6 +4,7 @@
 @import "sections/calc.css";
 @import "sections/service.css";
 @import "sections/tabs.css";
+@import "widgets/slider.css";
 
 /*--------------------------------------------------------------
   # Fonts
@@ -669,7 +670,7 @@ section {
   text-align: center;
 }
 
-#footer .active {
+#footer .active-text {
   color: #e72e20;
 }
 

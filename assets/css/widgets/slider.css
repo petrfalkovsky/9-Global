@@ -1,0 +1,51 @@
+#carouselExampleSlidesOnly p {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0 0 0px 0;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+}
+
+#carouselExampleSlidesOnly .spacer-right-hor-30 {
+  border: 12px solid transparent;
+}
+
+#carouselExampleSlidesOnly .calc-white-container {
+  width: 290px;
+  height: 290px;
+  border-radius: 4px;
+  padding: 12px 16px 17px 16px;
+}
+
+#carouselExampleSlidesOnly .frame-mobile-view {
+  background: url("../../img/frame.png") no-repeat;
+  background-size: 100%;
+  width: 63px;
+  height: 52px;
+  float: right;
+  margin-top: -62px;
+}
+
+#carouselExampleSlidesOnly .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 1px solid #e72e20;
+}
+
+#carouselExampleSlidesOnly .carousel-indicators {
+  bottom: -50px;
+  left: -240px;
+}
+
+@media (max-width: 320px) {
+  #tabs div {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) {
+    #carouselExampleSlidesOnly div {
+      display: none;
+    }
+  }

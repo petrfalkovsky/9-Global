@@ -22,7 +22,7 @@
     z-index: 0;
   }
 
-  #tabs .image-1 {
+  .image-1 {
     background: url("../../img/train.png") left center no-repeat;
     background-size: 100%;
     width: 88px;
@@ -30,7 +30,7 @@
     padding: 90px 0px 0px 0px;
   }
 
-  #tabs .image-2 {
+  .image-2 {
     background: url("../../img/track.png") left center no-repeat;
     background-size: 100%;
     width: 100px;
@@ -38,7 +38,7 @@
     padding: 90px 0px 0px 0px;
   }
 
-  #tabs .image-3 {
+  .image-3 {
     background: url("../../img/plain.png") left center no-repeat;
     background-size: 100%;
     width: 80px;
@@ -46,7 +46,7 @@
     padding: 90px 0px 0px 0px;
   }
 
-  #tabs .image-4 {
+  .image-4 {
     background: url("../../img/ship.png") left center no-repeat;
     background-size: 100%;
     width: 100px;
@@ -54,7 +54,7 @@
     padding: 90px 0px 0px 0px;
   }
 
-  #tabs .image-5 {
+  .image-5 {
     background: url("../../img/auto.png") left center no-repeat;
     background-size: 100%;
     width: 100px;
@@ -62,7 +62,7 @@
     padding: 90px 0px 0px 0px;
   }
 
-  #tabs .image-6 {
+  .image-6 {
     background: url("../../img/customs.png") left center no-repeat;
     background-size: 100%;
     width: 56px;
