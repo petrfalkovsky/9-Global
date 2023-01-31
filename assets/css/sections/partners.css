@@ -44,3 +44,29 @@
     width: 204;
 }
 
+#partners .container {
+  width: 1400PX;
+  height: 1400px;
+}
+
+.parent-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.child-box {
+  width: 200px;
+  height: 200px;
+  background: #FEFEFE;
+  position: relative;
+  margin: 5px;
+}
+
+.child-box img {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
