@@ -1,3 +1,9 @@
+.carousel-inner .carousel-item {
+    transition: -webkit-transform 11s ease;
+    transition: transform 10s ease;
+    transition: transform 5s ease, -webkit-transform 0.05s ease; /* скорость анимации */
+  }
+
 #mobile-slider p {
   font-family: "Nunito Sans", sans-serif;
   margin: 0 0 0px 0;
