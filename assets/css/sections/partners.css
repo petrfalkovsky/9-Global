@@ -1,0 +1,46 @@
+#partners h2 {
+  font-family: "Nunito Sans SemiBold", sans-serif;
+  font-size: 35px;
+  line-height: 47, 74px;
+  font-weight: 600;
+}
+
+#partners h3 {
+  position: relative;
+  font-size: 1rem;
+}
+
+#about-page {
+    background: #F5F5F5;
+}
+
+@media (min-width: 768px) {
+  #partners h3:before,
+  h3:after {
+    display: inline-block;
+    content: "";
+    border-top: 0.075rem solid black;
+    width: 38%;
+    margin: 0 0.25rem;
+    transform: translateY(-0.25rem);
+  }
+
+  line {
+    display: inline-block;
+    content: "";
+    border-top: 0.075rem solid black;
+    width: 83%;
+    transform: translateY(-0.25rem);
+  }
+}
+
+#tab-partners {
+    padding: 0px 40px 20px 40px;
+}
+
+#tab-partners  img {
+    padding: 20px;
+    height: 204;
+    width: 204;
+}
+
