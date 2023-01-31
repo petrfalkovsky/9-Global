@@ -24,7 +24,7 @@
 <body>
     <!-- Navbar -->
     <header id="header" class="fixed-top shadow-sm p-3 mb-5 bg-body rounded header-container-height">
-        <div class="container d-flex align-items-center">
+        <div class="container d-flex">
             <a href="index.html" class="logo me-auto col align-self-start"><img src="assets/img/logo.png" alt=""
                     class="img-fluid"></a>
             <nav id="navbar" class="navbar navbar-expand-lg bg-white">
@@ -56,33 +56,112 @@
         </div>
     </header>
   <section>
-      <div class="d-flex">
-      <div id="order" class="w-25 rounded-5">
-        <div class="w-75 mx-auto">
+      <div class="container d-flex align-items-start">
+      <div id="order">
           <p class="fw-semibold fs-4 text-center">Закажите услугу <span id="span">на перевозку</span></p>
           <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
           <form action="" class="d-flex flex-column mx-auto">
-            <select class="mb-2">
-              <option selected>Выберите вид услуги</option>
-              <option>Железнодорожные перевозки</option>
-              <option>Автомобильные перевозки</option>
-              <option>Авиа перевозки</option>
-              <option>Мультимодальные перевозки</option>
-              <option>Перевозки автомобилей</option>
-              <option>Таможенные операции</option>
-            </select>
-            <input class="mb-2" type="text" placeholder="Ваше имя*">
-            <input class="mb-2" type="text" placeholder="Ваш телефон*">
-            <input class="mb-2" type="text" placeholder="Ваш e-mail*">
+            <div class="custom-select rounded-5">
+                <select class="rounded-5" name="select-profession" id="select-profession">
+                    <option selected>Выберите услугу</option>
+                    <option>Железнодорожные перевозки</option>
+                    <option>Автомобильные перевозки</option>
+                    <option>Авиа перевозки</option>
+                    <option>Мультимодальные перевозки</option>
+                    <option>Перевозки автомобилей</option>
+                    <option>Таможенные операции</option>
+                  </select>
+            </div>
+            <input class="fw-semibold rounded-5" type="text" placeholder="Ваше имя*">
+            <input class="fw-semibold rounded-5" type="text" placeholder="Ваш телефон*">
+            <input class="fw-semibold rounded-5" type="e-mail" placeholder="Ваш e-mail*">
             <button href="#about" class="send">Отправить</button>
           </form>
-        </div>
       </div>
-      <div></div>
+        <div class="frame">
+            <img src="/assets/img/service-frame.png" alt="">
+        </div>
     </div>
   </section>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <section>
+    <div id="tab-partners" class="container">
+        <div class="row">
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img- card-img-top" src="assets/img/partners/coupang-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid card-img-top" src="assets/img/partners/naver-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/daum-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/tistory-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/namu-wiki.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/kakao-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/dcinside-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/seramin-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/blind-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/kb-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/danawa-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/tao-bao-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/tmall-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/1688-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/idle-fish-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/tik-tok-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/qq-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/pinduoduo-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/guazi-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/suning-logo.png" alt=""></div>
+</div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/rakuten-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/bic-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/zozo-logo.png" alt=""></div>
+            </div>
+            <div class="col-2  gy-3">
+                <div class="gy-3 bg-white rounded-4"><img class="img-fluid" src="assets/img/partners/uniqlo-logo.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+  </section>
+    <script src="assets/js/select.js"></script>
 </body>
 
 </html>
