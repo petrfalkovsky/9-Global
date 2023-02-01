@@ -1,3 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#service-page section:nth-child(3)  {
+  padding: 0px;
+  padding-top: 120px;
+}
+#service-page section:nth-child(3)  {
+  background: #F5F5F5;
+}
+
 .send {
 width: 203px;
 height: 60px;
@@ -101,4 +114,71 @@ input::placeholder {
 
 .frame {
   width: 60%;
+}
+
+.first-text h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.service-main {
+  margin-top: 40px;
+}
+.service-div {
+  width: 33%;
+  padding: 40px;
+}
+.service-div p {
+  font-weight: 600;
+}
+.service-div:nth-child(1) {
+  margin-right: 50px !important;
+}
+.service-div:nth-child(2) {
+  margin-right: 50px !important;
+}
+.service-div img {
+  width: 65%;
+}
+.service-div img:nth-child(2) {
+  margin-top: 20px;
+}
+.img-div img {
+  margin-left: 200px;
+  width: 35%;
+}
+
+.second-text {
+  width: 80%;
+}
+.second-text h2 {
+  margin-bottom: 40px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  margin-top: 130px;
+}
+.second-text p {
+  font-family: 'Bert Sans';
+  font-size: 18px;
+}
+.third-text {
+  float: right;
+  width: 70%;
+}
+.third-text h2 {
+  margin-bottom: 40px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  margin-top: 130px;
+}
+.third-text p {
+  text-align: right;
+  font-family: 'Bert Sans';
+  font-size: 18px;
+}
+.third-text li {
+  margin-bottom: 30px;
 }
