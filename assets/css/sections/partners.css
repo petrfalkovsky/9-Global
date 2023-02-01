@@ -31,7 +31,6 @@
 }
 
 @media (min-width: 768px) {
-
   line {
     display: inline-block;
     content: "";
@@ -39,6 +38,7 @@
     width: 100%;
     transform: translateY(-0.25rem);
     justify-self: center;
+    margin-top: 46px;
   }
 
   #partners .container {
@@ -71,6 +71,9 @@
   border-radius: 20px;
 }
 
+/* 
+* чтобы изображения были единого формата, нужно исходники тоже привести в единую размерную сетку 
+*/
 .child-box img {
   position: absolute;
   width: 50%;
