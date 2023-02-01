@@ -1,0 +1,80 @@
+#partners h2 {
+  font-family: "Nunito Sans SemiBold", sans-serif;
+  font-size: 35px;
+  line-height: 47, 74px;
+  font-weight: 600;
+}
+
+#partners h3 {
+  position: relative;
+  font-size: 1rem;
+}
+
+#about-page {
+  background: #f5f5f5;
+}
+
+#partners .col-2 {
+  width: 200px;
+}
+
+@media (min-width: 938px) {
+  #partners h3:before,
+  #partners h3:after {
+    display: inline-block;
+    content: "";
+    border-top: 0.075rem solid black;
+    width: 42%;
+    margin: 0 0.25rem;
+    transform: translateY(-0.25rem);
+  }
+}
+
+@media (min-width: 768px) {
+
+  line {
+    display: inline-block;
+    content: "";
+    border-top: 0.075rem solid black;
+    width: 100%;
+    transform: translateY(-0.25rem);
+    justify-self: center;
+  }
+
+  #partners .container {
+    max-width: 1440px;
+  }
+}
+
+#tab-partners {
+  padding: 0px 40px 20px 40px;
+}
+
+#tab-partners img {
+  padding: 20px;
+  height: 204;
+  width: 204;
+}
+
+.parent-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.child-box {
+  width: 200px;
+  height: 200px;
+  background: #fefefe;
+  position: relative;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+.child-box img {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

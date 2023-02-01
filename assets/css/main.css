@@ -7,6 +7,8 @@
 @import "widgets/slider.css";
 @import "widgets/swiper.css";
 @import "sections/footer.css";
+@import "sections/hero-about.css";
+@import "sections/partners.css";
 
 /*--------------------------------------------------------------
   # Fonts
@@ -73,6 +75,10 @@ h3,
 h4,
 h6 {
   font-family: "Nunito Sans", sans-serif;
+}
+
+.active-text {
+  color: #e72e20;
 }
 
 
