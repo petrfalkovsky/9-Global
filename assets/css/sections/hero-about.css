@@ -9,3 +9,8 @@
   font-size: 18px;
   line-height: 31px;
 }
+
+
+#hero-about .container {
+  padding-top: 110px;
+}
