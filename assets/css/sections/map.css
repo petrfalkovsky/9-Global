@@ -1,3 +1,9 @@
+@media (min-width: 1920px){
+#map h2 {
+    font-size: 35px;
+}}
+
+
 #map button {
   background: url("../../img/picker.png") no-repeat;
   background-size: 31px;
