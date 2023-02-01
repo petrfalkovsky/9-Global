@@ -26,19 +26,24 @@ font-weight: 600;
   border: 1px solid #E72E20;
 }
 #order {
-  width: 33%;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 38%;
   background: #F5F5F5;
   font-family: "Nunito Sans", sans-serif;
-  padding: 50px 30px;
+  padding: 35px 30px;
   height: 100%;
   border-radius: 50px;
+}
+.order-img img{
+  width: 100%;
 }
 #span {
   color: #E72E20;
 }
 #order input {
   border: none;
-  margin: 15px 0;
+  margin: 10px 0;
   padding: 14px 20px;
 }
 /* скроет иконку стрелки в IE */
@@ -54,7 +59,7 @@ input::placeholder {
   background: #FEFEFE;
   font-weight: 600;
   width: 100%!important;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .custom-select select {
   display: none;
@@ -87,10 +92,13 @@ input::placeholder {
 }
 
 /* style the items (options), including the selected item: */
-.select-items div,.select-selected {
+.select-selected {
   color: #000;
   padding: 15px 16px;
   cursor: pointer;
+}
+.select-items div {
+  padding: 12px 16px;
 }
 
 /* Style items (options): */
@@ -98,8 +106,9 @@ input::placeholder {
   width: 100%;
   position: absolute;
   background: #FEFEFE;
-  margin-top: -18px;
-  padding: 20px 0px;
+  margin-top: -12px;
+  padding-bottom: 20px;
+  padding-top: 10px;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
   color: #000;
@@ -118,7 +127,7 @@ input::placeholder {
 
 .first-text h2 {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 60px;
 }
 
@@ -128,9 +137,11 @@ input::placeholder {
 .service-div {
   width: 33%;
   padding: 40px;
+  border-radius: 50px;
 }
 .service-div p {
   font-weight: 600;
+  font-weight: 30px;
 }
 .service-div:nth-child(1) {
   margin-right: 50px !important;
@@ -155,7 +166,7 @@ input::placeholder {
 .second-text h2 {
   margin-bottom: 40px;
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 60px;
   margin-top: 130px;
 }
@@ -165,20 +176,23 @@ input::placeholder {
 }
 .third-text {
   float: right;
-  width: 70%;
+  margin-bottom: 130px;
+  width: 60%;
 }
 .third-text h2 {
   margin-bottom: 40px;
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 60px;
   margin-top: 130px;
+  text-align: right;
 }
 .third-text p {
   text-align: right;
   font-family: 'Bert Sans';
   font-size: 18px;
 }
-.third-text li {
+.third-text p {
+  text-align: right;
   margin-bottom: 30px;
 }
