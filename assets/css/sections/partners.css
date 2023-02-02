@@ -11,6 +11,10 @@
   width: 200px;
 }
 
+#partners .col {
+  width: 156px;
+}
+
 @media (min-width: 1200px) {
   #partners h2 {
     font-family: "Nunito Sans SemiBold", sans-serif;
@@ -26,9 +30,17 @@
     display: inline-block;
     content: "";
     border-top: 0.075rem solid black;
-    width: 36%;
+    width: 35%;
     margin: 0 0.25rem;
     transform: translateY(-0.48rem);
+  }
+}
+
+@media (max-width: 937.8px) {
+  #partners h3 {
+    font-size: 23px;
+    line-height: 37.37px;
+    text-align: center;
   }
 }
 
@@ -74,7 +86,7 @@
 }
 
 /* 
-* чтобы изображения были единого формата, нужно исходники тоже привести в единую размерную сетку 
+    * чтобы изображения были единого формата, нужно исходники тоже привести в единую размерную сетку 
 */
 .child-box img {
   position: absolute;
@@ -83,3 +95,30 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+#swiper .container {
+  width: 650px;
+}
+
+@media (max-width: 768px) {
+  .distribution-map {
+    display: none;
+  }
+
+  .hide-partner-tab {
+    display: none;
+  }
+
+  #partners .child-box {
+    height: 156px;
+    width: 156px;
+    margin: 12px;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 768.2px) {
+  #partners .mySwiper {
+     display: none;
+   }
+ }
