@@ -1,21 +1,48 @@
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../font/nunito-sans/NunitoSans-Regular.ttf") format("truetype");
+}
+
+/* TODO: Руководителю: Проверить в лицензии право на коммерческое использование этого шрифта*/
+@font-face {
+  font-family: "Bert Sans";
+  src: url("../font/bert-sans/BertSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../font/nunito-sans/NunitoSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bert Sans SemiBold";
+  src: url("../font/bert-sans/BertSans-SemiBold.ttf") format("truetype");
+}
+
 * {
   padding: 0;
   margin: 0;
 }
-
 #service-page section:nth-child(3)  {
   padding: 0px;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 #service-page section:nth-child(3)  {
   background: #F5F5F5;
 }
 
 .send {
-width: 203px;
-height: 60px;
 background: #E72E20;
+width: 50% !important;
 border-radius: 40px;
+margin-top: 15px;
+padding: 15px 30px;
 color: #fff;
 border: 1px solid #fff;
 font-weight: 600;
@@ -31,7 +58,7 @@ font-weight: 600;
   width: 38%;
   background: #F5F5F5;
   font-family: "Nunito Sans", sans-serif;
-  padding: 35px 30px;
+  padding: 35px 35px;
   height: 100%;
   border-radius: 50px;
 }
@@ -46,10 +73,7 @@ font-weight: 600;
   margin: 10px 0;
   padding: 14px 20px;
 }
-/* скроет иконку стрелки в IE */
-select::-ms-expand {
-  display: none;
-}
+
 input::placeholder {
   color: black;
 }
@@ -67,12 +91,11 @@ input::placeholder {
 .custom-select:active{
   border-bottom-right-radius: 30px;
 }
-
 .select-selected {
   border: none;
   position: relative;
   appearance: none;
-  background-position: calc(100% - 25px) 20px;
+  
 }
 
 /* Style the arrow inside the select element: */
@@ -94,7 +117,7 @@ input::placeholder {
 /* style the items (options), including the selected item: */
 .select-selected {
   color: #000;
-  padding: 15px 16px;
+  padding: 15px 10px;
   cursor: pointer;
 }
 .select-items div {
@@ -105,6 +128,7 @@ input::placeholder {
 .select-items {
   width: 100%;
   position: absolute;
+  cursor: pointer;
   background: #FEFEFE;
   margin-top: -12px;
   padding-bottom: 20px;
@@ -113,6 +137,7 @@ input::placeholder {
   border-bottom-left-radius: 30px;
   color: #000;
   top: 100%;
+  left: 0;
   z-index: 99;
 }
 
@@ -127,7 +152,6 @@ input::placeholder {
 
 .first-text h2 {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 600;
   font-size: 60px;
 }
 
@@ -140,7 +164,6 @@ input::placeholder {
   border-radius: 50px;
 }
 .service-div p {
-  font-weight: 600;
   font-weight: 30px;
 }
 .service-div:nth-child(1) {
@@ -166,9 +189,8 @@ input::placeholder {
 .second-text h2 {
   margin-bottom: 40px;
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 600;
   font-size: 60px;
-  margin-top: 130px;
+  margin-top: 100px;
 }
 .second-text p {
   font-family: 'Bert Sans';
@@ -176,15 +198,14 @@ input::placeholder {
 }
 .third-text {
   float: right;
-  margin-bottom: 130px;
+  margin-bottom: 100px;
   width: 60%;
 }
 .third-text h2 {
   margin-bottom: 40px;
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 600;
   font-size: 60px;
-  margin-top: 130px;
+  margin-top: 100px;
   text-align: right;
 }
 .third-text p {
@@ -197,33 +218,265 @@ input::placeholder {
   margin-bottom: 30px;
 }
 
-@media (max-width: 1410px) {
-  .order-img img{
-    width: 100%;
-  }
-  #order {
-    margin-top: 10px;
-    margin-right: 10px;
-    width: 40%;
-    background: #F5F5F5;
-    font-family: "Nunito Sans", sans-serif;
-    padding: 35px 30px;
-    height: 100%;
-    border-radius: 50px;
-  }
-}
-@media (max-width: 1280px) {
-  .order-img img{
+@media (max-width: 1399px) and (min-width: 1200px) {
+  .order-img img {
     width: 100%;
   }
   #order {
     margin-top: 10px;
     margin-right: 10px;
     width: 30%;
-    background: #F5F5F5;
-    font-family: "Nunito Sans", sans-serif;
-    padding: 35px 30px;
+    padding: 25px 25px;
     height: 100%;
+  }
+  #span {
+    color: #E72E20;
+  }
+  #order input {
+    font-size: 15px;
+    border: none;
+    margin: 7px 0;
+    padding: 10px 15px;
+  }
+  #order h2 {
+    font-size: 20px !important;
+  }
+  #order p {
+    font-size: 15px !important;
+  }
+  .order-img {
+    width: 70%;
+  }
+  .custom-select {
+    width: 100%!important;
+    margin-bottom: 7px;
+    font-size: 15px;
+  }
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    right: 15px;
+    top: 20px;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #000 transparent;
+    top: 15px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-selected {
+    padding: 10px 5px;
+  }
+  .select-items div {
+    padding: 7px 16px;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    padding-top: 10px;
+  }
+  .send {
+    width: 60%;
+    padding: 10px !important;
+    font-size: 15px;
+    }
+
+  #service-page section:nth-child(3)  {
+    padding-top: 80px;
+  }
+  .service-main {
+    margin-top: 40px;
+  }
+  .service-div {
+    width: 33%;
+    padding: 0px 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     border-radius: 50px;
   }
+  .service-div p {
+    font-weight: 30px;
+  }
+  .service-div img {
+    width: 60%;
+  }
+  .service-div img:nth-child(2) {
+    margin-top: 10px !important;
+  }
+  .img-div img {
+    margin-left: 180px;
+    width: 33%;
+  }
+  .first-text h2 {
+    font-size: 50px !important;
+  }
+  .second-text h2 {
+    font-size: 50px !important;
+  }
+  .third-text h2 {
+    font-size: 50px !important;
+    margin-top: 80px;
+  }
+}
+
+
+@media (max-width: 1199px) and (min-width: 991px) {
+  #order {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 33%;
+    padding: 15px 15px;
+    border-radius: 35px;
+  }
+  #order input {
+    font-size: 13px;
+    margin: 7px 0;
+    padding: 7px 15px;
+  }
+  #order h2 {
+    font-size: 18px !important;
+  }
+  #order p {
+    font-size: 13px !important;
+    line-height: 20px;
+  }
+  .order-img {
+    width: 70%;
+  }
+  .custom-select {
+    width: 100%!important;
+    margin-bottom: 5px;
+    font-size: 13px;
+  }
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    right: 15px;
+    top: 16px;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #000 transparent;
+    top: 8px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-selected {
+    padding: 7px 5px;
+  }
+  .select-items div {
+    padding: 6px 16px;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -7px;
+  }
+  .send {
+    width: 60%;
+    padding: 10px !important;
+    font-size: 13px;
+    }
+    
+  #service-page section:nth-child(3)  {
+    padding-top: 50px;
+  }
+  .first-text h2 {
+    font-size: 50px;
+  }
+  .service-main {
+    margin-top: 40px;
+  }
+  .service-div {
+    width: 33%;
+    padding: 0px 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+  }
+  .service-div p {
+    font-weight: 30px;
+  }
+  .service-div img {
+    width: 60%;
+  }
+  .service-div img:nth-child(2) {
+    margin-top: 10px !important;
+  }
+  .img-div img {
+    margin-left: 150px;
+    width: 33%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #service-page section:nth-child(2)  {
+    padding: 100px;
+  }
+  .send {
+    width: 48% !important;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px !important;
+    margin: auto;
+    }
+    #order {
+      width: 100%;
+      background: #FEFEFE;
+    }
+    .order-img img{
+      display: none;
+    }
+    .form {
+      display: flex !important;
+      flex-wrap: wrap;
+    }
+    #order input {
+      width: 48%;
+      border-radius: 5px !important;
+      background: #F5F5F5;
+    }
+    #order h2 {
+      width: 35%;
+      margin: auto;
+      padding-bottom: 20px;
+    }
+    #order p {
+      width: 90%;
+      margin: auto;
+      padding-bottom: 20px;
+    }
+    #order input:nth-child(2) {
+      margin-left: 20px;
+    }
+    #order input:nth-child(4) {
+      margin-left: 20px;
+    }
+    input::placeholder {
+      font-weight: 500;
+    }
+    
+    .custom-select {
+      background: #F5F5F5;
+      font-weight: 500;
+      width: 48% !important;
+      border-radius: 5px !important;
+      margin-top: 10px !important;
+    }
+    .select-selected {
+      padding: 15px 10px;
+    }
+    
+    /* Style items (options): */
+    .select-items {
+      background: #F5F5F5;
+      border-radius: 5px;
+    }
+    
+    /* Hide the items when the select box is closed: */
+    .select-hide {
+      display: none;
+    }
 }
