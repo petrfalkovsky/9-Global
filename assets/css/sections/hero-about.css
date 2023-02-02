@@ -1,0 +1,16 @@
+#hero-about h1 {
+  font-family: "Nunito Sans SemiBold", sans-serif;
+  font-size: 60px;
+  line-height: 121.84px;
+}
+
+#hero-about p {
+  font-family: "Bert Sans", sans-serif;
+  font-size: 18px;
+  line-height: 31px;
+}
+
+
+#hero-about .container {
+  padding-top: 110px;
+}
