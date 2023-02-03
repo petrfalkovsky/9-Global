@@ -16,6 +16,7 @@
     <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
     <title>9 Global Logistics</title>
 </head>
@@ -44,12 +45,11 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li nav-item><a class="nav-link scrollto active-text" href="/">Главная</a></li>
-                            <li><a class="nav-link scrollto" href="#our-service">Услуги</a></li>
-                            <li><a class="nav-link scrollto" href="#">О компании</a></li>
-                            <li><a class="nav-link scrollto" href="#portfolio">Документы</a></li>
-                            <li><a class="nav-link scrollto" href="#contact">Контакты</a></li>
+                            <li><a class="nav-link scrollto" href="/services.html">Услуги</a></li>
+                            <li><a class="nav-link scrollto" href="/about.html">О компании</a></li>
+                            <li><a class="nav-link scrollto" href="/docs.html">Документы</a></li>
+                            <li><a class="nav-link scrollto" href="/contact.html">Контакты</a></li>
                         </ul>
-
                     </div>
                 </div>
             </nav>
@@ -86,99 +86,23 @@
         <div class="text-center container">
             <div class="distribution-map">
                 <img src="assets/img/map.svg" class="" alt="Responsive map">
-                <!-- 1-я страна -->
-                    <button class="map-point" style="top:15%;left:72.5%">
-                        <div class="content">
-                            <div class="centered-y">
-                                <h2>With Love</h2>
-                                <p>&mdash; 007</p>
-                            </div>
-                        </div>
-                    </button>
-
-                    <!-- 2-я страна сверху -->
-                    <button class="map-point" style="top:28%;left:64%">
-                        <div class="content">
-                            <div class="centered-y">
-                                <h2>Toto</h2>
-                                <p>I bless the rains</p>
-                            </div>
-                        </div>
-                    </button>
-                    <!-- 3-я сверху страна -->
-                    <button class="map-point" style="top:31.5%;left:62%">
-                        <div class="content">
-                            <div class="centered-y">
-                                <h2>Another Place</h2>
-                                <p>Lorem ipsum something something</p>
-                            </div>
-                        </div>
-                    </button>
-                    <!-- 4-я сверху страна -->
-                    <button class="map-point" style="top:33%;left:66%">
-                        <div class="content">
-                            <div class="centered-y">
-                                <h2>Another Place</h2>
-                                <p>Lorem ipsum something something</p>
-                            </div>
-                        </div>
-                    </button>
-                    <!-- 5-я страна -->
-                    <button class="map-point" style="top:34.7%;left:64.8%">
-                        <div class="content">
-                            <div class="centered-y">
-                                <h2>Another Place</h2>
-                                <p>Lorem ipsum something something</p>
-                            </div>
-                        </div>
-                    </button>
-                    <!-- 6-я страна сверху -->
-                    <button class="map-point" style="top:34%;left:79.5%">
-                        <div class="content">
-                            <div class="centered-y">
-                                <h2>Marauder Town</h2>
-                                <p>I solemnly swear that I am up to no good</p>
-                            </div>
-                        </div>
-                    </button>
-                    <!-- 7-я страна -->
-                    <button class="map-point" style="top:35.1%;left:83.1%">
-                        <div class="content">
-                            <div class="centered-y">
-                                <h2>Marauder Town</h2>
-                                <p>I solemnly swear that I am up to no good</p>
-                            </div>
-                        </div>
-                    </button>
-                    <!-- 8-я страна -->
-                    <button class="map-point" style="top:39.1%;left:73.1%">
-                        <div class="content">
-                            <div class="centered-y">
-                                <h2>Marauder Town</h2>
-                                <p>I solemnly swear that I am up to no good</p>
-                            </div>
-                        </div>
-                    </button>
-                    <!-- 9-я страна -->
-                    <button class="map-point" style="top:54.6%;left:72.9%">
-                        <div class="content">
-                            <div class="centered-y">
-                                <h2>Marauder Town</h2>
-                                <p>I solemnly swear that I am up to no good</p>
-                            </div>
-                        </div>
-                    </button>
-                    <!-- 10-я страна -->
-                    <button class="map-point" style="top:42.8%;left:59.9%">
-                        <div class="content">
-                            <div class="centered-y">
-                                <h2>Marauder Town</h2>
-                                <p>I solemnly swear that I am up to no good</p>
-                            </div>
-                        </div>
-                    </button>
+                <button data-title="Россия" cloud="" style="top:15%;left:72.5%" class="map-point"></button>
+                <button data-title="Казахстан" cloud="" style="top:28%;left:64%" class="map-point"></button>
+                <button data-title="Узбекистан" cloud="" style="top:31.5%;left:62%" class="map-point"></button>
+                <button data-title="Кыргызстан" cloud="" style="top:33%;left:66%" class="map-point"></button>
+                <button data-title="Таджикистан" cloud="" style="top:34.7%;left:64.8%" class="map-point"></button>
+                <button data-title="Корея" cloud="" style="top:34%;left:79.5%" class="map-point"></button>
+                <button data-title="Япония" cloud="" style="top:35.1%;left:83.1%" class="map-point"></button>
+                <button data-title="Китай" cloud="" style="top:39.1%;left:73.1%" class="map-point"></button>
+                <button data-title="Малайзия" cloud="" style="top:54.6%;left:72.9%" class="map-point"></button>
+                <button data-title="ОАЭ" cloud="" style="top:42.8%;left:59.9%" class="map-point"></button>
             </div>
-
+            <div class="mobile-content">
+                <p>
+                    Мы работаем в следующих географических направлениях: Казахстан, Россия, Киргизстан, Таджикистан,
+                    Узбекистан, Китай, Корея, Япония, Малайзия, Дубай
+                </p>
+            </div>
         </div>
         </div>
 
@@ -187,135 +111,468 @@
 
     <!-- Partners -->
     <section id="partners">
+
+        <h3 class="text-center container-h3">
+            Наши <span class="active-text">партнёры</span>
+        </h3>
         <div class="container">
-            <h3 class="text-center">
-                Наши <span class="active-text">партнёры</span>
-            </h3>
+            <!-- Slider main container -->
+            <div class="hide-partner-tab-ipad">
+                <swiper-container id="swiper" class="mySwiper" space-between="30" pagination="true"
+                    pagination-clickable="true">
+
+                    <!-- <div class="container"> -->
+                    <swiper-slide>
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img- card-img-top"
+                                            src="assets/img/partners/coupang-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid card-img-top"
+                                            src="assets/img/partners/naver-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/daum-logo.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/tistory-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/namu-wiki.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/kakao-logo.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/dcinside-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/seramin-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/blind-logo.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/kb-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/danawa-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/tao-bao-logo.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/tmall-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/1688-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/idle-fish-logo.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/tik-tok-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/qq-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/pinduoduo-logo.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/guazi-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/suning-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/rakuten-logo.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/bic-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/zozo-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/uniqlo-logo.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <!-- </div> -->
+                </swiper-container>
+            </div>
+            <div class="hide-partner-tab-mobile">
+                <swiper-container id="swiper-mobile" class="mySwiper" space-between="30" pagination="true"
+                    pagination-clickable="true">
+
+                    <!-- <div class="container"> -->
+                    <swiper-slide>
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img- card-img-top"
+                                            src="assets/img/partners/coupang-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid card-img-top"
+                                            src="assets/img/partners/naver-logo.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/daum-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/tistory-logo.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/namu-wiki.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/kakao-logo.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/dcinside-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/seramin-logo.png" alt=""></div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/blind-logo.png" alt=""></div>
+                                </div>
+
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/kb-logo.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
 
 
-            <div class="row">
-                <div class="parent-box d-flex justify-content-center">
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img- card-img-top"
-                                src="assets/img/partners/coupang-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid card-img-top"
-                                src="assets/img/partners/naver-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/daum-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/tistory-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/namu-wiki.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/kakao-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/dcinside-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/seramin-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/blind-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/kb-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/danawa-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/tao-bao-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/tmall-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/1688-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/idle-fish-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/tik-tok-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/qq-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/pinduoduo-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/guazi-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/suning-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/rakuten-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/bic-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/zozo-logo.png" alt=""></div>
-                    </div>
-                    <div class="col-2 gy-3 child-box">
-                        <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
-                                src="assets/img/partners/uniqlo-logo.png" alt=""></div>
+
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/danawa-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/tao-bao-logo.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/tmall-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/1688-logo.png" alt=""></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/idle-fish-logo.png" alt=""></div>
+                                </div>
+
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/tik-tok-logo.png" alt=""></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+
+
+
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/qq-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/pinduoduo-logo.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/guazi-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/suning-logo.png" alt=""></div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/rakuten-logo.png" alt=""></div>
+                                </div>
+
+
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/bic-logo.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="parent-box d-flex justify-content-center">
+
+
+
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/zozo-logo.png" alt=""></div>
+                                </div>
+                                <div class="col gy-3 child-box">
+                                    <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                            src="assets/img/partners/uniqlo-logo.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <!-- </div> -->
+                </swiper-container>
+            </div>
+        </div>
+        <div class="container-desktop">
+            <div class="hide-partner-tab">
+                <div class="row">
+                    <div class="parent-box d-flex justify-content-center">
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img- card-img-top"
+                                    src="assets/img/partners/coupang-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid card-img-top"
+                                    src="assets/img/partners/naver-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/daum-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/tistory-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/namu-wiki.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/kakao-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/dcinside-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/seramin-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/blind-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/kb-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/danawa-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/tao-bao-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/tmall-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/1688-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/idle-fish-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/tik-tok-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/qq-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/pinduoduo-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/guazi-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/suning-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/rakuten-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/bic-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/zozo-logo.png" alt=""></div>
+                        </div>
+                        <div class="col-2 gy-3 child-box">
+                            <div class="gy-3 bg-white rounded-4"><img class="img-fluid"
+                                    src="assets/img/partners/uniqlo-logo.png" alt=""></div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <line></line>
+            <line class="container-desktop"></line>
         </div>
-
-
-        <!-- End Partners -->
-
-        <!-- Footer -->
-        <footer id="footer">
-
-            <div id="copyright" class="container footer-bottom clearfix">
-                <p class="copyright">
-                    © 2022 <strong><span>9 Global Logistics</span></strong>. Все права защищены.
-                </p>
-                <p class="credits">
-                    Дизайн и разработка сайта: <a href="https://athenaplus.kz/">athenaplus.kz</a>
-                </p>
-            </div>
-        </footer>
-        <!-- End Footer -->
     </section>
+
+    <!-- End Partners -->
+
+    <!-- Footer -->
+    <footer id="footer">
+
+        <div id="copyright" class="container footer-bottom clearfix">
+            <p class="copyright">
+                © 2022 <strong><span>9 Global Logistics</span></strong>. Все права защищены.
+            </p>
+            <p class="credits">
+                Дизайн и разработка сайта: <a href="https://athenaplus.kz/">athenaplus.kz</a>
+            </p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
 
     <script src="assets/js/main.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 </body>
 
 </html>
