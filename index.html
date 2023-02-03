@@ -549,24 +549,37 @@
                                 ullamco laboris nisi ut aliquip ex ea commod.
                             </p>
                             <div class="d-flex align-items-stretch">
-                                <form id="form-footer" action="forms/contact.php" method="post" role="form"
-                                    class="php-email-form">
+                                <form action="https://formsubmit.co/c2550674264de3816def75544d86f40a" method="POST"
+                                    id="form-footer" role="form" class="php-email-form">
                                     <div class="row gy-3">
-                                        <div class="col-md-12 col-sm-6"> <input type="text" class="form-control"
-                                                name="name" placeholder="Ваше имя*" required=""></div>
-                                        <div class="col-md-12 col-sm-6"> <input type="text" class="form-control"
-                                                name="phone" placeholder="Ваш телефон*" required=""></div>
-                                        <div class="col-md-12 col-sm-6"> <input type="email" class="form-control"
-                                                name="email" placeholder="Ваш e-mail*" required=""></div>
-                                        <div class="col-md-12 col-sm-6"> <input type="email" class="form-control"
-                                                name="messege" placeholder="Опишите вашу проблему*" required=""></div>
+                                        <div class="col-md-12 col-sm-6">
+                                            <input type="text" class="form-control" name="Имя" placeholder="Ваше имя*"
+                                                required="">
+                                        </div>
+                                        <div class="col-md-12 col-sm-6">
+                                            <input type="text" class="form-control" name="Телефон"
+                                                placeholder="Ваш телефон*" required="">
+                                        </div>
+                                        <div class="col-md-12 col-sm-6">
+                                            <input type="email" class="form-control" name="E-mail"
+                                                placeholder="Ваш e-mail*" required="">
+                                        </div>
+                                        <div class="col-md-12 col-sm-6">
+                                            <input type="text" class="form-control" name="Сообщение"
+                                                placeholder="Опишите вашу проблему*" required="">
+                                        </div>
+                                    </div>
+                                    <input type="hidden" name="_subject" value="Новое письмо с сайта Global">
+                                    <input type="hidden" name="_captcha" value="false" />
+                                    <input type="text" name="_honey" style="display:none" />
+                                    <input type="hidden" name="_template" value="table" />
+                                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks-page.html" />
+                                    <div class="d-flex justify-content-center justify-content-lg-start">
+                                        <div class="text-center btn-active">
+                                            <button type="submit" class="scrollto">Отправить</button>
+                                        </div>
                                     </div>
                                 </form>
-                            </div>
-                            <div class="d-flex justify-content-center justify-content-lg-start">
-                                <div class="text-center btn-active">
-                                    <button href="#" class="scrollto">Отправить</button>
-                                </div>
                             </div>
                         </div>
                     </div>
