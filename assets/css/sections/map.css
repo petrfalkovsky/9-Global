@@ -49,10 +49,6 @@
   color: green;
 }
 
-#map a:visited {
-  /* color: blue; */
-}
-
 #map li.active:hover:active {
   color: white;
 }
