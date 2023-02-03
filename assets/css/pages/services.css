@@ -36,7 +36,9 @@
 #service-page section:nth-child(3)  {
   background: #F5F5F5;
 }
-
+.mySwiper {
+  display: none;
+}
 .send {
 background: #E72E20;
 width: 50% !important;
@@ -156,6 +158,7 @@ input::placeholder {
 }
 
 .service-main {
+  display: flex;
   margin-top: 40px;
 }
 .service-div {
@@ -286,6 +289,7 @@ input::placeholder {
     padding-top: 80px;
   }
   .service-main {
+    display: flex;
     margin-top: 40px;
   }
   .service-div {
@@ -388,6 +392,7 @@ input::placeholder {
     font-size: 50px;
   }
   .service-main {
+    display: flex;
     margin-top: 40px;
   }
   .service-div {
@@ -495,6 +500,7 @@ input::placeholder {
   }
   
   .service-main {
+    display: flex;
     margin-top: 30px;
   }
   .service-div {
@@ -627,32 +633,15 @@ input::placeholder {
   .first-text h2 {
     font-size: 23px;
     font-weight: 600;
+    margin-bottom: 30px;
     text-align: center;
   }
   
   .service-main {
-    margin-top: 30px;
+    display: none;
   }
-  .service-div {
-    width: 33%;
-    padding: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-  }
-  .service-div p {
-    font-size: 15px !important;
-    font-weight: 600;
-  }
-  .service-div img {
-    width: 60%;
-  }
-  .service-div img:nth-child(2) {
-    margin-top: 0px !important;
-  }
-  .img-div img {
-    margin-left: 100px;
-    width: 30%;
+  .mySwiper {
+    display: block;
   }
   .second-text {
     margin-top: 64px !important;
@@ -685,5 +674,49 @@ input::placeholder {
   .third-text p {
     font-size: 16px;
     text-align: left;
+  }
+  swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+   .service-div {
+    width: 100%;
+    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+  }
+  .service-div p {
+    font-size: 23px !important;
+    font-weight: 600;
+    text-align: center;
+  }
+  .service-div img {
+    width: 50%;
+    margin: auto;
+  }
+  .service-div img:nth-child(2) {
+    margin-top: 0px !important;
+  }
+  .img-div img {
+    float: right;
+    padding-right: 20px;
+    width: 25%;
   }
 }
