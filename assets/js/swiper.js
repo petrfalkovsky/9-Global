@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+/* const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'vertical',
     loop: true,
@@ -20,4 +20,4 @@ const swiper = new Swiper('.swiper', {
     },
   });
 
-  
+   */
