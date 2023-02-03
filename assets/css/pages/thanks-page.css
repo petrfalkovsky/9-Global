@@ -1,0 +1,120 @@
+.main-block {
+  display: flex;
+}
+.container h2 {
+  font-family: 'Nunito Sans' sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.container p {
+  font-family: 'Bert Sans' sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.submit-1 {
+  background: #E72E20;
+  padding: 15px 35px;
+  border-radius: 40px;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 600;
+  }
+.submit-1:hover {
+  background: #fff;
+  color: #E72E20;
+  border: 2px solid #E72E20;
+}
+.submit-2 {
+  display: none;
+}
+#footer {
+  margin-top: 200px;
+}
+
+@media (max-width: 1400px) {
+  .container h2 {
+    font-size: 30px;
+  }
+  .box-1 {
+    width: 33% !important;
+  }
+  .box-2 {
+    width: 66% !important;
+  }
+  .box-2 img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 991px) {
+  .main-block {
+    display: block;
+  }
+  .box-1 {
+    width: 100% !important;
+    text-align: center;
+  }
+  .box-2 {
+    width: 100% !important;
+  }
+  .submit-1 {
+    display: none;
+  }
+  .submit-2 {
+  display: block;
+  background: #E72E20;
+  margin: auto;
+  padding: 15px 39px;
+  border-radius: 5px;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 600;
+  }
+.submit-2:hover {
+  background: #fff;
+  color: #E72E20;
+  border: 2px solid #E72E20;
+  }
+}
+@media (max-width: 600px) {
+  .main-block {
+    display: block;
+  }
+  .box-1 {
+    width: 100% !important;
+    text-align: center;
+  }
+  .box-2 {
+    width: 100% !important;
+  }
+  .submit-1 {
+    display: none;
+  }
+  .submit-2 {
+  display: block;
+  width: 100%;
+  background: #E72E20;
+  margin: auto;
+  padding: 15px 39px;
+  border-radius: 5px;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 600;
+  }
+.submit-2:hover {
+  background: #fff;
+  color: #E72E20;
+  border: 2px solid #E72E20;
+  }
+.container h2 {
+  font-family: 'Nunito Sans' sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+#footer {
+  margin-top: 100px;
+}
+}
