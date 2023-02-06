@@ -306,6 +306,17 @@
   bottom: 370px;
 }
 
+#calc-form input::placeholder {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000;
+} 
+
+#calc-form input:focus::placeholder {
+  color: transparent;
+}
+
 #calc .frame {
   background-image: url("../img/frame.png") no-repeat;
 }

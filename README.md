@@ -1,3 +1,6 @@
+# 9 Global Logistics
+Site made with bootstrap technology, desktop and mobile versions
+
 Few rules how to use this repository:
 1. Write comment in commit in english
 2. Follow the commit [convention](https://www.conventionalcommits.org/en/v1.0.0/)
