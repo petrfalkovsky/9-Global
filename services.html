@@ -65,7 +65,7 @@
                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
                 <form action="https://formsubmit.co/c2550674264de3816def75544d86f40a" method="POST" class="row mx-auto form">
                     <div class="custom-select rounded-5 col-md-12 col-sm-6">
-                        <select class="rounded-5" name="Вид услуги" id="select-profession">
+                        <select class="rounded-5" name="Вид услуги" id="select-profession" required>
                             <option selected>Выберите вид услуги</option>
                             <option>Железнодорожные перевозки</option>
                             <option>Автомобильные перевозки</option>
@@ -75,9 +75,9 @@
                             <option>Таможенные операции</option>
                         </select>
                     </div>
-                    <input class="fw-semibold rounded-5 col-12" type="text" name="Имя" placeholder="Ваше имя*">
-                    <input class="fw-semibold rounded-5 col-12" type="text" name="Телефон" placeholder="Ваш телефон*">
-                    <input class="fw-semibold rounded-5 col-12" type="e-mail" name="email" placeholder="Ваш e-mail*">
+                    <input class="fw-semibold rounded-5 col-12" type="text" required name="Имя" placeholder="Ваше имя*">
+                    <input class="fw-semibold rounded-5 col-12" type="text" required name="Телефон" placeholder="Ваш телефон*">
+                    <input class="fw-semibold rounded-5 col-12" type="e-mail" required name="email" placeholder="Ваш e-mail*">
                     <input type="hidden" name="_captcha" value="false" />
                     <input type="text" name="_honey" style="display:none" />
                     <input type="hidden" name="_template" value="table" />
