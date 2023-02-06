@@ -424,6 +424,7 @@ input::placeholder {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   #service-page section:nth-child(2)  {
+    overflow: visible;
     padding: 60px 0px;
   }
   #service-page section:nth-child(3)  {
@@ -488,7 +489,6 @@ input::placeholder {
       background: #F5F5F5;
       border-radius: 5px;
     }
-    
     /* Hide the items when the select box is closed: */
     .select-hide {
       display: none;
@@ -558,7 +558,7 @@ input::placeholder {
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   #service-page section:nth-child(2)  {
     padding: 60px 0px;
   }
