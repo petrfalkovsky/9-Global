@@ -10,7 +10,21 @@
   line-height: 31px;
 }
 
-
 #hero-about .container {
   padding-top: 110px;
+}
+
+@media (max-width: 992px) {
+  #hero-about h1 {
+    font-size: 23px;
+    line-height: 37.37px;
+    text-align: center;
+  }
+
+  #hero-about p {
+    font-family: "Bert Sans", sans-serif;
+    font-size: 16px;
+    line-height: 27.2px;
+    text-align: center;
+  }
 }
