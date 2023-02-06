@@ -188,12 +188,23 @@
   text-decoration: black;
 }
 
+#form-footer input::placeholder {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000;
+} 
+
+#form-footer input:focus::placeholder {
+  color: transparent;
+}
+
+
 #footer .form-control::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   font-family: "Nunito Sans", sans-serif;
   color: #000000;
   font-size: 18px;
-  line-height: 31px;
   opacity: 1; /* Firefox */
 }
 
@@ -218,7 +229,6 @@
     font-family: "Nunito Sans", sans-serif;
     color: #000000;
     font-size: 15px;
-    line-height: 15px;
     opacity: 1; /* Firefox */
   }
 
