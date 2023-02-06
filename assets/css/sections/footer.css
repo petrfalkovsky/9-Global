@@ -52,28 +52,27 @@
   text-align: center;
 }
 
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
-  text-align: left;
-}
 
-#footer input {
+#form-footer input {
   border: 0;
+  border: 1px solid #f5f5f5;
   margin-top: 6px;
   padding: 4px 8px;
   background-color: #f5f5f5;
   border-radius: 50px;
   height: 60px;
   padding-left: 20px;
-  /* font-weight: 600; */
   font-size: 18px;
-  /* text-decoration-color: #000000; */
-  text-decoration: black;
+  
+}
+
+#form-footer input:focus {
+  border-color: #e72e20;
+}
+
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(243, 244, 245, 0);
+  border: 1px solid rgba(255, 255, 255, 0);
 }
 
 #footer .btn-active button {
@@ -188,12 +187,23 @@
   text-decoration: black;
 }
 
+#form-footer input::placeholder {
+  /* font-weight: 600; */
+  font-size: 18px;
+  line-height: 18px;
+  color: #000;
+}
+
+#form-footer input:focus::placeholder {
+  color: transparent;
+  border-color: #e72e20;
+}
+
 #footer .form-control::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   font-family: "Nunito Sans", sans-serif;
   color: #000000;
   font-size: 18px;
-  line-height: 31px;
   opacity: 1; /* Firefox */
 }
 
@@ -218,7 +228,6 @@
     font-family: "Nunito Sans", sans-serif;
     color: #000000;
     font-size: 15px;
-    line-height: 15px;
     opacity: 1; /* Firefox */
   }
 
@@ -277,7 +286,7 @@
 
   #footer .footer-top {
     padding: 24px 0 50px 0;
-}
+  }
 }
 
 @media (max-width: 575px) {
@@ -290,4 +299,3 @@
     padding: 10px 24px 11px 24px;
   }
 }
-

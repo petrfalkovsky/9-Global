@@ -11,6 +11,7 @@
 @import "sections/hero-about.css";
 @import "sections/partners.css";
 @import "pages/contact.css";
+@import "pages/docs.css";
 /*--------------------------------------------------------------
   # Fonts
   --------------------------------------------------------------*/
@@ -171,8 +172,6 @@ hr {
   width: 435px;
   height: 430px;
 }
-
-
 
 .spacer-h30 {
   width: 300px;
