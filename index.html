@@ -16,6 +16,7 @@
     <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
     <title>9 Global Logistics</title>
 </head>
@@ -251,7 +252,7 @@
                 <h2 class="mobile-head ">Наши
                     <span class="active-text">услуги</span>
                 </h2>
-                <p class="mobile-text-description ">Наша логистическая компания предоставляет
+                <p class="mobile-text-description">Наша логистическая компания предоставляет
                     комплексные и эффективные логистические решения для предприятий любого размера. Наши услуги включают
                     в себя:</p>
             </div>
@@ -413,124 +414,107 @@
         </div>
 
         <!-- Slider, позже попробовать другое решение: swiperJS https://blog.logrocket.com/building-modern-sliders-html-css-swiper/-->
-        <div id="mobile-slider" class="d-flex justify-content-center">
-            <div class="carousel slide" data-bs-interval="500000" data-bs-touch="true" data-bs-ride="carousel">
+        <div id="mobile-slider" class="container">
+            <swiper-container id="swiper-mobile" class="mySwiper" space-between="30" pagination="true"
+                pagination-clickable="true">
 
-                <ol class="carousel-indicators">
-                    <li type="button" data-bs-target="#mobile-slider" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></li>
-                    <li type="button" data-bs-target="#mobile-slider" data-bs-slide-to="1" aria-label="Slide 2">
-                    </li>
-                    <li type="button" data-bs-target="#mobile-slider" data-bs-slide-to="2" aria-label="Slide 3">
-                    </li>
-                    <li type="button" data-bs-target="#mobile-slider" data-bs-slide-to="3" aria-label="Slide 4">
-                    </li>
-                    <li type="button" data-bs-target="#mobile-slider" data-bs-slide-to="4" aria-label="Slide 5">
-                    </li>
-                    <li type="button" data-bs-target="#mobile-slider" data-bs-slide-to="5" aria-label="Slide 6">
-                    </li>
-                </ol>
-
-                <div id="card-container" class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="calc-white-container">
-                            <div class="service-item position-relative d-block min-vh-100">
-                                <h3><span class="active-text">Железнодорожные</span>
-                                    <br />перевозки
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <h3><span class="active-text">Железнодорожные</span>
+                                <br />перевозки
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-1"></div>
+                            <div class="frame-mobile-view"></div>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <h3><span class="active-text">Автомобильные</span>
+                                <br />перевозки
+                            </h3>
+                            <p>Lorem t.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-2"></div>
+                            <div class="frame-mobile-view"></div>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <h3><span class="active-text">Авиа</span>
+                                <br />перевозки
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-3"></div>
+                            <div class="frame-mobile-view"></div>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <div class="spacer-v40">
+                                <h3>3<span class="active-text">PL</span>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt.
-                                </p>
                             </div>
-                            <div class="container">
-                                <div class="image-1"></div>
-                                <div class="frame-mobile-view"></div>
-                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-4"></div>
+                            <div class="frame-mobile-view"></div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="calc-white-container">
-                            <div class="service-item position-relative d-block min-vh-100">
-                                <h3><span class="active-text">Автомобильные</span>
-                                    <br />перевозки
-                                </h3>
-                                <p>Lorem t.
-                                </p>
-                            </div>
-                            <div class="container">
-                                <div class="image-2"></div>
-                                <div class="frame-mobile-view"></div>
-                            </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <h3><span class="active-text">Перевозки</span>
+                                <br />автомобилей
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-5"></div>
+                            <div class="frame-mobile-view"></div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="calc-white-container">
-                            <div class="service-item position-relative d-block min-vh-100">
-                                <h3><span class="active-text">Авиа</span>
-                                    <br />перевозки
-                                </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt.
-                                </p>
-                            </div>
-                            <div class="container">
-                                <div class="image-3"></div>
-                                <div class="frame-mobile-view"></div>
-                            </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <h3><span class="active-text">Таможенные</span>
+                                <br />операции
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-6"></div>
+                            <div class="frame-mobile-view"></div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="calc-white-container">
-                            <div class="service-item position-relative d-block min-vh-100">
-                                <div class="spacer-v40">
-                                    <h3>3<span class="active-text">PL</span>
-                                    </h3>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt.
-                                </p>
-                            </div>
-                            <div class="container">
-                                <div class="image-4"></div>
-                                <div class="frame-mobile-view"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="calc-white-container">
-                            <div class="service-item position-relative d-block min-vh-100">
-                                <h3><span class="active-text">Перевозки</span>
-                                    <br />автомобилей
-                                </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt.
-                                </p>
-                            </div>
-                            <div class="container">
-                                <div class="image-5"></div>
-                                <div class="frame-mobile-view"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="calc-white-container">
-                            <div class="service-item position-relative d-block min-vh-100">
-                                <h3><span class="active-text">Таможенные</span>
-                                    <br />операции
-                                </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt.
-                                </p>
-                            </div>
-                            <div class="container">
-                                <div class="image-6"></div>
-                                <div class="frame-mobile-view"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+                </swiper-slide>
+            </swiper-container>
         </div>
         <!-- End Slider -->
     </section>
@@ -613,6 +597,7 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/cookies.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 </body>
 
 </html>
