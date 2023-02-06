@@ -16,6 +16,7 @@
     <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
     <title>9 Global Logistics</title>
 </head>
@@ -66,8 +67,9 @@
                         <br />
                         <span class="active-text">логистические решения</span>
                     </h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua...</p>
+                    <p> Если вам нужно перевезти товары по стране или по всему миру, у нас есть опыт и ресурсы для
+                        выполнения этой работы.
+                        Наилучшие возможные варианты доставки и Конкурентоспособные Цены.</p>
                     <div class="d-flex justify-content-center justify-content-lg-start">
                         <div class="text-center btn-active">
                             <button href="#about" class="scrollto">Связаться с нами</button>
@@ -82,12 +84,12 @@
                         <div class="section-title p-2">
                             <h3 class="active-text">500+</h3>
                             <div class="line"></div>
-                            <p>Успешных операций</p>
+                            <p>Успешных перевозок</p>
                         </div>
                         <div class="section-title p-2">
-                            <h3 class="active-text">1000+</h3>
+                            <h3 class="active-text">100000+</h3>
                             <div class="line"></div>
-                            <p>Описание позиции</p>
+                            <p>Типов Товаров</p>
                         </div>
                     </div>
                 </div>
@@ -104,7 +106,8 @@
 
         <div class="row">
             <div class="offset-4 mx-auto front-2">
-                <form class="row g-3 needs-validation php-email-form shadows" novalidate>
+                <form action="https://formsubmit.co/c2550674264de3816def75544d86f40a" method="POST"
+                    class="row g-3 needs-validation php-email-form shadows" novalidate>
                     <h4 class="text-uppercase active-text">Онлайн калькулятор</h4>
                     <h3 class="center">Онлайн <span class="active-text">калькулятор</span></h3>
                     <p class="center">Рассчитайте стоимость доставки вашего груза с помощью нашего онлайн
@@ -112,49 +115,55 @@
                     <div class="row row-cols-5 row-padding">
                         <div class="col">
                             <label for="validationCustom01" class="form-label">Имя</label>
-                            <input type="text" class="form-control" id="validationCustom01" value="Ваше имя" required>
+                            <input type="text" name="Имя" class="form-control" id="validationCustom01" value="Ваше имя"
+                                required>
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
                         </div>
                         <div class="col">
                             <label for="validationCustom02" class="form-label">Телефон</label>
-                            <input type="text" class="form-control" id="validationCustom02" value="Ваш номер" required>
+                            <input type="text" name="Телефон" class="form-control" id="validationCustom02"
+                                value="Ваш номер" required>
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
                         </div>
                         <div class="col">
                             <label for="validationCustom02" class="form-label">E-mail</label>
-                            <input type="text" class="form-control" id="validationCustom02" value="Ваш e-mail" required>
+                            <input type="text" name="E-Mail" class="form-control" id="validationCustom02"
+                                value="Ваш e-mail" required>
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
                         </div>
                         <div class="col">
                             <label for="validationCustom02" class="form-label">Вес, кг</label>
-                            <input type="text" class="form-control" id="validationCustom02" value="0 кг" required>
+                            <input type="text" name="Вес" class="form-control" id="validationCustom02" value="0 кг"
+                                required>
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
                         </div>
                         <div class="col">
                             <label for="validationCustom02" class="form-label">Объём, м³</label>
-                            <input type="text" class="form-control" id="validationCustom02" value="0 м³" required>
+                            <input type="text" name="Объём_м³" class="form-control" id="validationCustom02" value="0 м³"
+                                required>
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
                         </div>
                         <div class="col-md-3">
                             <label for="validationCustom03" class="form-label">Данные о грузе</label>
-                            <input type="text" class="form-control" id="validationCustom03" value="Тип груза" required>
+                            <input type="text" name="Тип_груза" class="form-control" id="validationCustom03"
+                                value="Тип груза" required>
                             <div class="invalid-feedback">
                                 Please provide a valid value.
                             </div>
                         </div>
                         <div class="col-md-3">
                             <label for="validationCustom03" class="form-label">Откуда</label>
-                            <input type="text" class="form-control" id="validationCustom03"
+                            <input type="text" name="Откуда" class="form-control" id="validationCustom03"
                                 value="Название страны и города" required>
                             <div class="invalid-feedback">
                                 Please provide a valid value.
@@ -162,12 +171,17 @@
                         </div>
                         <div class="col-md-3">
                             <label for="validationCustom05" class="form-label">Куда</label>
-                            <input type="text" class="form-control" id="validationCustom05"
+                            <input type="text" name="Куда" class="form-control" id="validationCustom05"
                                 value="Название страны и города" required>
                             <div class="invalid-feedback">
                                 Please provide a valid value.
                             </div>
                         </div>
+                        <input type="hidden" name="_subject" value="Новое письмо с сайта ОНЛАЙН КАЛЬКУЛЯТОР">
+                        <input type="hidden" name="_captcha" value="false" />
+                        <input type="text" name="_honey" style="display:none" />
+                        <input type="hidden" name="_template" value="table" />
+                        <input type="hidden" name="_next" value="/thanks-page.html" />
                         <div class="col-md-3 align-self-end">
                             <div class="text-center btn-active">
                                 <button href="#about" class="scrollto">Отправить</button>
@@ -223,15 +237,9 @@
                 </h2>
                 <div class="float-left calc-container">
 
-                    <p class="text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod
-                        tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut
-                        aliquip
-                        ex commodo.</p>
+                    <p class="text-description">Наша логистическая компания предоставляет
+                        комплексные и эффективные логистические решения для предприятий любого размера. Наши услуги
+                        включают в себя:</p>
                 </div>
                 <div class="float-end align-self-end">
                     <div class=" btn-active">
@@ -244,13 +252,9 @@
                 <h2 class="mobile-head ">Наши
                     <span class="active-text">услуги</span>
                 </h2>
-                <p class="mobile-text-description ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut
-                    labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex commodo.</p>
+                <p class="mobile-text-description">Наша логистическая компания предоставляет
+                    комплексные и эффективные логистические решения для предприятий любого размера. Наши услуги включают
+                    в себя:</p>
             </div>
 
             <!-- Tabs Services -->
@@ -365,7 +369,7 @@
                                 <br /><span class="active-text">автомобилей</span>
                             </h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        <p>Test ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt.
                         </p>
                         <div class="">
@@ -410,124 +414,107 @@
         </div>
 
         <!-- Slider, позже попробовать другое решение: swiperJS https://blog.logrocket.com/building-modern-sliders-html-css-swiper/-->
-        <div id="mobile-slider" class="d-flex justify-content-center">
-            <div class="carousel slide" data-bs-interval="500000" data-bs-touch="true" data-bs-ride="carousel">
+        <div id="mobile-slider" class="container">
+            <swiper-container id="swiper-mobile" class="mySwiper" space-between="30" pagination="true"
+                pagination-clickable="true">
 
-                <ol class="carousel-indicators">
-                    <li type="button" data-bs-target="#mobile-slider" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></li>
-                    <li type="button" data-bs-target="#mobile-slider" data-bs-slide-to="1" aria-label="Slide 2">
-                    </li>
-                    <li type="button" data-bs-target="#mobile-slider" data-bs-slide-to="2" aria-label="Slide 3">
-                    </li>
-                    <li type="button" data-bs-target="#mobile-slider" data-bs-slide-to="3" aria-label="Slide 4">
-                    </li>
-                    <li type="button" data-bs-target="#mobile-slider" data-bs-slide-to="4" aria-label="Slide 5">
-                    </li>
-                    <li type="button" data-bs-target="#mobile-slider" data-bs-slide-to="5" aria-label="Slide 6">
-                    </li>
-                </ol>
-
-                <div id="card-container" class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="calc-white-container">
-                            <div class="service-item position-relative d-block min-vh-100">
-                                <h3><span class="active-text">Железнодорожные</span>
-                                    <br />перевозки
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <h3><span class="active-text">Железнодорожные</span>
+                                <br />перевозки
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-1"></div>
+                            <div class="frame-mobile-view"></div>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <h3><span class="active-text">Автомобильные</span>
+                                <br />перевозки
+                            </h3>
+                            <p>Lorem t.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-2"></div>
+                            <div class="frame-mobile-view"></div>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <h3><span class="active-text">Авиа</span>
+                                <br />перевозки
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-3"></div>
+                            <div class="frame-mobile-view"></div>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <div class="spacer-v40">
+                                <h3>3<span class="active-text">PL</span>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt.
-                                </p>
                             </div>
-                            <div class="container">
-                                <div class="image-1"></div>
-                                <div class="frame-mobile-view"></div>
-                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-4"></div>
+                            <div class="frame-mobile-view"></div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="calc-white-container">
-                            <div class="service-item position-relative d-block min-vh-100">
-                                <h3><span class="active-text">Автомобильные</span>
-                                    <br />перевозки
-                                </h3>
-                                <p>Lorem t.
-                                </p>
-                            </div>
-                            <div class="container">
-                                <div class="image-2"></div>
-                                <div class="frame-mobile-view"></div>
-                            </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <h3><span class="active-text">Перевозки</span>
+                                <br />автомобилей
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-5"></div>
+                            <div class="frame-mobile-view"></div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="calc-white-container">
-                            <div class="service-item position-relative d-block min-vh-100">
-                                <h3><span class="active-text">Авиа</span>
-                                    <br />перевозки
-                                </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt.
-                                </p>
-                            </div>
-                            <div class="container">
-                                <div class="image-3"></div>
-                                <div class="frame-mobile-view"></div>
-                            </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <h3><span class="active-text">Таможенные</span>
+                                <br />операции
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-6"></div>
+                            <div class="frame-mobile-view"></div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="calc-white-container">
-                            <div class="service-item position-relative d-block min-vh-100">
-                                <div class="spacer-v40">
-                                    <h3>3<span class="active-text">PL</span>
-                                    </h3>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt.
-                                </p>
-                            </div>
-                            <div class="container">
-                                <div class="image-4"></div>
-                                <div class="frame-mobile-view"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="calc-white-container">
-                            <div class="service-item position-relative d-block min-vh-100">
-                                <h3><span class="active-text">Перевозки</span>
-                                    <br />автомобилей
-                                </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt.
-                                </p>
-                            </div>
-                            <div class="container">
-                                <div class="image-5"></div>
-                                <div class="frame-mobile-view"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="calc-white-container">
-                            <div class="service-item position-relative d-block min-vh-100">
-                                <h3><span class="active-text">Таможенные</span>
-                                    <br />операции
-                                </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt.
-                                </p>
-                            </div>
-                            <div class="container">
-                                <div class="image-6"></div>
-                                <div class="frame-mobile-view"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+                </swiper-slide>
+            </swiper-container>
         </div>
         <!-- End Slider -->
     </section>
@@ -549,24 +536,37 @@
                                 ullamco laboris nisi ut aliquip ex ea commod.
                             </p>
                             <div class="d-flex align-items-stretch">
-                                <form id="form-footer" action="forms/contact.php" method="post" role="form"
-                                    class="php-email-form">
+                                <form action="https://formsubmit.co/c2550674264de3816def75544d86f40a" method="POST"
+                                    id="form-footer" role="form" class="php-email-form">
                                     <div class="row gy-3">
-                                        <div class="col-md-12 col-sm-6"> <input type="text" class="form-control"
-                                                name="name" placeholder="Ваше имя*" required=""></div>
-                                        <div class="col-md-12 col-sm-6"> <input type="text" class="form-control"
-                                                name="phone" placeholder="Ваш телефон*" required=""></div>
-                                        <div class="col-md-12 col-sm-6"> <input type="email" class="form-control"
-                                                name="email" placeholder="Ваш e-mail*" required=""></div>
-                                        <div class="col-md-12 col-sm-6"> <input type="email" class="form-control"
-                                                name="messege" placeholder="Опишите вашу проблему*" required=""></div>
+                                        <div class="col-md-12 col-sm-6">
+                                            <input type="text" class="form-control" name="Имя" placeholder="Ваше имя*"
+                                                required="">
+                                        </div>
+                                        <div class="col-md-12 col-sm-6">
+                                            <input type="text" class="form-control" name="Телефон"
+                                                placeholder="Ваш телефон*" required="">
+                                        </div>
+                                        <div class="col-md-12 col-sm-6">
+                                            <input type="email" class="form-control" name="E-mail"
+                                                placeholder="Ваш e-mail*" required="">
+                                        </div>
+                                        <div class="col-md-12 col-sm-6">
+                                            <input type="text" class="form-control" name="Сообщение"
+                                                placeholder="Опишите вашу проблему*" required="">
+                                        </div>
+                                    </div>
+                                    <input type="hidden" name="_subject" value="Новое письмо с сайта Global">
+                                    <input type="hidden" name="_captcha" value="false" />
+                                    <input type="text" name="_honey" style="display:none" />
+                                    <input type="hidden" name="_template" value="table" />
+                                    <input type="hidden" name="_next" value="/thanks-page.html" />
+                                    <div class="d-flex justify-content-center justify-content-lg-start">
+                                        <div class="text-center btn-active">
+                                            <button type="submit" class="scrollto">Отправить</button>
+                                        </div>
                                     </div>
                                 </form>
-                            </div>
-                            <div class="d-flex justify-content-center justify-content-lg-start">
-                                <div class="text-center btn-active">
-                                    <button href="#" class="scrollto">Отправить</button>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -587,8 +587,17 @@
     </footer>
     <!-- End Footer -->
 
+    <!-- START Cookie-Alert -->
+    <div id="cookie_note">
+        <p>Этот сайт использует файлы cookie для улучшения пользовательского опыта.</p>
+        <button class="cookie_accept">Принять</button>
+    </div>
+    <!-- END Cookie-Alert -->
+
     <script src="assets/js/main.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/cookies.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 </body>
 
 </html>

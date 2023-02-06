@@ -1,8 +1,8 @@
 .carousel-inner .carousel-item {
-    transition: -webkit-transform 11s ease;
-    transition: transform 10s ease;
-    transition: transform 5s ease, -webkit-transform 0.05s ease; /* скорость анимации */
-  }
+  transition: -webkit-transform 11s ease;
+  transition: transform 10s ease;
+  transition: transform 5s ease, -webkit-transform 0.05s ease; /* скорость анимации */
+}
 
 #mobile-slider p {
   font-family: "Nunito Sans", sans-serif;
@@ -17,22 +17,20 @@
 }
 
 #mobile-slider .calc-white-container {
-  width: 290px;
   height: 290px;
   border-radius: 4px;
   padding: 12px 19px 17px 19px;
 }
 
-
 #mobile-slider .frame-mobile-view {
-    background: url("../../img/frame.png") no-repeat;
-    background-size: 90%;
-    width: 81.74px;
-    height: 66px;
-    bottom: 12px;
-    right: 12px;
-    position: absolute;
-  }
+  background: url("../../img/frame.png") no-repeat;
+  background-size: 90%;
+  width: 81.74px;
+  height: 66px;
+  bottom: 12px;
+  right: 12px;
+  position: absolute;
+}
 
 #mobile-slider .image-1 {
   background: url("../../img/train.png") left center no-repeat;
@@ -43,7 +41,6 @@
   left: 20px;
   position: absolute;
 }
-
 
 #mobile-slider .image-2 {
   background: url("../../img/track.png") left center no-repeat;
@@ -106,13 +103,15 @@
 }
 
 #mobile-slider h3 {
-    font-size: 20px;
-    line-height: 27.28px;
+  font-size: 20px;
+  line-height: 27.28px;
 }
 
 #mobile-slider p {
-    font-size: 14px;
-    line-height: 23.8px;
+  font-size: 14px;
+  line-height: 23.8px;
+  max-width: 250px;
+  padding-right: 20px;
 }
 
 @media (max-width: 414px) {
