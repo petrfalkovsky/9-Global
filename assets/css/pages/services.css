@@ -3,13 +3,13 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../font/nunito-sans/NunitoSans-Regular.ttf") format("truetype");
+  src: url("../../font/nunito-sans/NunitoSans-Regular.ttf") format("truetype");
 }
 
 /* TODO: Руководителю: Проверить в лицензии право на коммерческое использование этого шрифта*/
 @font-face {
   font-family: "Bert Sans";
-  src: url("../font/bert-sans/BertSans-Regular.ttf") format("truetype");
+  src: url("../../font/bert-sans/BertSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -17,12 +17,12 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url("../font/nunito-sans/NunitoSans-SemiBold.ttf") format("truetype");
+  src: url("../../font/nunito-sans/NunitoSans-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Bert Sans SemiBold";
-  src: url("../font/bert-sans/BertSans-SemiBold.ttf") format("truetype");
+  src: url("../../font/bert-sans/BertSans-SemiBold.ttf") format("truetype");
 }
 
 * {
