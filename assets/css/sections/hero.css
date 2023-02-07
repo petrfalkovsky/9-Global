@@ -25,6 +25,8 @@
   font-size: 40px;
   line-height: 55px;
   color: #e72e20;
+margin-bottom: -15px;
+  /* vertical-align: bottom; */
 }
 
 #hero button {
@@ -161,12 +163,6 @@
   }
 }
 
-/* 
-@media (max-width: 1199.98px) {
-  #calc-form .btn-active button {
-    border-radius: 5px;
-  }
-} */
 
 @media (max-width: 1199.98px) {
   #hero .btn-active button {
@@ -181,3 +177,5 @@
     padding: 10px 24px 11px 24px;
   }
 }
+
+
