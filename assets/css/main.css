@@ -647,7 +647,6 @@ section {
   transform: translateX(-50%);
   padding: 20px;
   background-color: #E72E20;
-  border-radius: 4px;
   z-index: 100;
   box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.4);
 }
