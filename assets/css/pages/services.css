@@ -29,16 +29,20 @@
   padding: 0;
   margin: 0;
 }
+
 #service-page section:nth-child(3) {
   padding: 0px;
   padding-top: 100px;
 }
+
 #service-page section:nth-child(3) {
   background: #f5f5f5;
 }
+
 .mySwiper {
   display: none;
 }
+
 .send {
   background: #e72e20;
   width: 50% !important;
@@ -78,7 +82,7 @@
 #order input::placeholder {
   /* font-weight: 600; */
   color: #000;
-} 
+}
 
 #order input:focus::placeholder {
   color: transparent;
@@ -95,6 +99,8 @@
 */
 #order input:focus {
   outline-color: #e72e20;
+  /* border: 1px solid black; */
+  /* border-color: #e72e20; */
 }
 
 .custom-select {
@@ -259,6 +265,7 @@
     border: none;
     margin: 7px 0;
     padding: 10px 15px;
+    
   }
   #order h2 {
     font-size: 20px !important;
@@ -441,7 +448,7 @@
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  #service-page section:nth-child(2)  {
+  #service-page section:nth-child(2) {
     overflow: visible;
     padding: 60px 0px;
   }
@@ -454,63 +461,63 @@
     font-weight: 600;
     margin-top: 10px !important;
     margin: auto;
-    }
-    #order {
-      width: 100%;
-      background: #FEFEFE;
-    }
-    .order-img img{
-      display: none;
-    }
-    .form {
-      display: flex !important;
-      flex-wrap: wrap;
-    }
-    #order input {
-      width: 48%;
-      border-radius: 5px !important;
-      background: #F5F5F5;
-    }
-    #order h2 {
-      width: 35%;
-      margin: auto;
-      padding-bottom: 20px;
-    }
-    #order p {
-      width: 90%;
-      margin: auto;
-      padding-bottom: 20px;
-    }
-    #order input:nth-child(2) {
-      margin-left: 20px;
-    }
-    #order input:nth-child(4) {
-      margin-left: 20px;
-    }
-    input::placeholder {
-      font-weight: 500;
-    }
-    
-    .custom-select {
-      background: #F5F5F5;
-      font-weight: 500;
-      width: 48% !important;
-      border-radius: 5px !important;
-      margin-top: 10px !important;
-    }
-    .select-selected {
-      padding: 15px 10px;
-    }
-    
-    /* Style items (options): */
-    .select-items {
-      background: #F5F5F5;
-      border-radius: 5px;
-    }
-    /* Hide the items when the select box is closed: */
-    .select-hide {
-      display: none;
-    }
+  }
+  #order {
+    width: 100%;
+    background: #fefefe;
+  }
+  .order-img img {
+    display: none;
+  }
+  .form {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+  #order input {
+    width: 48%;
+    border-radius: 5px !important;
+    background: #f5f5f5;
+  }
+  #order h2 {
+    width: 35%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  #order p {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  #order input:nth-child(2) {
+    margin-left: 20px;
+  }
+  #order input:nth-child(4) {
+    margin-left: 20px;
+  }
+  input::placeholder {
+    font-weight: 500;
+  }
+
+  .custom-select {
+    background: #f5f5f5;
+    font-weight: 500;
+    width: 48% !important;
+    border-radius: 5px !important;
+    margin-top: 10px !important;
+  }
+  .select-selected {
+    padding: 15px 10px;
+  }
+
+  /* Style items (options): */
+  .select-items {
+    background: #f5f5f5;
+    border-radius: 5px;
+  }
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
   .first-text h2 {
     font-size: 23px;
     font-weight: 600;
@@ -579,7 +586,7 @@
   .container {
     max-width: none !important;
   }
-  #service-page section:nth-child(2)  {
+  #service-page section:nth-child(2) {
     overflow: visible;
     padding: 60px 0px;
   }
@@ -592,70 +599,70 @@
     font-weight: 600;
     margin-top: 10px !important;
     margin: auto;
-    }
-    #order {
-      width: 100%;
-      background: #FEFEFE;
-      padding: 35px 0px;
-    }
-    .order-img img{
-      display: none;
-    }
-    .form {
-      display: flex !important;
-      flex-wrap: wrap;
-    }
-    #order input {
-      width: 48%;
-      border-radius: 5px !important;
-      background: #F5F5F5;
-    }
-    #order h2 {
-      width: 35%;
-      margin: auto;
-      padding-bottom: 20px;
-    }
-    #order p {
-      width: 90%;
-      margin: auto;
-      padding-bottom: 20px;
-    }
-    #order input:nth-child(2) {
-      margin-left: 20px;
-    }
-    #order input:nth-child(4) {
-      margin-left: 20px;
-    }
-    input::placeholder {
-      font-weight: 500;
-    }
-    
-    .custom-select {
-      background: #F5F5F5;
-      font-weight: 500;
-      width: 48% !important;
-      border-radius: 5px !important;
-      margin-top: 10px !important;
-    }
-    .select-selected {
-      padding: 15px 10px;
-    }
-    
-    /* Style items (options): */
-    .select-items {
-      background: #F5F5F5;
-      border-radius: 5px;
-    }
-    /* Hide the items when the select box is closed: */
-    .select-hide {
-      display: none;
-    }
+  }
+  #order {
+    width: 100%;
+    background: #fefefe;
+    padding: 35px 0px;
+  }
+  .order-img img {
+    display: none;
+  }
+  .form {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+  #order input {
+    width: 48%;
+    border-radius: 5px !important;
+    background: #f5f5f5;
+  }
+  #order h2 {
+    width: 35%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  #order p {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  #order input:nth-child(2) {
+    margin-left: 20px;
+  }
+  #order input:nth-child(4) {
+    margin-left: 20px;
+  }
+  input::placeholder {
+    font-weight: 500;
+  }
+
+  .custom-select {
+    background: #f5f5f5;
+    font-weight: 500;
+    width: 48% !important;
+    border-radius: 5px !important;
+    margin-top: 10px !important;
+  }
+  .select-selected {
+    padding: 15px 10px;
+  }
+
+  /* Style items (options): */
+  .select-items {
+    background: #f5f5f5;
+    border-radius: 5px;
+  }
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
   .first-text h2 {
     font-size: 23px;
     font-weight: 600;
     text-align: center;
   }
-  
+
   .service-main {
     display: flex;
     margin-top: 30px;
@@ -703,7 +710,7 @@
     text-align: center;
   }
   .third-text {
-    margin-top: 70px!important;
+    margin-top: 70px !important;
     margin: auto;
     float: none;
     width: 80%;
@@ -720,12 +727,11 @@
   }
 }
 
-
 @media (max-width: 599px) {
-  #service-page section:nth-child(2)  {
+  #service-page section:nth-child(2) {
     padding: 60px 0px;
   }
-  #service-page section:nth-child(3)  {
+  #service-page section:nth-child(3) {
     padding: 60px 0px;
   }
   .send {
@@ -737,10 +743,10 @@
   }
   #order {
     width: 100%;
-    background: #FEFEFE;
+    background: #fefefe;
     padding: 35px 0px;
   }
-  .order-img img{
+  .order-img img {
     display: none;
   }
   .form {
@@ -750,9 +756,9 @@
   #order input {
     width: 100%;
     border-radius: 5px !important;
-    background: #F5F5F5;
+    background: #f5f5f5;
   }
-  
+
   #order h2 {
     width: 80%;
     margin: auto;
@@ -772,9 +778,9 @@
   input::placeholder {
     font-weight: 500;
   }
-  
+
   .custom-select {
-    background: #F5F5F5;
+    background: #f5f5f5;
     font-weight: 500;
     width: 100% !important;
     border-radius: 5px !important;
@@ -783,13 +789,13 @@
   .select-selected {
     padding: 15px 10px;
   }
-  
+
   /* Style items (options): */
   .select-items {
-    background: #F5F5F5;
+    background: #f5f5f5;
     border-radius: 5px;
   }
-  
+
   /* Hide the items when the select box is closed: */
   .select-hide {
     display: none;

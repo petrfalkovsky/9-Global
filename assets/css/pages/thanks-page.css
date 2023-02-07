@@ -2,31 +2,30 @@
   display: flex;
 }
 .container h2 {
-  font-family: 'Nunito Sans' sans-serif;
+  font-family: "Nunito Sans" sans-serif;
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 30px;
 }
 .container p {
-  font-family: 'Bert Sans' sans-serif;
+  font-family: "Bert Sans" sans-serif;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 30px;
 }
 .submit-1 {
-  background: #E72E20;
+  background: #e72e20;
   padding: 15px 35px;
   border-radius: 40px;
   color: #fff;
   border: 2px solid #FEFEFE;
   text-decoration: none !important;
   font-weight: 600;
-  transition: 0.2s;
-  }
+}
 .submit-1:hover {
   background: #fff;
-  color: #E72E20;
-  border: 2px solid #E72E20;
+  color: #e72e20;
+  border: 2px solid #e72e20;
 }
 .submit-2 {
   display: none;
@@ -54,75 +53,82 @@
   .main-block {
     display: block;
   }
+
   .box-1 {
     width: 100% !important;
     text-align: center;
   }
+
   .box-2 {
     width: 100% !important;
   }
+
   .submit-1 {
     display: none;
   }
+
   .submit-2 {
-  display: block;
-  width: 50%;
-  text-align: center;
-  text-decoration: none;
-  background: #E72E20;
-  margin: auto;
-  padding: 15px 30px;
-  border-radius: 5px;
-  color: #fff;
-  border: 2px solid #FEFEFE;
-  font-weight: 600;
+    display: block;
+    background: #e72e20;
+    margin: auto;
+    padding: 15px 39px;
+    border-radius: 5px;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 600;
   }
-.submit-2:hover {
-  background: #fff;
-  color: #E72E20;
-  border: 2px solid #E72E20;
+
+  .submit-2:hover {
+    background: #fff;
+    color: #e72e20;
+    border: 2px solid #e72e20;
   }
 }
-@media (max-width: 599px) {
+
+@media (max-width: 600px) {
   .main-block {
     display: block;
   }
+
   .box-1 {
     width: 100% !important;
     text-align: center;
   }
+
   .box-2 {
     width: 100% !important;
   }
+
   .submit-1 {
     display: none;
   }
+
   .submit-2 {
-  display: block;
-  width: 100%;
-  text-align: center;
-  text-decoration: none;
-  background: #E72E20;
-  margin: auto;
-  padding: 15px 39px;
-  border-radius: 5px;
-  font-size: 16px;
-  color: #fff;
-  border: 2px solid #FEFEFE;
-  font-weight: 600;
+    display: block;
+    width: 100%;
+    background: #e72e20;
+    margin: auto;
+    padding: 15px 39px;
+    border-radius: 5px;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 600;
   }
-.submit-2:hover {
-  background: #fff;
-  color: #E72E20;
-  border: 2px solid #E72E20;
+
+  .submit-2:hover {
+    background: #fff;
+    color: #e72e20;
+    border: 2px solid #e72e20;
   }
-.container h2 {
-  font-family: 'Nunito Sans' sans-serif;
-  font-size: 23px;
-  font-weight: 600;
-  margin-bottom: 30px;
-}
-#footer {
-  margin-top: 100px;
-}
+
+  .container h2 {
+    font-family: "Nunito Sans" sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  #footer {
+    margin-top: 100px;
+  }
 }
