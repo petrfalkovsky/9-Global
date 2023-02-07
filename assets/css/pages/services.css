@@ -99,6 +99,8 @@
 */
 #order input:focus {
   outline-color: #e72e20;
+  /* border: 1px solid black; */
+  /* border-color: #e72e20; */
 }
 
 .custom-select {
@@ -263,6 +265,7 @@
     border: none;
     margin: 7px 0;
     padding: 10px 15px;
+    
   }
   #order h2 {
     font-size: 20px !important;
