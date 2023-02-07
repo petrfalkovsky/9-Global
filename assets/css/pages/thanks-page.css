@@ -50,7 +50,7 @@
   }
 }
 
-@media (min-width: 600px) and (max-width: 991px) {
+@media (min-width: 599px) and (max-width: 991px) {
   .main-block {
     display: block;
   }
@@ -66,9 +66,12 @@
   }
   .submit-2 {
   display: block;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
   background: #E72E20;
   margin: auto;
-  padding: 15px 39px;
+  padding: 15px 30px;
   border-radius: 5px;
   color: #fff;
   border: 2px solid #FEFEFE;
@@ -80,7 +83,7 @@
   border: 2px solid #E72E20;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 599px) {
   .main-block {
     display: block;
   }
@@ -97,10 +100,13 @@
   .submit-2 {
   display: block;
   width: 100%;
+  text-align: center;
+  text-decoration: none;
   background: #E72E20;
   margin: auto;
   padding: 15px 39px;
   border-radius: 5px;
+  font-size: 16px;
   color: #fff;
   border: 2px solid #FEFEFE;
   font-weight: 600;
