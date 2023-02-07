@@ -177,8 +177,17 @@
 #calc-form input {
   font-weight: 400;
   font-size: 18px;
-  line-height: 18px;
+  /* line-height: 18px; */
   color: #000;
+  border-color: transparent;
+}
+
+#calc-form input:focus {
+  font-weight: 400;
+  font-size: 18px;
+  /* line-height: 18px; */
+  color: #000;
+  border-color: #e72e20;
 }
 
 @media (max-width: 731.98px) {
@@ -249,10 +258,7 @@
 #calc h2 {
   color: #000000;
   line-height: 82px;
-  /* margin-bottom: 30px; */
   font-size: 60px;
-  /* font-weight: 600; */
-  /* margin-left: -26px; */
 }
 
 #calc .btn-watch-video {
@@ -304,6 +310,17 @@
   float: left;
   margin-left: -86px;
   bottom: 370px;
+}
+
+#calc-form input::placeholder {
+  /* font-weight: 600; */
+  font-size: 18px;
+  line-height: 18px;
+  color: #000;
+}
+
+#calc-form input:focus::placeholder {
+  color: transparent;
 }
 
 #calc .frame {
