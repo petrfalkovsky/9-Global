@@ -1,0 +1,36 @@
+@media (min-width: 415.2px) {
+  #hero .shows-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 415px) {
+  #hero .shows-desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  #hero .hide-on-mobile,
+  #hero .img-shows-on-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 600.1px) {
+  #hero .img-shows-on-mobile {
+    display: none;
+  }
+
+  #hero .active-text {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 30px;
+    line-height: 55px;
+    color: rgb(231, 46, 32);
+    margin-bottom: -15px;
+  }
+
+  #hero .shows-mobile p {
+    padding-bottom: 0px;
+  }
+}

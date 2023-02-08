@@ -16,7 +16,7 @@
     <meta name="theme-color" content="#ffffff">
     <link defer href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" defer  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" defer href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
     <title>9 Global Logistics</title>
 </head>
@@ -67,15 +67,42 @@
                         <br />
                         <span class="active-text">логистические решения</span>
                     </h1>
-                    <p> Если вам нужно перевезти товары по стране или по всему миру, у нас есть опыт и ресурсы для
-                        выполнения этой работы.
-                        Наилучшие возможные варианты доставки и Конкурентоспособные Цены.</p>
+                    <div class="container img-shows-on-mobile">
+                        <div class="img-fluid hero-mobile-img" data-aos="zoom-in" data-aos-delay="200">
+                            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+                        </div>
+                    </div>
+                    <div class="hide-on-mobile">
+                        <p> Если вам нужно перевезти товары по стране или по всему миру, у нас есть опыт и ресурсы для
+                            выполнения этой работы.
+                            Наилучшие возможные варианты доставки и Конкурентоспособные Цены.
+                        </p>
+                    </div>
+                    <div class="shows-mobile">
+                        <div class="space-between">
+                            <div class="section-title p-2">
+                                <h3 class="active-text">200+</h3>
+                                <div class="line"></div>
+                                <p>Активных клиентов</p>
+                            </div>
+                            <div class="section-title p-2">
+                                <h3 class="active-text">500+</h3>
+                                <div class="line"></div>
+                                <p>Успешных перевозок</p>
+                            </div>
+                        </div>
+                        <div class="section-title p-2">
+                            <h3 class="active-text">100000+</h3>
+                            <div class="line"></div>
+                            <p>Типов Товаров</p>
+                        </div>
+                    </div>
                     <div class="d-flex justify-content-center justify-content-lg-start">
                         <div class="text-center btn-active">
                             <button href="#calc" class="scrollto">Связаться с нами</button>
                         </div>
                     </div>
-                    <div class="space-between">
+                    <div class="space-between shows-desktop">
                         <div class="section-title p-2">
                             <h3 class="active-text">200+</h3>
                             <div class="line"></div>
@@ -93,7 +120,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                <div class="col-lg-5 order-1 order-lg-2 hero-img img-shows-on-desktop" data-aos="zoom-in" data-aos-delay="200">
                     <img src="assets/img/hero-img.png" class="img-fluid animated hero-container" alt="">
                 </div>
             </div>
@@ -560,7 +587,7 @@
                                     <input type="hidden" name="_captcha" value="false" />
                                     <input type="text" name="_honey" style="display:none" />
                                     <input type="hidden" name="_template" value="table" />
-                                    <input type="hidden" name="_next" value="/thanks-page.html" />
+                                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks-page.html" />
                                     <div class="d-flex justify-content-center justify-content-lg-start">
                                         <div class="text-center btn-active">
                                             <button type="submit" class="scrollto">Отправить</button>
