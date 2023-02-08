@@ -4,8 +4,8 @@
   }
 }
 
-@media (min-width: 415.2px) {
-  #hero .shows-mobile {
+@media (max-width: 415px) {
+  #hero .shows-desktop {
     display: none;
   }
 }
@@ -16,13 +16,6 @@
     display: none;
   }
 }
-
-/* @media (min-width: 600px) {
-  #hero .hide-on-mobile,
-  #hero .hero-img {
-    display: none;
-  }
-} */
 
 @media (min-width: 600.1px) {
   #hero .img-shows-on-mobile {
