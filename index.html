@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
@@ -16,8 +15,10 @@
     <meta name="theme-color" content="#ffffff">
     <link defer href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" defer href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="assets/css/main.css" rel="stylesheet">
+    
     <title>9 Global Logistics</title>
 </head>
 
@@ -120,7 +121,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 order-1 order-lg-2 hero-img img-shows-on-desktop" data-aos="zoom-in" data-aos-delay="200">
+                <div class="col-lg-5 order-1 order-lg-2 hero-img img-shows-on-desktop" data-aos="zoom-in"
+                    data-aos-delay="200">
                     <img src="assets/img/hero-img.png" class="img-fluid animated hero-container" alt="">
                 </div>
             </div>
@@ -439,10 +441,112 @@
             </div>
             <!-- End Tabs Services -->
         </div>
+        <!--  Swiper -->
+        <div id="mobile-slider" class="swiper mySwiper container">
+            <div class="swiper-wrapper">
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <h3><span class="active-text">Железнодорожные</span>
+                                <br />перевозки
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-1"></div>
+                            <div class="frame-mobile-view"></div>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <h3><span class="active-text">Автомобильные</span>
+                                <br />перевозки
+                            </h3>
+                            <p>Lorem t.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-2"></div>
+                            <div class="frame-mobile-view"></div>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <h3><span class="active-text">Авиа</span>
+                                <br />перевозки
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-3"></div>
+                            <div class="frame-mobile-view"></div>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <div class="spacer-v40">
+                                <h3>3<span class="active-text">PL</span>
+                                </h3>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-4"></div>
+                            <div class="frame-mobile-view"></div>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <h3><span class="active-text">Перевозки</span>
+                                <br />автомобилей
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-5"></div>
+                            <div class="frame-mobile-view"></div>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="calc-white-container">
+                        <div class="service-item position-relative d-block min-vh-100">
+                            <h3><span class="active-text">Таможенные</span>
+                                <br />операции
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="image-6"></div>
+                            <div class="frame-mobile-view"></div>
+                        </div>
+                    </div>
+                </swiper-slide>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <!-- End Swiper -->
 
-        <!-- Slider, позже попробовать другое решение: swiperJS https://blog.logrocket.com/building-modern-sliders-html-css-swiper/-->
-        <div id="mobile-slider" class="container">
-            <swiper-container id="swiper-mobile" class="mySwiper" space-between="30" pagination="true"
+        <!-- <div id="mobile-slider" class="container"> -->
+        <!-- <swiper-container id="swiper-mobile" class="mySwiper" space-between="30" pagination="true"
                 pagination-clickable="true">
 
                 <swiper-slide>
@@ -542,8 +646,8 @@
                     </div>
                 </swiper-slide>
             </swiper-container>
-        </div>
-        <!-- End Slider -->
+        </div> -->
+
     </section>
     <!-- End Service -->
 
@@ -614,7 +718,7 @@
     </footer>
     <!-- End Footer -->
 
-    <!-- START Cookie-Alert -->
+    <!-- Cookie-Alert -->
     <div id="cookie_note">
         <p>Этот сайт использует файлы cookie для улучшения пользовательского опыта.</p>
         <button class="cookie_accept">Принять</button>
@@ -624,7 +728,11 @@
     <script src="assets/js/cookies.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script src="assets/js/swiper.js"></script>
 </body>
 
 </html>
