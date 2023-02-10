@@ -5,11 +5,13 @@
 @import "sections/service.css";
 @import "sections/tabs.css";
 @import "widgets/slider.css";
+@import "widgets/slider-service.css";
 @import "widgets/swiper.css";
 @import "sections/map.css";
 @import "sections/footer.css";
 @import "sections/hero-about.css";
 @import "sections/partners.css";
+@import "sections/awards.css";
 @import "pages/contact.css";
 @import "pages/docs.css";
 /*--------------------------------------------------------------
@@ -647,7 +649,6 @@ section {
   transform: translateX(-50%);
   padding: 20px;
   background-color: #E72E20;
-  border-radius: 4px;
   z-index: 100;
   box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.4);
 }

@@ -1,0 +1,127 @@
+.carousel-inner .carousel-item {
+    transition: -webkit-transform 11s ease;
+    transition: transform 10s ease;
+    transition: transform 5s ease, -webkit-transform 0.05s ease;
+  }
+  
+  #mobile-slider-service p {
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0 0 0px 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+  }
+  
+  #mobile-slider-service .spacer-right-hor-30 {
+    border: 12px solid transparent;
+  }
+  
+  #mobile-slider-service .calc-white-container {
+    height: 230px;
+    border-radius: 4px;
+    padding: 12px 19px 17px 19px;
+  }
+  
+  #mobile-slider-service .frame-mobile-view {
+    background: url("../../img/frame.png") no-repeat;
+    background-size: 90%;
+    width: 81.74px;
+    height: 66px;
+    bottom: 12px;
+    right: 12px;
+    position: absolute;
+  }
+  
+  #mobile-slider-service .image-1 {
+    background: url("../../img/train.png") left center no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 88.89px;
+    bottom: 40px;
+    left: 20px;
+    position: absolute;
+  }
+  
+  #mobile-slider-service .image-2 {
+    background: url("../../img/track.png") left center no-repeat;
+    background-size: 100%;
+    width: 121px;
+    bottom: 40px;
+    left: 20px;
+    position: absolute;
+  }
+  
+  #mobile-slider-service .image-3 {
+    background: url("../../img/plain.png") left center no-repeat;
+    background-size: 100%;
+    width: 100px;
+    bottom: 40px;
+    left: 20px;
+    position: absolute;
+  }
+  
+  #mobile-slider-service .image-4 {
+    background: url("../../img/ship.png") left center no-repeat;
+    background-size: 100%;
+    width: 122px;
+    bottom: 40px;
+    left: 20px;
+    position: absolute;
+  }
+  
+  #mobile-slider-service .image-5 {
+    background: url("../../img/auto.png") left center no-repeat;
+    background-size: 100%;
+    width: 120px;
+    height: 46.89px;
+    bottom: 40px;
+    left: 20px;
+    position: absolute;
+  }
+  
+  #mobile-slider-service .image-6 {
+    background: url("../../img/customs.png") left center no-repeat;
+    background-size: 100%;
+    width: 63.83px;
+    height: 80px;
+    bottom: 40px;
+    left: 20px;
+    position: absolute;
+  }
+  
+  #mobile-slider-service .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid #e72e20;
+  }
+  
+  #mobile-slider-service .carousel-indicators {
+    bottom: -50px;
+    left: -182px;
+  }
+  
+  #mobile-slider-service h3 {
+    font-size: 20px;
+    line-height: 27.28px;
+  }
+  
+  #mobile-slider-service p {
+    font-size: 14px;
+    line-height: 23.8px;
+    max-width: 250px;
+    padding-right: 20px;
+  }
+  
+  @media (max-width: 414px) {
+    #tabs div {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 414.1px) {
+    #mobile-slider-service div {
+      display: none;
+    }
+  }
+  

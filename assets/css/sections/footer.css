@@ -46,7 +46,6 @@
   font-family: "Nunito Sans SemiBold", sans-serif;
   margin: 0 0 10px 0;
   font-size: 28px;
-  /* font-weight: 600; */
   line-height: 38px;
   color: #000000;
   text-align: center;
@@ -63,16 +62,23 @@
   height: 60px;
   padding-left: 20px;
   font-size: 18px;
-  
 }
 
+/* 
+* управление третьим полем e-mail ))
+*/
 #form-footer input:focus {
+   box-shadow: none;
   border-color: #e72e20;
 }
 
+/* 
+*
+голубая тень в активном инпуте
+*/
 input[type=text]:focus, textarea:focus {
-  box-shadow: 0 0 5px rgba(243, 244, 245, 0);
-  border: 1px solid rgba(255, 255, 255, 0);
+  box-shadow: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0/5);
 }
 
 #footer .btn-active button {
