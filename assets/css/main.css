@@ -5,6 +5,7 @@
 @import "sections/service.css";
 @import "sections/tabs.css";
 @import "widgets/slider.css";
+@import "widgets/slider-service.css";
 @import "widgets/swiper.css";
 @import "sections/map.css";
 @import "sections/footer.css";
