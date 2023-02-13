@@ -6,7 +6,7 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: #FEFEFE;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,4 +17,35 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #FEFEFE;
+  opacity: 1;
+  border: 1px solid #E72E20;
+  background-color: #FEFEFE;
+}
+
+.swiper-pagination-bullet-active {
+  color: #FEFEFE;
+  background: #E72E20;
+}
+
+.swiper-pagination {
+  padding-left: 20px;
+  margin-left: calc(-30% - 0.5rem);
+}
+
+#mobile-slider-service .swiper-pagination {
+  padding-left: 50px;
+  margin-left: calc(-46% - 0.5rem);
+}
+
+.swiper-wrapper{
+  padding-bottom: 50px;
 }

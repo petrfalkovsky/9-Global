@@ -273,18 +273,6 @@ label span {
   transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 }
 
-span:nth-of-type(1) {
-  width: 100%;
-}
-
-span:nth-of-type(2) {
-  width: 80%;
-}
-
-span:nth-of-type(3) {
-  width: 100%;
-}
-
 input[type="checkbox"] {
   display: none;
 }
