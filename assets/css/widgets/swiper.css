@@ -41,6 +41,11 @@
   margin-left: calc(-30% - 0.5rem);
 }
 
+#mobile-slider-service .swiper-pagination {
+  padding-left: 50px;
+  margin-left: calc(-46% - 0.5rem);
+}
+
 .swiper-wrapper{
   padding-bottom: 50px;
 }

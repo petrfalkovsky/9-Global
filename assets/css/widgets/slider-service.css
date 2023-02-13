@@ -32,62 +32,31 @@
     position: absolute;
   }
   
-  #mobile-slider-service .image-1 {
+  #mobile-slider-service .image-7 {
     background: url("../../img/train.png") left center no-repeat;
     background-size: 100%;
-    width: 100px;
+    width: 50%;
     height: 88.89px;
-    bottom: 40px;
-    left: 20px;
-    position: absolute;
+    margin: auto;
+    display: block;
   }
   
-  #mobile-slider-service .image-2 {
+  #mobile-slider-service .image-8 {
     background: url("../../img/track.png") left center no-repeat;
     background-size: 100%;
     width: 121px;
-    bottom: 40px;
-    left: 20px;
-    position: absolute;
+    text-align: center;
+    align-items: center;
+
   }
   
-  #mobile-slider-service .image-3 {
+  #mobile-slider-service .image-9 {
     background: url("../../img/plain.png") left center no-repeat;
     background-size: 100%;
     width: 100px;
-    bottom: 40px;
-    left: 20px;
     position: absolute;
   }
-  
-  #mobile-slider-service .image-4 {
-    background: url("../../img/ship.png") left center no-repeat;
-    background-size: 100%;
-    width: 122px;
-    bottom: 40px;
-    left: 20px;
-    position: absolute;
-  }
-  
-  #mobile-slider-service .image-5 {
-    background: url("../../img/auto.png") left center no-repeat;
-    background-size: 100%;
-    width: 120px;
-    height: 46.89px;
-    bottom: 40px;
-    left: 20px;
-    position: absolute;
-  }
-  
-  #mobile-slider-service .image-6 {
-    background: url("../../img/customs.png") left center no-repeat;
-    background-size: 100%;
-    width: 63.83px;
-    height: 80px;
-    bottom: 40px;
-    left: 20px;
-    position: absolute;
-  }
+
   
   #mobile-slider-service .carousel-indicators [data-bs-target] {
     width: 10px;
