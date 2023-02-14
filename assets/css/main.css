@@ -13,78 +13,9 @@
 @import "pages/contact.css";
 @import "pages/docs.css";
 @import "../../theme/theme.css";
-@import "../../touch.blocks/header/__navbar/__burger/navbar__burger_animated.css";
+@import "../../touch.blocks/header/__navbar/__burger/header__navbar-burger_animated.css";
 @import "../../common.blocks/header/__navbar/heander__navbar_focused.css";
-/*--------------------------------------------------------------
-  # Fonts
-  ------------------------------1--------------------------------*/
 
-@font-face {
-  font-family: "Nunito Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../font/nunito-sans/NunitoSans-Regular.ttf") format("truetype");
-}
-
-/* TODO: Руководителю: Проверить в лицензии право на коммерческое использование этого шрифта*/
-@font-face {
-  font-family: "Bert Sans";
-  src: url("../font/bert-sans/BertSans-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Nunito Sans SemiBold";
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("../font/nunito-sans/NunitoSans-SemiBold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Bert Sans SemiBold";
-  src: url("../font/bert-sans/BertSans-SemiBold.ttf") format("truetype");
-}
-
-body {
-  font-family: "Nunito Sans", sans-serif;
-}
-
-p {
-  font-family: "Nunito Sans", sans-serif;
-  margin: 0 0 10px 0;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 27.2px;
-  color: #000000;
-}
-
-h5 {
-  font-family: "Bert Sans", sans-serif;
-  font-weight: 800;
-}
-
-a {
-  color: #000000;
-  font-weight: 400;
-}
-
-a:hover {
-  color: #73c5eb;
-  text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h6 {
-  font-family: "Nunito Sans", sans-serif;
-}
-
-.active-text {
-  color: #e72e20;
-}
 
 
 hr {
@@ -103,9 +34,9 @@ hr {
   padding: 15px 35px 15px 35px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #fff;
-  background: #e72e20;
-  border: 2px solid #fff;
+  color: var(--nine-global-color-background-light);
+  background: var(--nine-global-color-primary);
+  border: 2px solid var(--nine-global-color-background-light);
   min-width: 100%;
 }
 
@@ -117,9 +48,9 @@ hr {
   padding: 15px 35px 15px 35px;
   border-radius: 5px;
   transition: 0.5s;
-  color: #fff;
-  background: #e72e20;
-  border: 2px solid #fff;
+  color: var(--nine-global-color-background-light);
+  background: var(--nine-global-color-primary);
+  border: 2px solid var(--nine-global-color-background-light);
   min-width: 100%;
 }
 
@@ -131,9 +62,9 @@ hr {
   padding: 15px 35px 15px 35px;
   border-radius: 5px;
   transition: 0.5s;
-  color: #e72e20;
-  background: #fff;
-  border: 2px solid #e72e20;
+  color: var(--nine-global-color-primary);
+  background: var(--nine-global-color-background-light);
+  border: 2px solid var(--nine-global-color-primary);
   min-width: 100%;
 }
 
@@ -145,9 +76,9 @@ hr {
   padding: 15px 35px 15px 35px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #e72e20;
-  background: #fff;
-  border: 2px solid #e72e20;
+  color: var(--nine-global-color-primary);
+  background: var(--nine-global-color-background-light);
+  border: 2px solid var(--nine-global-color-primary);
   min-width: 100%;
 }
 
@@ -170,7 +101,7 @@ hr {
 
 .calc-white-container {
   padding: 40px;
-  background: #fff;
+  background: var(--nine-global-color-background-light);
   border-radius: 60px;
   width: 435px;
   height: 430px;
@@ -275,7 +206,7 @@ section {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
-  background: #fff;
+  background: var(--nine-global-color-background-light);
 }
 
 .services .icon-box .icon {
@@ -283,7 +214,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #e72e20;
+  color: var(--nine-global-color-primary);
   font-size: 36px;
   transition: 0.3s;
 }
@@ -310,7 +241,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #e72e20;
+  color: var(--nine-global-color-primary);
 }
 
 /*--------------------------------------------------------------
@@ -324,13 +255,13 @@ section {
 }
 
 .cta h3 {
-  color: #fff;
+  color: var(--nine-global-color-background-light);
   font-size: 28px;
   font-weight: 700;
 }
 
 .cta p {
-  color: #fff;
+  color: var(--nine-global-color-background-light);
 }
 
 .cta .cta-btn {
@@ -343,13 +274,13 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid var(--nine-global-color-background-light);
+  color: var(--nine-global-color-background-light);
 }
 
 .cta .cta-btn:hover {
-  background: #e72e20;
-  border: 2px solid #e72e20;
+  background: var(--nine-global-color-primary);
+  border: 2px solid var(--nine-global-color-primary);
 }
 
 @media (max-width: 1024px) {
@@ -390,8 +321,8 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #e72e20;
-  color: #fff;
+  background: var(--nine-global-color-primary);
+  color: var(--nine-global-color-background-light);
 }
 
 .portfolio .portfolio-item {
@@ -420,9 +351,9 @@ section {
 
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
-  color: #fff;
+  color: var(--nine-global-color-background-light);
   font-weight: 600;
-  color: #fff;
+  color: var(--nine-global-color-background-light);
   margin-bottom: 0px;
 }
 
@@ -438,13 +369,13 @@ section {
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #fff;
+  color: var(--nine-global-color-background-light);
   transition: 0.3s;
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #e72e20;
+  color: var(--nine-global-color-primary);
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -464,14 +395,14 @@ section {
   --------------------------------------------------------------*/
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: var(--nine-global-color-background-light);
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #e72e20;
+  color: var(--nine-global-color-primary);
   float: left;
   width: 44px;
   height: 44px;
@@ -510,7 +441,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #333;
-  color: #fff;
+  color: var(--nine-global-color-background-light);
   line-height: 1;
   padding: 8px 0;
   border-radius: 50%;
@@ -522,15 +453,15 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #e72e20;
-  color: #fff;
+  background: var(--nine-global-color-primary);
+  color: var(--nine-global-color-background-light);
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #e72e20;
-  color: #fff;
+  background: var(--nine-global-color-primary);
+  color: var(--nine-global-color-background-light);
 }
 
 .contact .php-email-form .form-group {
@@ -547,7 +478,7 @@ section {
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: var(--nine-global-color-background-light);
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
@@ -560,7 +491,7 @@ section {
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: #fff;
+  color: var(--nine-global-color-background-light);
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -569,7 +500,7 @@ section {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: var(--nine-global-color-background-light);
   text-align: center;
   padding: 15px;
 }
@@ -597,12 +528,12 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #e72e20;
+  border-color: var(--nine-global-color-primary);
 }
 
 .contact .php-email-form input {
   height: 61px;
-  background-color: #f5f5f5;
+  background-color: var(--nine-global-color-background-dark);
 }
 
 .first-row .container {
@@ -649,7 +580,7 @@ section {
   width: 100%;
   transform: translateX(-50%);
   padding: 20px;
-  background-color: #E72E20;
+  background-color: var(--nine-global-color-primary);
   z-index: 100;
   box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.4);
 }
@@ -659,20 +590,20 @@ section {
   font-size: 18px;
   font-weight: 400;
   text-align: left;
-  color: #FEFEFE;
+  color: var(--nine-global-color-background-light);
 }
 .cookie_accept {
-  background: #fff;
+  background: var(--nine-global-color-background-light);
   padding: 15px 35px;
-  color: #E72E20;
+  color: var(--nine-global-color-primary);
   border-radius: 40px;
-  border: 2px solid #E72E20;
+  border: 2px solid var(--nine-global-color-primary);
   font-weight: 600;
 }
 .cookie_accept:hover {
-  background: #E72E20;
-  color: #fff;
-  border: 2px solid #fff;
+  background: var(--nine-global-color-primary);
+  color: var(--nine-global-color-background-light);
+  border: 2px solid var(--nine-global-color-background-light);
 } 
 
 @media (min-width: 769px) {

@@ -1,6 +1,6 @@
 #footer .calc-white-container-cta {
   padding: 50px 45px 60px 45px;
-  background: #fefefe;
+  background: var(--nine-global-color-background-light);
   border-radius: 60px;
   width: 640px;
   /* height: 650px; */
@@ -19,7 +19,7 @@
 }
 
 #footer p {
-  font-family: "Bert Sans", sans-serif;
+  font-family: var(--typo-control-font-family-bert);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -29,7 +29,7 @@
 }
 
 #copyright p {
-  font-family: "Bert Sans", sans-serif;
+  font-family: var(--typo-control-font-family-bert);
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -39,11 +39,11 @@
 }
 
 #footer .active-text {
-  color: #e72e20;
+  color: var(--nine-global-color-primary);
 }
 
 #footer h3 {
-  font-family: "Nunito Sans SemiBold", sans-serif;
+  font-family: var(--typo-control-font-family-nunito-bold);
   margin: 0 0 10px 0;
   font-size: 28px;
   line-height: 38px;
@@ -54,10 +54,10 @@
 
 #form-footer input {
   border: 0;
-  border: 1px solid #f5f5f5;
+  border: 1px solid var(--nine-global-color-background-dark);
   margin-top: 6px;
   padding: 4px 8px;
-  background-color: #f5f5f5;
+  background-color: var(--nine-global-color-background-dark);
   border-radius: 50px;
   height: 60px;
   padding-left: 20px;
@@ -69,7 +69,7 @@
 */
 #form-footer input:focus {
    box-shadow: none;
-  border-color: #e72e20;
+  border-color: var(--nine-global-color-primary);
 }
 
 /* 
@@ -89,9 +89,9 @@ input[type=text]:focus, textarea:focus {
   padding: 15px 35px 15px 35px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #fff;
-  background: #e72e20;
-  border: 2px solid #fff;
+  color: var(--nine-global-color-background-light);
+  background: var(--nine-global-color-primary);
+  border: 2px solid var(--nine-global-color-background-light);
   min-width: 203px;
   margin-top: 20px;
 }
@@ -104,9 +104,9 @@ input[type=text]:focus, textarea:focus {
   padding: 15px 35px 15px 35px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #e72e20;
-  background: #fff;
-  border: 2px solid #e72e20;
+  color: var(--nine-global-color-primary);
+  background: var(--nine-global-color-background-light);
+  border: 2px solid var(--nine-global-color-primary);
   min-width: 203px;
   margin-top: 20px;
 }
@@ -120,8 +120,8 @@ input[type=text]:focus, textarea:focus {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #e72e20;
-  color: #fff;
+  background: var(--nine-global-color-primary);
+  color: var(--nine-global-color-background-light);
   transition: 0.3s;
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -129,7 +129,7 @@ input[type=text]:focus, textarea:focus {
 
 #footer .footer-top {
   padding: 100px 0 30px 0;
-  background: #fff;
+  background: var(--nine-global-color-background-light);
 }
 
 #footer .footer-top .footer-contact {
@@ -156,7 +156,7 @@ input[type=text]:focus, textarea:focus {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #e72e20;
+  color: var(--nine-global-color-primary);
   font-size: 18px;
   line-height: 1;
 }
@@ -173,7 +173,7 @@ input[type=text]:focus, textarea:focus {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #e72e20;
+  color: var(--nine-global-color-primary);
 }
 
 #footer .copyright {
@@ -202,12 +202,12 @@ input[type=text]:focus, textarea:focus {
 
 #form-footer input:focus::placeholder {
   color: transparent;
-  border-color: #e72e20;
+  border-color: var(--nine-global-color-primary);
 }
 
 #footer .form-control::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  font-family: "Nunito Sans", sans-serif;
+  font-family: var(--typo-control-font-family-nunito);
   color: #000000;
   font-size: 18px;
   opacity: 1; /* Firefox */
@@ -215,7 +215,7 @@ input[type=text]:focus, textarea:focus {
 
 #footer .form-control::-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  font-family: "Nunito Sans", sans-serif;
+  font-family: var(--typo-control-font-family-nunito);
   color: #000000;
   font-size: 18px;
   /* line-height: 31px; */
@@ -231,7 +231,7 @@ input[type=text]:focus, textarea:focus {
 
   #footer .form-control::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
-    font-family: "Nunito Sans", sans-serif;
+    font-family: var(--typo-control-font-family-nunito);
     color: #000000;
     font-size: 15px;
     opacity: 1; /* Firefox */
@@ -239,7 +239,7 @@ input[type=text]:focus, textarea:focus {
 
   #footer .form-control::-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    font-family: "Nunito Sans", sans-serif;
+    font-family: var(--typo-control-font-family-nunito);
     color: #000000;
     font-size: 15px;
     /* line-height: 15px; */
@@ -273,7 +273,7 @@ input[type=text]:focus, textarea:focus {
   #footer .calc-white-container-cta {
     box-shadow: 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    background: #fefefe;
+    background: var(--nine-global-color-background-light);
   }
 
   #footer .btn-active button {

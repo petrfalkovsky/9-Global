@@ -105,10 +105,10 @@
 
 [data-title]:after {
   content: attr(data-title);
-  background-color: #fefefe;
+  background-color: var(--nine-global-color-background-light);
   color: #000000;
   font-size: 26px;
-  font-family: "Bert Sans", sans-serif;
+  font-family: var(--typo-control-font-family-bert);
   position: absolute;
   padding: 20px 5px 2px 5px;
   bottom: 2.9em;
@@ -152,7 +152,7 @@
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
 
-  border-top: 20px solid #fefefe;
+  border-top: 20px solid var(--nine-global-color-background-light);
 }
 
 [cloud] {

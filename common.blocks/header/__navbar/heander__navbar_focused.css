@@ -4,10 +4,10 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 0px;
-  color: #000000;
+  color: var(--nine-global-color-primary-dartkest);
   white-space: nowrap;
   transition: 0.3s;
-  font-family: "Bert Sans";
+  font-family: var(--typo-control-font-family-bert);
   font-style: normal;
   font-weight: 500;
   font-size: 18px;

@@ -3,7 +3,7 @@
   --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: #fff;
+  background: var(--nine-global-color-background-light);
 }
 
 #hero .hero-container {
@@ -12,7 +12,7 @@
 }
 
 #hero h1 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: var(--typo-control-font-family-nunito);
   margin: 0 0 10px 0;
   font-size: 1 em;
   font-weight: 600;
@@ -21,10 +21,10 @@
 }
 
 #hero .active-text {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: var(--typo-control-font-family-nunito);
   font-size: 40px;
   line-height: 55px;
-  color: #e72e20;
+  color: var(--nine-global-color-primary);
 margin-bottom: -15px;
   /* vertical-align: bottom; */
 }
@@ -41,7 +41,7 @@ margin-bottom: -15px;
 
 #hero p {
   padding-bottom: 7px;
-  font-family: "Bert Sans";
+  font-family: var(--typo-control-font-family-bert);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -55,20 +55,20 @@ margin-bottom: -15px;
   align-items: center;
   transition: 0.5s;
   margin: 10px 0 0 25px;
-  color: #fff;
+  color: var(--nine-global-color-background-light);
   line-height: 1;
 }
 
 #hero .btn-watch-video i {
   line-height: 0;
-  color: #fff;
+  color: var(--nine-global-color-background-light);
   font-size: 32px;
   transition: 0.3s;
   margin-right: 8px;
 }
 
 #hero .btn-watch-video:hover i {
-  color: #e72e20;
+  color: var(--nine-global-color-primary);
 }
 
 #hero .animated {
