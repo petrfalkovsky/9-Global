@@ -9,3 +9,12 @@ Few rules how to use this repository:
 5. One feature or code area - one commit
 6. Pull request must contain all relevant commits
 7. Let's try this way dev > test > staging > production(master)
+
+### BEM file struсture:
+project
+    theme                       # Реализация цветов, шрифтов
+    common.blocks/              # Базовые реализации блоков
+    desktop.blocks/             # Реализации блоков для десктопных браузеров
+    touch-pad.blocks/           # Реализации блоков для браузеров планшетов
+    touch-phone.blocks/         # Реализации блоков для браузеров мобильных телефонов
+    README.md                   # Текстовое описание проекта
