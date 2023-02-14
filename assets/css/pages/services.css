@@ -147,6 +147,7 @@
   padding: 15px 10px;
   cursor: pointer;
 }
+
 .select-items div {
   padding: 12px 16px;
 }
@@ -186,26 +187,25 @@
   display: flex;
   margin-top: 40px;
 }
+
 .service-div {
   width: 33%;
   padding: 40px;
   border-radius: 50px;
 }
+
 .service-div p {
   font-size: 30px;
 }
-.service-div:nth-child(1) {
-  margin-right: 50px !important;
-}
-.service-div:nth-child(2) {
-  margin-right: 50px !important;
-}
+
 .service-div img {
   width: 65%;
 }
+
 .service-div img:nth-child(2) {
   margin-top: 20px;
 }
+
 .img-div img {
   margin-left: 200px;
   width: 35%;
@@ -214,21 +214,25 @@
 .second-text {
   width: 80%;
 }
+
 .second-text h2 {
   margin-bottom: 40px;
   font-family: "Nunito Sans", sans-serif;
   font-size: 60px;
   margin-top: 100px;
 }
+
 .second-text p {
   font-family: "Bert Sans";
   font-size: 18px;
 }
+
 .third-text {
   float: right;
   margin-bottom: 100px;
   width: 60%;
 }
+
 .third-text h2 {
   margin-bottom: 40px;
   font-family: "Nunito Sans", sans-serif;
@@ -236,11 +240,13 @@
   margin-top: 100px;
   text-align: right;
 }
+
 .third-text p {
   text-align: right;
   font-family: "Bert Sans";
   font-size: 18px;
 }
+
 .third-text p {
   text-align: right;
   margin-bottom: 30px;
@@ -251,10 +257,21 @@
   height: 230px;
 }
 
+@media (min-width: 415px) {
+  .service-div:nth-child(1) {
+    margin-right: 50px !important;
+  }
+
+  .service-div:nth-child(2) {
+    margin-right: 50px !important;
+  }
+}
+
 @media (max-width: 1399px) and (min-width: 1200px) {
   .order-img img {
     width: 100%;
   }
+
   #order {
     margin-top: 10px;
     margin-right: 10px;
@@ -262,30 +279,35 @@
     padding: 25px 25px;
     height: 100%;
   }
+
   #span {
     color: #e72e20;
   }
+
   #order input {
     font-size: 15px;
     border: none;
     margin: 7px 0;
     padding: 10px 15px;
-    
   }
   #order h2 {
     font-size: 20px !important;
   }
+
   #order p {
     font-size: 15px !important;
   }
+
   .order-img {
     width: 70%;
   }
+
   .custom-select {
     width: 100% !important;
     margin-bottom: 7px;
     font-size: 15px;
   }
+
   /* Style the arrow inside the select element: */
   .select-selected:after {
     right: 15px;
@@ -363,6 +385,7 @@
     padding: 15px 15px;
     border-radius: 35px;
   }
+
   #order input {
     font-size: 13px;
     margin: 7px 0;
@@ -371,18 +394,22 @@
   #order h2 {
     font-size: 18px !important;
   }
+
   #order p {
     font-size: 13px !important;
     line-height: 20px;
   }
+
   .order-img {
     width: 70%;
   }
+
   .custom-select {
     width: 100% !important;
     margin-bottom: 5px;
     font-size: 13px;
   }
+
   /* Style the arrow inside the select element: */
   .select-selected:after {
     right: 15px;
@@ -399,6 +426,7 @@
   .select-selected {
     padding: 7px 5px;
   }
+
   .select-items div {
     padding: 6px 16px;
   }
@@ -409,6 +437,7 @@
     padding-bottom: 10px;
     margin-top: -7px;
   }
+
   .send {
     width: 60%;
     padding: 10px !important;
@@ -421,10 +450,12 @@
   .first-text h2 {
     font-size: 50px;
   }
+
   .service-main {
     display: flex;
     margin-top: 40px;
   }
+
   .service-div {
     width: 33%;
     padding: 0px 25px;
@@ -432,22 +463,28 @@
     padding-bottom: 20px;
     border-radius: 50px;
   }
+
   .service-div p {
     font-size: 30px;
   }
+
   .service-div img {
     width: 60%;
   }
+
   .service-div img:nth-child(2) {
     margin-top: 10px !important;
   }
+
   .img-div img {
     margin-left: 150px;
     width: 33%;
   }
+
   .second-text h2 {
     font-size: 50px;
   }
+
   .third-text h2 {
     font-size: 50px;
   }
@@ -457,9 +494,11 @@
     overflow: visible;
     padding: 60px 0px;
   }
+
   #service-page section:nth-child(3) {
     padding: 60px 0px;
   }
+
   .send {
     width: 48% !important;
     border-radius: 5px;
@@ -467,38 +506,47 @@
     margin-top: 10px !important;
     margin: auto;
   }
+
   #order {
     width: 100%;
     background: #fefefe;
   }
+
   .order-img img {
     display: none;
   }
+
   .form {
     display: flex !important;
     flex-wrap: wrap;
   }
+
   #order input {
     width: 48%;
     border-radius: 5px !important;
     background: #f5f5f5;
   }
+
   #order h2 {
     width: 35%;
     margin: auto;
     padding-bottom: 20px;
   }
+
   #order p {
     width: 90%;
     margin: auto;
     padding-bottom: 20px;
   }
+
   #order input:nth-child(2) {
     margin-left: 20px;
   }
+
   #order input:nth-child(4) {
     margin-left: 20px;
   }
+
   input::placeholder {
     font-weight: 500;
   }
@@ -510,6 +558,7 @@
     border-radius: 5px !important;
     margin-top: 10px !important;
   }
+
   .select-selected {
     padding: 15px 10px;
   }
@@ -519,10 +568,12 @@
     background: #f5f5f5;
     border-radius: 5px;
   }
+
   /* Hide the items when the select box is closed: */
   .select-hide {
     display: none;
   }
+
   .first-text h2 {
     font-size: 23px;
     font-weight: 600;
@@ -533,6 +584,7 @@
     display: flex;
     margin-top: 30px;
   }
+
   .service-div {
     width: 33%;
     padding: 0px;
@@ -540,47 +592,57 @@
     padding-bottom: 10px;
     border-radius: 5px;
   }
+
   .service-div p {
     font-size: 15px !important;
     font-weight: 600;
   }
+
   .service-div img {
     width: 60%;
   }
+
   .service-div img:nth-child(2) {
     margin-top: 0px !important;
   }
+
   .img-div img {
     margin-left: 100px;
     width: 30%;
   }
+
   .second-text {
     margin-top: 64px !important;
     padding: 0 10px;
     margin: auto;
   }
+
   .second-text h2 {
     font-size: 23px !important;
     font-weight: 600;
     margin-top: 0;
     text-align: center;
   }
+
   .second-text p {
     font-size: 16px;
     text-align: center;
   }
+
   .third-text {
     margin-top: 70px !important;
     margin: auto;
     float: none;
     width: 80%;
   }
+
   .third-text h2 {
     font-size: 23px !important;
     font-weight: 600;
     margin-top: 0;
     text-align: center;
   }
+
   .third-text p {
     font-size: 16px;
     text-align: left;
@@ -591,13 +653,16 @@
   .container {
     max-width: none !important;
   }
+
   #service-page section:nth-child(2) {
     overflow: visible;
     padding: 60px 0px;
   }
+
   #service-page section:nth-child(3) {
     padding: 60px 0px;
   }
+
   .send {
     width: 48% !important;
     border-radius: 5px;
@@ -605,39 +670,48 @@
     margin-top: 10px !important;
     margin: auto;
   }
+
   #order {
     width: 100%;
     background: #fefefe;
     padding: 35px 0px;
   }
+
   .order-img img {
     display: none;
   }
+
   .form {
     display: flex !important;
     flex-wrap: wrap;
   }
+
   #order input {
     width: 48%;
     border-radius: 5px !important;
     background: #f5f5f5;
   }
+
   #order h2 {
     width: 35%;
     margin: auto;
     padding-bottom: 20px;
   }
+
   #order p {
     width: 90%;
     margin: auto;
     padding-bottom: 20px;
   }
+
   #order input:nth-child(2) {
     margin-left: 20px;
   }
+
   #order input:nth-child(4) {
     margin-left: 20px;
   }
+
   input::placeholder {
     font-weight: 500;
   }
@@ -649,6 +723,7 @@
     border-radius: 5px !important;
     margin-top: 10px !important;
   }
+
   .select-selected {
     padding: 15px 10px;
   }
@@ -658,10 +733,12 @@
     background: #f5f5f5;
     border-radius: 5px;
   }
+
   /* Hide the items when the select box is closed: */
   .select-hide {
     display: none;
   }
+
   .first-text h2 {
     font-size: 23px;
     font-weight: 600;
@@ -672,6 +749,7 @@
     display: flex;
     margin-top: 30px;
   }
+
   .service-div {
     width: 40%;
     padding: 0px;
@@ -679,53 +757,65 @@
     padding-bottom: 10px;
     border-radius: 5px;
   }
+
   .service-div p {
     font-size: 13px !important;
     font-weight: 600;
   }
+
   .service-div img {
     width: 70%;
   }
+
   .service-div img:nth-child(2) {
     margin-top: 0px !important;
   }
+
   .service-div:nth-child(1) {
     margin-right: 30px !important;
   }
+
   .service-div:nth-child(2) {
     margin-right: 30px !important;
   }
+
   .img-div img {
     margin-left: 90px;
     width: 30%;
   }
+
   .second-text {
     margin-top: 64px !important;
     padding: 0 10px;
     margin: auto;
   }
+
   .second-text h2 {
     font-size: 23px !important;
     font-weight: 600;
     margin-top: 0;
     text-align: center;
   }
+
   .second-text p {
     font-size: 16px;
     text-align: center;
   }
+
   .third-text {
     margin-top: 70px !important;
     margin: auto;
     float: none;
     width: 80%;
   }
+
   .third-text h2 {
     font-size: 23px !important;
     font-weight: 600;
     margin-top: 0;
     text-align: center;
   }
+
   .third-text p {
     font-size: 16px;
     text-align: left;
@@ -736,9 +826,11 @@
   #service-page section:nth-child(2) {
     padding: 60px 0px;
   }
+
   #service-page section:nth-child(3) {
     padding: 60px 0px;
   }
+
   .send {
     width: 100% !important;
     border-radius: 5px;
@@ -746,18 +838,22 @@
     margin-top: 10px !important;
     margin: auto;
   }
+
   #order {
     width: 100%;
     background: #fefefe;
     padding: 35px 0px;
   }
+
   .order-img img {
     display: none;
   }
+
   .form {
     display: flex !important;
     flex-wrap: wrap;
   }
+
   #order input {
     width: 100%;
     border-radius: 5px !important;
@@ -769,17 +865,21 @@
     margin: auto;
     padding-bottom: 20px;
   }
+
   #order p {
     width: 100%;
     margin: auto;
     padding-bottom: 20px;
   }
+
   #order input:nth-child(2) {
     margin-left: 0px;
   }
+
   #order input:nth-child(4) {
     margin-left: 0px;
   }
+
   input::placeholder {
     font-weight: 500;
   }
@@ -791,6 +891,7 @@
     border-radius: 5px !important;
     margin-top: 10px !important;
   }
+
   .select-selected {
     padding: 15px 10px;
   }
@@ -805,6 +906,7 @@
   .select-hide {
     display: none;
   }
+
   .first-text h2 {
     font-size: 23px;
     font-weight: 600;
@@ -815,41 +917,49 @@
   .service-main {
     display: none;
   }
+
   .mySwiper {
     display: block;
   }
+
   .second-text {
     margin-top: 64px !important;
     padding: 0 10px;
     margin: auto;
     width: 100%;
   }
+
   .second-text h2 {
     font-size: 23px !important;
     font-weight: 600;
     margin-top: 0;
     text-align: center;
   }
+
   .second-text p {
     font-size: 16px;
     text-align: center;
   }
+
   .third-text {
     margin-top: 70px !important;
     margin: auto;
     float: none;
     width: 100%;
   }
+
   .third-text h2 {
     font-size: 23px !important;
     font-weight: 600;
     margin-top: 0;
     text-align: center;
   }
+
   .third-text p {
     font-size: 16px;
     text-align: left;
   }
+
   swiper-container {
     width: 100%;
     height: 100%;
@@ -870,6 +980,7 @@
     height: 100%;
     object-fit: cover;
   }
+
   .service-div {
     width: 100%;
     padding: 0px;
@@ -877,22 +988,25 @@
     padding-bottom: 30px;
     border-radius: 5px;
   }
+
   .service-div p {
     font-size: 23px !important;
     font-weight: 600;
     text-align: center;
   }
+
   .service-div img {
     width: 50%;
     margin: auto;
   }
+
   .service-div img:nth-child(2) {
     margin-top: 0px !important;
   }
+  
   .img-div img {
     float: right;
     padding-right: 20px;
     width: 25%;
   }
 }
-

@@ -9,10 +9,12 @@
 
 #partners .col-2 {
   width: 200px;
+  height: 200px;
 }
 
 #swiper .col {
   width: 156px;
+  height: 156px;
 }
 
 @media (min-width: 1200px) {
