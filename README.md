@@ -22,11 +22,12 @@ Few rules how to use this repository:
            - button/
               - __box/
                  - _focused/
-                     - button__box_focused.css              # Basic button implementation
+                     - button__box_focused.css      # Basic button implementation
 
 ### BEM name convention:
 block__element_modifier
 
+#### example:
     <header class=”header”>
         <img class=”header__logo”>
         <form class=”header__search-from”>

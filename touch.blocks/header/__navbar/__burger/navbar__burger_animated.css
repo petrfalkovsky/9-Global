@@ -11,7 +11,7 @@
 }
 
 label span {
-  background: var(--nine-global-color-primary);
+  background: var(--nine-global-color-primary);;
   height: 2px;
   margin: 3px 0;
   transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);

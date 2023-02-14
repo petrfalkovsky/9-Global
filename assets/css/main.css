@@ -1,4 +1,3 @@
-@import "sections/navbar.css";
 @import "sections/hero.css";
 @import "sections/calc.css";
 @import "sections/service.css";
@@ -15,9 +14,10 @@
 @import "pages/docs.css";
 @import "../../theme/theme.css";
 @import "../../touch.blocks/header/__navbar/__burger/navbar__burger_animated.css";
+@import "../../common.blocks/header/__navbar/heander__navbar_focused.css";
 /*--------------------------------------------------------------
   # Fonts
-  --------------------------------------------------------------*/
+  ------------------------------1--------------------------------*/
 
 @font-face {
   font-family: "Nunito Sans";
