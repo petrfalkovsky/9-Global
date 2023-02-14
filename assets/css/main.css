@@ -1,4 +1,3 @@
-/* @import "theme/fonts.css"; */
 @import "sections/navbar.css";
 @import "sections/hero.css";
 @import "sections/calc.css";
@@ -14,6 +13,8 @@
 @import "sections/awards.css";
 @import "pages/contact.css";
 @import "pages/docs.css";
+@import "../../theme/theme.css";
+@import "../../touch.blocks/header/__navbar/__burger/navbar__burger_animated.css";
 /*--------------------------------------------------------------
   # Fonts
   --------------------------------------------------------------*/

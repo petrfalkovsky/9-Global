@@ -1,0 +1,26 @@
+/*
+ * Any CSS included here will be global.
+ */
+
+/* You can override the default variables here. */
+:root {
+  /* colors */
+  --nine-global-color-primary: #e72e20; /* figma */
+  --nine-global-color-primary-darkest: #000000; /* figma */
+  --nine-global-color-background-light: #fefefe; /* figma */
+  --nine-global-color-background-dark: #f5f5f5; /* figma */
+  /* text */
+  --typo-control-font-family-nunito: "Nunito Sans", sans-serif; /* figma */
+  --typo-control-font-family-bert: "Bert Sans", sans-serif; /* figma */
+  --typo-control-size-s14-font-size: 14px;
+  --typo-control-size-s15-font-size: 15px;
+  --typo-control-size-s16-font-size: 16px;
+  --typo-control-size-m17-font-size: 17px;
+  --typo-control-size-m18-font-size: 18px;
+  --typo-control-size-m23-font-size: 23px;
+  --typo-control-size-l30-font-size: 30px;
+}
+
+.navbar {
+  backdrop-filter: saturate(180%) blur(5px);
+}

@@ -35,3 +35,19 @@ block__element_modifier
         </form>
         <div class=”header__lang-switcher”></div>
     </header>
+
+    <body class="page">
+        <div class="page__inner">
+            <div class="head">...</div>
+            <ul class="goods">
+                <li class="goods__item">
+                    <h3 class="goods__title">iPhone 7 128Gb</h3>
+                    <img class="goods__image" src="start-with-project-stub__iphone7.png"/>
+                    <span class="goods__price">259</span>
+                </li>
+                <li class="goods__item">...</li>
+                <li class="goods__item">...</li>
+            </ul>
+            <script src="index.min.js"></script>
+        </div>
+    </body>
