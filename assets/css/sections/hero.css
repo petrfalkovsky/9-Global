@@ -1,74 +1,35 @@
 /*--------------------------------------------------------------
   # Hero Section
   --------------------------------------------------------------*/
-#hero {
-  width: 100%;
-  background: #fff;
-}
-
-#hero .hero-container {
-  max-width: 130%;
-  padding-right: 20px;
-}
-
 #hero h1 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: var(--typo-control-font-family-nunito);
   margin: 0 0 10px 0;
   font-size: 1 em;
   font-weight: 600;
-  /* line-height: 55px; */
+  line-height: 55px;
   color: #000000;
 }
 
+#hero .line {
+  padding-top: 10px;
+}
+
 #hero .active-text {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: var(--typo-control-font-family-nunito);
   font-size: 40px;
   line-height: 55px;
-  color: #e72e20;
-margin-bottom: -15px;
-  /* vertical-align: bottom; */
-}
-
-#hero button {
-  margin-bottom: 95px;
-}
-
-@media (max-width: 1199.98px) {
-  #hero button {
-    margin-bottom: 10px;
-  }
+  color: var(--nine-global-color-primary);
+  margin-bottom: -15px;
 }
 
 #hero p {
   padding-bottom: 7px;
-  font-family: "Bert Sans";
+  font-family: var(--typo-control-font-family-bert);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: #000000;
-}
-
-#hero .btn-watch-video {
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  transition: 0.5s;
-  margin: 10px 0 0 25px;
-  color: #fff;
-  line-height: 1;
-}
-
-#hero .btn-watch-video i {
-  line-height: 0;
-  color: #fff;
-  font-size: 32px;
-  transition: 0.3s;
-  margin-right: 8px;
-}
-
-#hero .btn-watch-video:hover i {
-  color: #e72e20;
 }
 
 #hero .animated {
@@ -79,6 +40,17 @@ margin-bottom: -15px;
   display: flex;
   justify-content: space-between;
   max-width: 500px;
+}
+
+@media (min-width: 992px) {
+  #hero .col-lg-7 {
+    width: 52.33333333%;
+  }
+
+  #hero .section-title {
+    display: block;
+    min-width: 180px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -129,17 +101,11 @@ margin-bottom: -15px;
   #hero .hero-img img {
     width: 70%;
   }
-
 }
 
 @media (max-width: 575px) {
   #hero .hero-img img {
     width: 80%;
-  }
-
-  #hero .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
   }
 }
 
@@ -160,21 +126,6 @@ margin-bottom: -15px;
 
   100% {
     transform: translateY(-10px);
-  }
-}
-
-
-@media (max-width: 1199.98px) {
-  #hero .btn-active button {
-    border-radius: 5px;
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-
-  #hero .btn-active:hover button {
-    border-radius: 5px;
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
   }
 }
 

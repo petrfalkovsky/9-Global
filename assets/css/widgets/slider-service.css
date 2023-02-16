@@ -5,7 +5,7 @@
   }
   
   #mobile-slider-service p {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: var(--typo-control-font-family-nunito);
     margin: 0 0 0px 0;
     font-size: 12px;
     line-height: 20px;
@@ -62,7 +62,7 @@
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    border: 1px solid #e72e20;
+    border: 1px solid var(--nine-global-color-primary);
   }
   
   #mobile-slider-service .carousel-indicators {

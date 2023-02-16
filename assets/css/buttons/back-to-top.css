@@ -8,7 +8,7 @@
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #e72e20;
+    background: var(--nine-global-color-primary);
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -17,13 +17,13 @@
   
   .back-to-top i {
     font-size: 24px;
-    color: #fff;
+    color: var(--nine-global-color-background-light);
     line-height: 0;
   }
   
   .back-to-top:hover {
-    background: #6bc1e9;
-    color: #fff;
+    background: var(--nine-global-color-primary);
+    color: var(--nine-global-color-background-light);
   }
   
   .back-to-top.active {
