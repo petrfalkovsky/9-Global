@@ -62,10 +62,11 @@
   --------------------------------------------------------------*/
 body {
   font-family: var(--typo-control-font-family-nunito);
+  background-color: var(--nine-global-color-background-light);
 }
 
 p {
-  font-family: var(--typo-control-font-family-nunito);
+  font-family: var(--typo-control-font-family-bert);
   margin: 0 0 10px 0;
   font-size: var(--typo-control-size-s16-font-size);
   font-weight: 400;

@@ -23,20 +23,6 @@
   padding-top: 80px;
 }
 
-#map .btn-link {
-  color: transparent !important;
-  border-color: none;
-}
-
-#map .btn-link:hover {
-  color: transparent !important;
-  border-color: none;
-}
-
-#map .btn {
-  color: transparent !important;
-  border-color: aqua;
-}
 #map .description {
   max-width: 600px;
   margin: 0 auto;

@@ -13,74 +13,25 @@
 @import "pages/contact.css";
 @import "pages/docs.css";
 @import "../../theme/theme.css";
-@import "../../touch.blocks/header/__navbar/__burger/header__navbar-burger_animated.css";
 @import "../../common.blocks/header/__navbar/heander__navbar_focused.css";
+@import "../../common.blocks/hero-main/hero-main.css";
+@import "../../common.blocks/button/button.css";
+@import "../../common.blocks/button/_focused/button_focused.css";
 
+@import "../../desktop.blocks/button/button.css";
 
+@import "../../touch.blocks/header/__navbar/__burger/header__navbar-burger_animated.css";
+@import "../../touch.blocks/button/button.css";
+@import "../../touch.blocks/button/_focused/button_focused.css";
+@import "../../touch.blocks/button/_hide/buttun_hide.css";
 
-hr {
-  border: none; /* Убираем границу */
-  background-color: black; /* Цвет линии */
-  color: black; /* Цвет линии для IE6-7 */
-  height: 0px; /* Толщина линии */
+/* hr {
+  border: none; 
+  background-color: black;
+  color: black;
+  height: 0px;
   border: 1px solid black;
-}
-
-.btn-active button {
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  display: inline-block;
-  padding: 15px 35px 15px 35px;
-  border-radius: 50px;
-  transition: 0.5s;
-  color: var(--nine-global-color-background-light);
-  background: var(--nine-global-color-primary);
-  border: 2px solid var(--nine-global-color-background-light);
-  min-width: 100%;
-}
-
-.btn-active-hidden button {
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  display: inline-block;
-  padding: 15px 35px 15px 35px;
-  border-radius: 5px;
-  transition: 0.5s;
-  color: var(--nine-global-color-background-light);
-  background: var(--nine-global-color-primary);
-  border: 2px solid var(--nine-global-color-background-light);
-  min-width: 100%;
-}
-
-.btn-active-hidden:hover button {
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  display: inline-block;
-  padding: 15px 35px 15px 35px;
-  border-radius: 5px;
-  transition: 0.5s;
-  color: var(--nine-global-color-primary);
-  background: var(--nine-global-color-background-light);
-  border: 2px solid var(--nine-global-color-primary);
-  min-width: 100%;
-}
-
-.btn-active:hover button {
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  display: inline-block;
-  padding: 15px 35px 15px 35px;
-  border-radius: 50px;
-  transition: 0.5s;
-  color: var(--nine-global-color-primary);
-  background: var(--nine-global-color-background-light);
-  border: 2px solid var(--nine-global-color-primary);
-  min-width: 100%;
-}
+} */
 
 .container {
   max-width: 1366px;
@@ -264,36 +215,9 @@ section {
   color: var(--nine-global-color-background-light);
 }
 
-.cta .cta-btn {
-  font-family: "Nunito", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 40px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid var(--nine-global-color-background-light);
-  color: var(--nine-global-color-background-light);
-}
-
-.cta .cta-btn:hover {
-  background: var(--nine-global-color-primary);
-  border: 2px solid var(--nine-global-color-primary);
-}
-
 @media (max-width: 1024px) {
   .cta {
     background-attachment: scroll;
-  }
-}
-
-@media (min-width: 769px) {
-  .cta .cta-btn-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
   }
 }
 
@@ -604,7 +528,7 @@ section {
   background: var(--nine-global-color-primary);
   color: var(--nine-global-color-background-light);
   border: 2px solid var(--nine-global-color-background-light);
-} 
+}
 
 @media (min-width: 769px) {
   #cookie_note.show {
@@ -624,7 +548,8 @@ section {
     margin-top: 20px;
     padding: 11px 92px;
     border-radius: 5px;
-    left: 50%; transform: translate(-50%, 0)
+    left: 50%;
+    transform: translate(-50%, 0);
   }
   #cookie_note p {
     text-align: center;
@@ -641,6 +566,7 @@ section {
     margin-top: 20px;
     width: 90%;
     border-radius: 5px;
-    left: 50%; transform: translate(-50%, 0)
+    left: 50%;
+    transform: translate(-50%, 0);
   }
 }

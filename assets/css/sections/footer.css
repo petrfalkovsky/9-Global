@@ -51,7 +51,6 @@
   text-align: center;
 }
 
-
 #form-footer input {
   border: 0;
   border: 1px solid var(--nine-global-color-background-dark);
@@ -68,7 +67,7 @@
 * управление третьим полем e-mail ))
 */
 #form-footer input:focus {
-   box-shadow: none;
+  box-shadow: none;
   border-color: var(--nine-global-color-primary);
 }
 
@@ -76,39 +75,10 @@
 *
 голубая тень в активном инпуте
 */
-input[type=text]:focus, textarea:focus {
+input[type="text"]:focus,
+textarea:focus {
   box-shadow: 1px solid rgba(255, 255, 255, 0.5);
   border: 1px solid rgba(255, 255, 255, 0/5);
-}
-
-#footer .btn-active button {
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  display: inline-block;
-  padding: 15px 35px 15px 35px;
-  border-radius: 50px;
-  transition: 0.5s;
-  color: var(--nine-global-color-background-light);
-  background: var(--nine-global-color-primary);
-  border: 2px solid var(--nine-global-color-background-light);
-  min-width: 203px;
-  margin-top: 20px;
-}
-
-#footer .btn-active:hover button {
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  display: inline-block;
-  padding: 15px 35px 15px 35px;
-  border-radius: 50px;
-  transition: 0.5s;
-  color: var(--nine-global-color-primary);
-  background: var(--nine-global-color-background-light);
-  border: 2px solid var(--nine-global-color-primary);
-  min-width: 203px;
-  margin-top: 20px;
 }
 
 #footer input[type="submit"] {
@@ -140,7 +110,7 @@ input[type=text]:focus, textarea:focus {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: var(--typo-control-font-family-nunito);
   color: #5e5e5e;
 }
 
@@ -276,20 +246,6 @@ input[type=text]:focus, textarea:focus {
     background: var(--nine-global-color-background-light);
   }
 
-  #footer .btn-active button {
-    border-radius: 5px;
-    font-size: 16px;
-    padding: 10px 84px 11px 84px;
-    height: 50px;
-  }
-
-  #footer .btn-active:hover button {
-    border-radius: 5px;
-    font-size: 16px;
-    padding: 10px 84px 11px 84px;
-    height: 50px;
-  }
-
   #footer .footer-top {
     padding: 24px 0 50px 0;
   }
@@ -298,10 +254,5 @@ input[type=text]:focus, textarea:focus {
 @media (max-width: 575px) {
   #footer .footer img {
     width: 80%;
-  }
-
-  #footer .btn-send {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
   }
 }

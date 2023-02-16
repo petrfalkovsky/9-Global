@@ -1,0 +1,24 @@
+.btn-active button {
+  font-family: var(--typo-control-font-family-nunito);
+  font-weight: 600;
+  font-size: 18px;
+  display: inline-block;
+  padding: 15px 35px 15px 35px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: var(--nine-global-color-background-light);
+  background: var(--nine-global-color-primary);
+  border: 2px solid var(--nine-global-color-background-light);
+  min-width: 100%;
+}
+
+#footer .btn-active button {
+  border: 2px solid var(--nine-global-color-background-light);
+  min-width: 203px;
+  margin-top: 20px;
+}
+
+#order .btn-active {
+  
+  margin-top: 10px;
+}
