@@ -1,52 +1,9 @@
-/*--------------------------------------------------------------
-  # Back to top button
-  --------------------------------------------------------------*/
-  .back-to-top {
-    position: fixed;
-    visibility: hidden;
-    opacity: 0;
-    right: 15px;
-    bottom: 15px;
-    z-index: 999;
-    background: var(--nine-global-color-primary);
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    transition: all 0.4s;
-  }
-  
-  .back-to-top i {
-    font-size: 24px;
-    color: var(--nine-global-color-background-light);
-    line-height: 0;
-  }
-  
-  .back-to-top:hover {
-    background: var(--nine-global-color-primary);
-    color: var(--nine-global-color-background-light);
-  }
-  
-  .back-to-top.active {
-    visibility: visible;
-    opacity: 1;
-  }
-
-
-/*   -- */
-
-  .rounded-link-button {
-    position: fixed;
-    right: 15px;
-    bottom: 15px;
-    z-index: 999;
-    background: var(--nine-global-color-primary);
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    transition: all 0.4s;
-  }
-  
-  .rounded-link-button:hover {
-    background-color: #0069d9;
-  }
-  
+.rounded-link-button {
+  transition: all 0.5s;
+  color: var(--nine-global-color-background-light);
+  background: var(--nine-global-color-primary);
+  border-radius: 50px;
+  border: 2px solid var(--nine-global-color-background-light);
+  width: 40px;
+  height: 40px;  
+}
