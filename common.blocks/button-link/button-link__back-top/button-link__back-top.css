@@ -1,8 +1,9 @@
 .rounded-link-button {
   position: fixed;
   right: 15px;
-  bottom: 15px;
+  bottom: 35px;
   z-index: 999;
+  opacity: 0.5;
 }
 
 .arrow-up {
