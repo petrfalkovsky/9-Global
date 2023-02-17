@@ -1,6 +1,6 @@
 export function backToTop() {
     "use strict";
-    const target = document.getElementById("our-service");
+    const target = document.getElementById("footer");
     const link = document.getElementById("back-to-top");
     link.style.display = "none";
     window.addEventListener("scroll", function () {

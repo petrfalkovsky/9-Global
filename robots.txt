@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /
+
+// когда откроем сайт, сохранить эти участки страницы закрытыми от индексации,
+// чтобы дублированный контект из мобильной версии не помешал высокому ранжированию сайта в поисковой системе
+
+
+// примечание: в дополнение к директиве "Disallow" используется html-тег <noindex></noindex>
+// для инструкций роботу не индексивароть дублированный контент на странице
+Disallow: /#mobile-slider
+Disallow: /#our-service-block-noindex
+Disallow: /#shows-mobile
+Disallow: /#shows-mobile
+Disallow: /#shows-mobile
+Disallow: /#shows-mobile

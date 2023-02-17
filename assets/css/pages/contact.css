@@ -8,6 +8,10 @@
   text-align: start;
 }
 
+#column-2 h2, ul {
+  min-width: 483px;
+}
+
 #hero-contact h1 {
   font-family: var(--typo-control-font-family-nunito-bold);
   font-size: 28px;
@@ -154,42 +158,3 @@
   }
 }
 
-/* hide show small mobile screens */
-
-/* hide */
-
-@media (min-width: 360.1px) {
-  #map-contact-mobile .mobile-hide-360 {
-    display: none;
-  }
-}
-
-@media (min-width: 445.1px) {
-  #map-contact-mobile .mobile-hide-445 {
-    display: none;
-  }
-}
-
-@media (min-width: 560.1px) {
-  #map-contact-mobile .mobile-hide-560 {
-    display: none;
-  }
-}
-
-@media (max-width: 560px) {
-  #map-contact-mobile .mobile-hide-561 {
-    display: none;
-  }
-}
-
-@media (max-width: 445px) {
-  #map-contact-mobile .mobile-hide-560 {
-    display: none;
-  }
-}
-
-@media (max-width: 360px) {
-  #map-contact-mobile .mobile-hide-445 {
-    display: none;
-  }
-}
