@@ -14,3 +14,8 @@
   height: 20px;
   background-position: center;
 }
+
+.id-div-hidden {
+  position: relative;
+  bottom: 1800px;
+}
