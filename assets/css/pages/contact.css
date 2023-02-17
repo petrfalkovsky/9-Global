@@ -8,10 +8,6 @@
   text-align: start;
 }
 
-#column-2 h2, ul {
-  min-width: 483px;
-}
-
 #hero-contact h1 {
   font-family: var(--typo-control-font-family-nunito-bold);
   font-size: 28px;

@@ -10,6 +10,5 @@ Disallow: /
 Disallow: /#mobile-slider
 Disallow: /#our-service-block-noindex
 Disallow: /#shows-mobile
-Disallow: /#shows-mobile
-Disallow: /#shows-mobile
-Disallow: /#shows-mobile
+Disallow: /#awards-block-id
+Disallow: /contact.html#column-2
