@@ -228,14 +228,5 @@ window.addEventListener("load", () => {
 const year = new Date().getUTCFullYear();
 document.getElementById("year").innerHTML = year;
 
-/*
- * Smooth scroll on button click
- */
-function scrollToSection(sectionId) {
-  const section = document.getElementById(sectionId);
-  section.scrollIntoView({
-    behavior: "smooth",
-  });
-}
 copyright();
 backToTop();
