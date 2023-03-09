@@ -5,11 +5,29 @@ Sitemap: https://9global.net/sitemap.xml
 
 User-agent: Yandex
 Disallow: /thanks-page.html
+Disallow: /thanks-page
 Disallow: /*?
+# // примечание: в дополнение к директиве "Disallow" используется html-тег <noindex></noindex>
+# // для инструкций роботу не индексивароть дублированный контент на странице
+Disallow: /#mobile-slider
+Disallow: /#our-service-block-noindex
+Disallow: /#shows-mobile
+Disallow: /#awards-block-id
+Disallow: /contact.html#column-2
+
 
 User-agent: Googlebot
 Disallow: /thanks-page.html
+Disallow: /thanks-page
 Disallow: /*?
+# // примечание: в дополнение к директиве "Disallow" используется html-тег <noindex></noindex>
+# // для инструкций роботу не индексивароть дублированный контент на странице
+Disallow: /#mobile-slider
+Disallow: /#our-service-block-noindex
+Disallow: /#shows-mobile
+Disallow: /#awards-block-id
+Disallow: /contact.html#column-2
+
 
 Host: https://9global.net
 Sitemap: https://9global.net/sitemap.xml
