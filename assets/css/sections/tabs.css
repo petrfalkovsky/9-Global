@@ -84,7 +84,7 @@
   }
 
   #tabs p {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: var(--typo-control-font-family-nunito);
     margin: 0 0 0px 0;
     font-size: 12px;
     line-height: 20px;

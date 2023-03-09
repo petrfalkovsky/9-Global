@@ -27,7 +27,6 @@
       gtag("js", new Date());
       gtag("config", "G-H81MTSTBP9");
     </script>
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -80,7 +79,7 @@
       id="header"
       class="fixed-top shadow-sm p-3 mb-5 bg-body rounded header-container-height">
       <div class="container d-flex">
-        <a href="index.html" class="logo me-auto col align-self-start"
+        <a href="/" class="col align-self-start"
           ><img src="assets/img/logo.svg" alt="" class="img-fluid"
         /></a>
         <nav id="navbar" class="navbar navbar-expand-lg bg-white">
@@ -108,18 +107,18 @@
                   <a class="nav-link scrollto" href="/">Главная</a>
                 </li>
                 <li>
-                  <a class="nav-link scrollto active-text" href="/services.html"
+                  <a class="nav-link scrollto active-text" href="/services"
                     >Услуги</a
                   >
                 </li>
                 <li>
-                  <a class="nav-link scrollto" href="/about.html">О компании</a>
+                  <a class="nav-link scrollto" href="/about">О компании</a>
                 </li>
                 <li>
-                  <a class="nav-link scrollto" href="/docs.html">Документы</a>
+                  <a class="nav-link scrollto" href="/docs">Документы</a>
                 </li>
                 <li>
-                  <a class="nav-link scrollto" href="/contact.html">Контакты</a>
+                  <a class="nav-link scrollto" href="/contact">Контакты</a>
                 </li>
               </ul>
             </div>
@@ -182,7 +181,11 @@
               type="hidden"
               name="_next"
               value="https://9global.netlify.app/" />
-            <button type="submit" class="send" btn-active>Отправить</button>
+            <div class="col-md-3 align-self-end">
+              <div class="text-center btn-active">
+                <button type="submit" class="scrollto">Отправить</button>
+              </div>
+            </div>
           </form>
         </div>
         <div class="order-img">
@@ -198,9 +201,10 @@
         <div class="service-main w-100">
           <div
             class="service-div row text-center d-block"
-            style="background: #fefefe">
+            style="background: var(--nine-global-color-background-light)">
             <p class="fs-3 text-center">
-              Сохранность <span style="color: #e72e20">груза</span>
+              Сохранность
+              <span style="color: var(--nine-global-color-primary)">груза</span>
             </p>
             <img src="/assets/img/service/safety.png" alt="" />
             <div class="img-div">
@@ -209,7 +213,7 @@
           </div>
           <div
             class="service-div row text-center d-block"
-            style="background: #fefefe">
+            style="background: var(--nine-global-color-background-light)">
             <p class="fs-3 text-center">
               Быстрая <span style="color: #e72e20">доставка</span>
             </p>
@@ -220,7 +224,8 @@
           </div>
           <div
             class="service-div row text-center d-block"
-            style="background: #fefefe">
+            HEAD
+            style="background: var(--nine-global-color-background-light)">
             <p class="fs-3 text-center">
               Поддержка <span style="color: #e72e20">клиентов</span>
             </p>
@@ -291,8 +296,10 @@
         </div>
         <div class="third-text">
           <h2>
-            Когда выбирают
-            <span style="color: #e72e20; font-weight: 600">9 Global?</span>
+            <span
+              style="color: var(--nine-global-color-primary); font-weight: 600"
+              >9 Global?</span
+            >
           </h2>
           <p>
             &bull; Когда вы ищете надежного партнера по складскому хранению,
@@ -312,7 +319,9 @@
         <div></div>
       </div>
     </section>
-    <footer id="footer" style="background: #f5f5f5">
+    <footer
+      id="footer"
+      style="background: var(--nine-global-color-background-dark)">
       <div id="copyright" class="container footer-bottom clearfix">
         <p class="copyright">
           © 2020-<span id="year"></span>
@@ -327,6 +336,17 @@
     </footer>
     <!-- End Footer -->
 
+    <!-- Back to top button -->
+    <div id="back-to-top-target-id" class="id-div-hidden"></div>
+    <div id="back-to-top">
+      <a
+        href="#"
+        class="rounded-link-button d-flex align-items-center justify-content-center"
+        ><i class="arrow-up"></i
+      ></a>
+    </div>
+    <!-- End Back to top button -->
+
     <!-- START Cookie-Alert -->
     <div id="cookie_note">
       <p>
@@ -338,8 +358,8 @@
 
     <script src="assets/js/cookies.js"></script>
     <script src="assets/js/select.js"></script>
-    <script src="assets/js/main.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="assets/js/main.js"></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->

@@ -1,0 +1,6 @@
+.rounded-link-button:hover {
+  color: var(--nine-global-color-primary);
+  background: var(--nine-global-color-background-light);
+  border: 2px solid var(--nine-global-color-primary);
+  opacity: 0.5;
+}

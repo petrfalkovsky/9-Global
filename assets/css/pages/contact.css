@@ -1,6 +1,6 @@
 #hero-contact .contact-info {
   padding: 50px 0px 0px 0px;
-  background: #fefefe;
+  background: var(--nine-global-color-background-light);
   height: 668px;
   max-width: 650px;
   box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.15);
@@ -9,31 +9,31 @@
 }
 
 #hero-contact h1 {
-  font-family: "Nunito Sans SemiBold", sans-serif;
+  font-family: var(--typo-control-font-family-nunito-bold);
   font-size: 28px;
   line-height: 58px;
 }
 
 #hero-contact h2 {
-  font-family: "Nunito Sans SemiBold", sans-serif;
+  font-family: var(--typo-control-font-family-nunito-bold);
   font-size: 40px;
   line-height: 60px;
 }
 
 #hero-contact h6 {
-  font-family: "Bert Sans", sans-serif;
+  font-family: var(--typo-control-font-family-bert);
   font-size: 20px;
   line-height: 26.38px;
 }
 
 #hero-contact p {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: var(--typo-control-font-family-nunito);
   font-size: 23px;
   line-height: 31.37px;
 }
 
 #hero-contact li {
-  font-family: "Bert Sans", sans-serif;
+  font-family: var(--typo-control-font-family-bert);
   font-size: 20px;
   line-height: 46.37px;
 }
@@ -102,13 +102,13 @@
   }
 
   #hero-contact h6 {
-    font-family: "Bert Sans", sans-serif;
+    font-family: var(--typo-control-font-family-bert);
     font-size: 16px;
     line-height: 26.38px;
   }
 
   #hero-contact p {
-    font-family: "Bert Sans", sans-serif;
+    font-family: var(--typo-control-font-family-bert);
     font-size: 16px;
     line-height: 22px;
   }
@@ -154,42 +154,3 @@
   }
 }
 
-/* hide show small mobile screens */
-
-/* hide */
-
-@media (min-width: 360.1px) {
-  #map-contact-mobile .mobile-hide-360 {
-    display: none;
-  }
-}
-
-@media (min-width: 445.1px) {
-  #map-contact-mobile .mobile-hide-445 {
-    display: none;
-  }
-}
-
-@media (min-width: 560.1px) {
-  #map-contact-mobile .mobile-hide-560 {
-    display: none;
-  }
-}
-
-@media (max-width: 560px) {
-  #map-contact-mobile .mobile-hide-561 {
-    display: none;
-  }
-}
-
-@media (max-width: 445px) {
-  #map-contact-mobile .mobile-hide-560 {
-    display: none;
-  }
-}
-
-@media (max-width: 360px) {
-  #map-contact-mobile .mobile-hide-445 {
-    display: none;
-  }
-}
