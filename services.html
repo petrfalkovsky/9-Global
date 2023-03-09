@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KNV3D85");
+    </script>
+    <!-- End Google Tag Manager -->
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -51,6 +65,15 @@
   </head>
 
   <body id="service-page">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-KNV3D85"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- Navbar -->
     <header
       id="header"
@@ -84,18 +107,18 @@
                   <a class="nav-link scrollto" href="/">Главная</a>
                 </li>
                 <li>
-                  <a class="nav-link scrollto active-text" href="/services.html"
+                  <a class="nav-link scrollto active-text" href="/services"
                     >Услуги</a
                   >
                 </li>
                 <li>
-                  <a class="nav-link scrollto" href="/about.html">О компании</a>
+                  <a class="nav-link scrollto" href="/about">О компании</a>
                 </li>
                 <li>
-                  <a class="nav-link scrollto" href="/docs.html">Документы</a>
+                  <a class="nav-link scrollto" href="/docs">Документы</a>
                 </li>
                 <li>
-                  <a class="nav-link scrollto" href="/contact.html">Контакты</a>
+                  <a class="nav-link scrollto" href="/contact">Контакты</a>
                 </li>
               </ul>
             </div>
@@ -158,11 +181,7 @@
               type="hidden"
               name="_next"
               value="https://9global.netlify.app/" />
-            <div class="d-flex justify-content-center justify-content-lg-start">
-              <div class="text-center btn-active">
-                <button type="submit">Отправить</button>
-              </div>
-            </div>
+            <button type="submit" class="send" btn-active>Отправить</button>
           </form>
         </div>
         <div class="order-img">
