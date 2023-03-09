@@ -28,7 +28,6 @@
       gtag("js", new Date());
       gtag("config", "G-H81MTSTBP9");
     </script>
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -132,7 +131,9 @@
           <div class="box-1">
             <h2>
               Спасибо! Ваша заявка <br />
-              <span style="color: #e72e20">успешно принята</span>
+              <span style="color: var(--nine-global-color-primary)"
+                >успешно принята</span
+              >
             </h2>
             <p>
               Мы приняли ваш запрос в обработку. Скоро мы свяжемся с вами для
@@ -167,7 +168,18 @@
     </footer>
     <!-- End Footer -->
 
-    <script src="assets/js/main.js"></script>
+    <!-- Back to top button -->
+    <div id="back-to-top-target-id" class="id-div-hidden"></div>
+    <div id="back-to-top">
+      <a
+        href="#"
+        class="rounded-link-button d-flex align-items-center justify-content-center"
+        ><i class="arrow-up"></i
+      ></a>
+    </div>
+    <!-- End Back to top button -->
+
+    <script type="module" src="assets/js/main.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

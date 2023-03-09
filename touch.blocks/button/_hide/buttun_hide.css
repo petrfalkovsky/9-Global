@@ -1,0 +1,11 @@
+@media (max-width: 731.98px) {
+  #calc-form .btn-active button {
+    display: none;
+  }
+}
+
+@media (min-width: 731.98px) {
+  #calc-form .new-row-btn {
+    display: none;
+  }
+}

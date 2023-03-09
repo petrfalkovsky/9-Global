@@ -14,18 +14,18 @@
   margin-bottom: 30px;
 }
 .submit-1 {
-  background: #e72e20;
+  background: var(--nine-global-color-primary);
   padding: 15px 35px;
   border-radius: 40px;
-  color: #fff;
-  border: 2px solid #FEFEFE;
+  color: var(--nine-global-color-background-light);
+  border: 2px solid var(--nine-global-color-background-light);
   text-decoration: none !important;
   font-weight: 600;
 }
 .submit-1:hover {
-  background: #fff;
-  color: #e72e20;
-  border: 2px solid #e72e20;
+  background: var(--nine-global-color-background-light);
+  color: var(--nine-global-color-primary);
+  border: 2px solid var(--nine-global-color-primary);
 }
 .submit-2 {
   display: none;
@@ -69,19 +69,19 @@
 
   .submit-2 {
     display: block;
-    background: #e72e20;
+    background: var(--nine-global-color-primary);
     margin: auto;
     padding: 15px 39px;
     border-radius: 5px;
-    color: #fff;
-    border: 2px solid #fff;
+    color: var(--nine-global-color-background-light);
+    border: 2px solid var(--nine-global-color-background-light);
     font-weight: 600;
   }
 
   .submit-2:hover {
-    background: #fff;
-    color: #e72e20;
-    border: 2px solid #e72e20;
+    background: var(--nine-global-color-background-light);
+    color: var(--nine-global-color-primary);
+    border: 2px solid var(--nine-global-color-primary);
   }
 }
 
@@ -106,19 +106,19 @@
   .submit-2 {
     display: block;
     width: 100%;
-    background: #e72e20;
+    background: var(--nine-global-color-primary);
     margin: auto;
     padding: 15px 39px;
     border-radius: 5px;
-    color: #fff;
-    border: 2px solid #fff;
+    color: var(--nine-global-color-background-light);
+    border: 2px solid var(--nine-global-color-background-light);
     font-weight: 600;
   }
 
   .submit-2:hover {
-    background: #fff;
-    color: #e72e20;
-    border: 2px solid #e72e20;
+    background: var(--nine-global-color-background-light);
+    color: var(--nine-global-color-primary);
+    border: 2px solid var(--nine-global-color-primary);
   }
 
   .container h2 {
