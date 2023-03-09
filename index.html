@@ -80,7 +80,7 @@
       id="header"
       class="fixed-top shadow-sm p-3 mb-5 bg-body rounded header-container-height">
       <div class="container d-flex align-items-center">
-        <a href="index.html" class="logo me-auto col align-self-start"
+        <a href="/" class="logo me-auto col align-self-start"
           ><img src="assets/img/logo.svg" alt="" class="img-fluid"
         /></a>
         <nav id="navbar" class="navbar navbar-expand-lg bg-white">
@@ -108,16 +108,16 @@
                   <a class="nav-link scrollto active-text" href="/">Главная</a>
                 </li>
                 <li>
-                  <a class="nav-link scrollto" href="/services.html">Услуги</a>
+                  <a class="nav-link scrollto" href="/services">Услуги</a>
                 </li>
                 <li>
-                  <a class="nav-link scrollto" href="/about.html">О компании</a>
+                  <a class="nav-link scrollto" href="/about">О компании</a>
                 </li>
                 <li>
-                  <a class="nav-link scrollto" href="/docs.html">Документы</a>
+                  <a class="nav-link scrollto" href="/docs">Документы</a>
                 </li>
                 <li>
-                  <a class="nav-link scrollto" href="/contact.html">Контакты</a>
+                  <a class="nav-link scrollto" href="/contact">Контакты</a>
                 </li>
               </ul>
             </div>
@@ -184,6 +184,17 @@
                 </button>
               </div>
             </div>
+
+            <!-- <script>
+              function scrollToSection(sectionId) {
+                // Находим секцию по айди
+                const section = document.getElementById(sectionId);
+                // Скроллим к секции
+                section.scrollIntoView({
+                  behavior: "smooth",
+                });
+              }
+            </script> -->
             <div class="space-between shows-desktop">
               <div class="section-title p-2">
                 <h3 class="active-text">200+</h3>
@@ -221,7 +232,7 @@
       <div class="row">
         <div class="offset-4 mx-auto front-2">
           <form
-            action="https://formsubmit.co/9.loballogistics@gmail.com"
+            action="https://formsubmit.co/6c7703e77b79f01dd33c09c236f70173"
             method="POST"
             class="row g-3 needs-validation php-email-form shadows"
             novalidate>
@@ -750,7 +761,7 @@
                 </p>
                 <div class="d-flex align-items-stretch">
                   <form
-                    action="https://formsubmit.co/9.loballogistics@gmail.com"
+                    action="https://formsubmit.co/6c7703e77b79f01dd33c09c236f70173"
                     method="POST"
                     id="form-footer"
                     role="form"
@@ -831,6 +842,17 @@
     </footer>
     <!-- End Footer -->
 
+    <!-- Back to top button -->
+    <div id="back-to-top-target-id" class="id-div-hidden"></div>
+    <div id="back-to-top">
+      <a
+        href="#"
+        class="rounded-link-button d-flex align-items-center justify-content-center"
+        ><i class="arrow-up"></i
+      ></a>
+    </div>
+    <!-- End Back to top button -->
+
     <!-- Cookie-Alert -->
     <div id="cookie_note">
       <p>
@@ -841,8 +863,10 @@
     <!-- END Cookie-Alert -->
 
     <script src="assets/js/cookies.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script type="module" src="assets/js/main.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- По наджатию на кнопку скрол к нужному блоку -->
+    <script src="common.blocks/scrollto/scrollto.js"></script>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>

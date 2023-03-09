@@ -15,6 +15,14 @@
   #hero .img-shows-on-desktop {
     display: none;
   }
+
+  #hero .active-text {
+    font-family: var(--typo-control-font-family-nunito);
+    font-size: 30px;
+    line-height: 55px;
+    color: rgb(231, 46, 32);
+    margin-bottom: -15px;
+  }
 }
 
 @media (min-width: 600.1px) {
@@ -22,13 +30,7 @@
     display: none;
   }
 
-  #hero .active-text {
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 30px;
-    line-height: 55px;
-    color: rgb(231, 46, 32);
-    margin-bottom: -15px;
-  }
+
 
   #hero .shows-mobile p {
     padding-bottom: 0px;

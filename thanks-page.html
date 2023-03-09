@@ -28,7 +28,6 @@
       gtag("js", new Date());
       gtag("config", "G-H81MTSTBP9");
     </script>
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -78,7 +77,7 @@
       id="header"
       class="fixed-top shadow-sm p-3 mb-5 bg-body rounded header-container-height">
       <div class="container d-flex align-items-center">
-        <a href="index.html" class="logo me-auto col align-self-start"
+        <a href="/" class="logo me-auto col align-self-start"
           ><img src="assets/img/logo.svg" alt="" class="img-fluid"
         /></a>
         <nav id="navbar" class="navbar navbar-expand-lg bg-white">
@@ -106,16 +105,16 @@
                   <a class="nav-link scrollto active-text" href="/">Главная</a>
                 </li>
                 <li>
-                  <a class="nav-link scrollto" href="/services.html">Услуги</a>
+                  <a class="nav-link scrollto" href="/services">Услуги</a>
                 </li>
                 <li>
-                  <a class="nav-link scrollto" href="/about.html">О компании</a>
+                  <a class="nav-link scrollto" href="/about">О компании</a>
                 </li>
                 <li>
-                  <a class="nav-link scrollto" href="/docs.html">Документы</a>
+                  <a class="nav-link scrollto" href="/docs">Документы</a>
                 </li>
                 <li>
-                  <a class="nav-link scrollto" href="/contact.html">Контакты</a>
+                  <a class="nav-link scrollto" href="/contact">Контакты</a>
                 </li>
               </ul>
             </div>
@@ -132,7 +131,9 @@
           <div class="box-1">
             <h2>
               Спасибо! Ваша заявка <br />
-              <span style="color: #e72e20">успешно принята</span>
+              <span style="color: var(--nine-global-color-primary)"
+                >успешно принята</span
+              >
             </h2>
             <p>
               Мы приняли ваш запрос в обработку. Скоро мы свяжемся с вами для
@@ -167,7 +168,18 @@
     </footer>
     <!-- End Footer -->
 
-    <script src="assets/js/main.js"></script>
+    <!-- Back to top button -->
+    <div id="back-to-top-target-id" class="id-div-hidden"></div>
+    <div id="back-to-top">
+      <a
+        href="#"
+        class="rounded-link-button d-flex align-items-center justify-content-center"
+        ><i class="arrow-up"></i
+      ></a>
+    </div>
+    <!-- End Back to top button -->
+
+    <script type="module" src="assets/js/main.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

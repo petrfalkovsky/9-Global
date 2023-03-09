@@ -31,3 +31,5 @@ Disallow: /contact.html#column-2
 
 Host: https://9global.net
 Sitemap: https://9global.net/sitemap.xml
+
+

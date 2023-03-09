@@ -1,0 +1,10 @@
+.btn-active:hover button {
+  color: var(--nine-global-color-primary);
+  background: var(--nine-global-color-background-light);
+  border: 2px solid var(--nine-global-color-primary);
+  min-width: 100%;
+}
+
+#footer .btn-active:hover button {
+  border: 2px solid var(--nine-global-color-primary);
+}
