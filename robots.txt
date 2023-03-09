@@ -5,10 +5,12 @@ Sitemap: https://9global.net/sitemap.xml
 
 User-agent: Yandex
 Disallow: /thanks-page.html
+Disallow: /thanks-page
 Disallow: /*?
 
 User-agent: Googlebot
 Disallow: /thanks-page.html
+Disallow: /thanks-page
 Disallow: /*?
 
 Host: https://9global.net
