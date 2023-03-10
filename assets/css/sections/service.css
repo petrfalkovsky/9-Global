@@ -21,11 +21,7 @@
 }
 
 #our-service .text-description {
-  padding-left: 50px;
-}
-
-#our-service .desktop-head {
-  padding-left: 22px;
+  padding-left: 26px;
 }
 
 @media (max-width: 768px) {
