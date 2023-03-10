@@ -8,3 +8,8 @@
 #footer .btn-active:hover button {
   border: 2px solid var(--nine-global-color-primary);
 }
+
+#our-service .btn-active {
+  max-width: 240px;
+  align-items: end;
+}
