@@ -1,9 +1,9 @@
 @media (min-width: 768.1px) {
-    #tabs .calc-white-container {
-        padding: 40px;
-        width: 435px;
-        height: 430px;
-      }
+  #tabs .calc-white-container {
+    padding: 40px;
+    width: 435px;
+    height: 430px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -87,8 +87,9 @@
     font-family: var(--typo-control-font-family-nunito);
     margin: 0 0 0px 0;
     font-size: 12px;
-    line-height: 20px;
+    line-height: 16px;
     color: #000000;
+    /* min-width: 13.2rem; */
   }
 
   #calc h3 {
@@ -139,8 +140,6 @@
   #tabs .calc-img-background-bottom {
     display: none;
   }
-
-
 }
 
 @media (max-width: 768px) {
