@@ -22,7 +22,8 @@
   width: 38%;
   background: var(--nine-global-color-background-dark);
   font-family: var(--typo-control-font-family-nunito);
-  padding: 35px 35px;
+  padding-right: 35px;
+  padding-top: 35px;
   height: 100%;
   border-radius: 50px;
 }
@@ -291,7 +292,7 @@
   }
 
   #service-page section:nth-child(3) {
-    padding-top: 80px;
+    padding-top: 100px;
   }
 
   .service-main {
@@ -399,7 +400,7 @@
   }
 
   #service-page section:nth-child(3) {
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .first-text h2 {
     font-size: 50px;
@@ -451,16 +452,28 @@
   }
 
   #service-page section:nth-child(3) {
-    padding: 60px 0px;
+    padding: 100px 0px;
   }
 
   #order {
     width: 100%;
     background: var(--nine-global-color-background-light);
+    padding: 35px;
   }
 
   .order-img img {
     display: none;
+  }
+
+  @media (min-width: 768px) {
+    .col-md-3 {
+      width: 100% !important;
+    }
+
+    .btn-active {
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
   }
 
   .form {
@@ -607,13 +620,13 @@
   }
 
   #service-page section:nth-child(3) {
-    padding: 60px 0px;
+    padding: 100px 0px;
   }
 
   #order {
     width: 100%;
     background: var(--nine-global-color-background-light);
-    padding: 35px 0px;
+    padding: 35px;
   }
 
   .order-img img {
@@ -767,13 +780,13 @@
   }
 
   #service-page section:nth-child(3) {
-    padding: 60px 0px;
+    padding: 100px 0px;
   }
 
   #order {
     width: 100%;
     background: var(--nine-global-color-background-light);
-    padding: 35px 0px;
+    padding: 35px;
   }
 
   .order-img img {
@@ -845,7 +858,8 @@
     text-align: center;
   }
 
-  .service-main {
+  .service-main,
+  .first-text {
     display: none;
   }
 

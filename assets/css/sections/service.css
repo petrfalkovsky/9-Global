@@ -8,7 +8,6 @@
 }
 
 #calc h3 {
-
   font-family: var(--typo-control-font-family-nunito-bold);
   margin: 0 0 10px 0;
   font-size: 30px;
@@ -18,17 +17,18 @@
 }
 
 #calc .head-services-container {
-width: 100%;
+  width: 100%;
+}
+
+#our-service .text-description {
+  padding-left: 26px;
 }
 
 @media (max-width: 768px) {
-
   #calc .calc-img img {
     width: 70%;
   }
 }
-
-
 
 /* 
 *блок скрывается только на размерах меньше 1200px 
