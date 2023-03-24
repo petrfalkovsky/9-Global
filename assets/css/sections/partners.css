@@ -69,6 +69,10 @@
   margin: 15px;
   border-radius: 20px;
 }
+
+.child-box:hover {
+  cursor: pointer;
+}
 /* 
     * чтобы изображения были единого формата, нужно исходники тоже привести в единую размерную сетку 
 */
@@ -78,6 +82,11 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: transform 0.3s ease-out;
+}
+
+.child-box:hover img {
+  transform: translate(-50%, -50%) scale(1.2);
 }
 
 #swiper .container {
