@@ -74,6 +74,7 @@
   cursor: pointer;
   box-shadow: 0 10px 24px 10px rgba(93, 153, 153, 0.1);
 }
+
 /* 
     * чтобы изображения были единого формата, нужно исходники тоже привести в единую размерную сетку 
 */
@@ -84,6 +85,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
   transition: transform 0.3s ease-out;
+}
+
+.hide-partner-tab-mobile .child-box img {
+  max-width: 60px;
 }
 
 .child-box:hover img {
