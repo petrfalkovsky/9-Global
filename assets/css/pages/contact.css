@@ -2,7 +2,6 @@
   padding: 50px 0px 0px 0px;
   background: var(--nine-global-color-background-light);
   height: 668px;
-  max-width: 650px;
   box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.15);
   border-radius: 50px;
   text-align: start;
@@ -58,7 +57,6 @@
   width: 90%;
   top: 50%;
   left: 50%;
-  /* transform: translate(-50%, -50%); */
 }
 
 #column-2 .contact-info-block-2 {
@@ -68,6 +66,10 @@
 
 #map-contact-desktop .container {
   padding-bottom: 40px;
+}
+
+#hero-contact img {
+  max-height: 325px;
 }
 
 @media (max-width: 992px) {
@@ -115,11 +117,17 @@
 
   #hero-contact li {
     font-size: 16px;
-    line-height: 21px;
+    line-height: 30px;
   }
 
   #block-apear-ipad img {
     width: 246px;
+  }
+}
+
+@media (max-width: 498px) {
+  #second-column {
+    display: none;
   }
 }
 
@@ -150,7 +158,6 @@
     padding: 0px 0px 50px 0px;
   }
   .block-apear-ipad h2 {
-    padding: 50px 0px 0px 0px;
+    padding: 50px 0px 20px 0px;
   }
 }
-
