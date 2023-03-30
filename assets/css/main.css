@@ -29,6 +29,12 @@
 @import "../../touch.blocks/button/_focused/button_focused.css";
 @import "../../touch.blocks/button/_hide/buttun_hide.css";
 
+@import "../../assets/js/changeText.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -445,7 +451,7 @@ section {
   font-size: 13px;
 }
 
-.contact .php-email-form .error-message {
+.contact .php-email-form .error-service {
   display: none;
   color: var(--nine-global-color-background-light);
   background: #ed3c0d;
@@ -454,11 +460,11 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-service br + br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+.contact .php-email-form .sent-service {
   display: none;
   color: var(--nine-global-color-background-light);
   background: #18d26e;

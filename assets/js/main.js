@@ -72,7 +72,7 @@ const scrollto = (el) => {
   let elementPos = select(el).offsetTop;
   window.scrollTo({
     top: elementPos - offset,
-    behavior: "smooth",
+    behavior: "smooth"
   });
 };
 
@@ -189,7 +189,7 @@ if (skilsContent) {
       progress.forEach((el) => {
         el.style.width = el.getAttribute("aria-valuenow") + "%";
       });
-    },
+    }
   });
 }
 
@@ -200,7 +200,7 @@ window.addEventListener("load", () => {
   let portfolioContainer = select(".portfolio-container");
   if (portfolioContainer) {
     let portfolioIsotope = new Isotope(portfolioContainer, {
-      itemSelector: ".portfolio-item",
+      itemSelector: ".portfolio-item"
     });
 
     let portfolioFilters = select("#portfolio-flters li", true);
@@ -216,7 +216,7 @@ window.addEventListener("load", () => {
         this.classList.add("filter-active");
 
         portfolioIsotope.arrange({
-          filter: this.getAttribute("data-filter"),
+          filter: this.getAttribute("data-filter")
         });
         portfolioIsotope.on("arrangeComplete", function () {
           AOS.refresh();
