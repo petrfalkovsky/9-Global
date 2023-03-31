@@ -1,11 +1,6 @@
 import { copyright } from "../../common.blocks/copyright/copyright.js";
 import { backToTop } from "../../common.blocks/button-link/button-link__back-top/button-link__back-top.js";
 
-var childBox = document.querySelector(".child-box");
-childBox.addEventListener("click", function () {
-  // Здесь можно написать код, который выполнится при клике на блок
-});
-
 /*
  * Easy selector helper function
  */
