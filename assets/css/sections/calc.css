@@ -208,6 +208,10 @@
   color: #000000;
 }
 
+#tabs p {
+  min-height: 82px;
+}
+
 #calc .active-text {
   color: var(--nine-global-color-primary);
 }
@@ -232,6 +236,7 @@
   margin-top: auto;
   margin-bottom: auto;
   height: 50%;
+  min-width: 120px;
 }
 
 #calc .frame-position {
@@ -284,6 +289,10 @@
   #calc h1 {
     font-size: 28px;
     line-height: 36px;
+  }
+
+  #calc h2 {
+    min-width: 100px;
   }
 
   #calc h3 {

@@ -71,5 +71,11 @@
 "transportCars22":".transportCars22",
 "transportCarsDesc11":".transportCarsDesc11",
 "transportCarsDesc12":".transportCarsDesc12",
+"customs1": ".customs1",
+"operations1": ".operations1",
+"custOpDesc1": ".custOpDesc1",
+"customs2": ".customs2",
+"operations2": ".operations2",
+"custOpDesc2": ".custOpDesc2",
 "inputs":"[data-placeholder]"
 }
