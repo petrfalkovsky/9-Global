@@ -16,9 +16,9 @@ const dictionary = {
     activeClients2: "Активных клиентов",
     sucOperations2: "Успешных перевозок",
     typesCargo2: "Типов Товаров",
-
     online: "Онлайн",
-    calc2: "калькулятор",
+    calc2: "Калькулятор",
+    calc3: "калькулятор",
     onlineCalc: "Онлайн калькулятор",
     calcDesc: "Рассчитайте стоимость доставки вашего груза с помощью нашего ",
     calcDesc2: "онлайн калькулятора:",
@@ -26,7 +26,33 @@ const dictionary = {
     fieldPhone: "Телефон",
     fieldWeight: "Вес, кг",
     fieldVolume: "Объём, м³",
-    fieldData: "Данные о грузе"
+    fieldData: "Данные о грузе",
+    fieldName2: "Your Name",
+    fieldPhone2: "Your Phone",
+    fieldEmail2: "Your e-mail",
+    fieldWeight2: "0 kg",
+    fieldVolume2: "0 m³",
+    fieldData2: "Type of Cargo",
+    from2: "Country and City",
+    to2: "Country and City",
+
+    from: "Откуда",
+    to: "Куда",
+    send1: "Отправить",
+    send2: "Отправить",
+    send3: "Отправить"
+
+    // placeholder: "Ваше имя"
+    // sucOperations2: "Успешных перевозок",
+    // typesCargo2: "Типов Товаров",
+    // online: "Онлайн",
+    // calc2: "калькулятор",
+    // onlineCalc: "Онлайн калькулятор",
+    // calcDesc: "Рассчитайте стоимость доставки вашего груза с помощью нашего ",
+    // calcDesc2: "онлайн калькулятора:",
+    // fieldName: "Имя",
+    // fieldPhone: "Телефон",
+    // fieldWeight: "Вес, кг"
   },
   en: {
     navMain: "Home",
@@ -45,9 +71,9 @@ const dictionary = {
     activeClients2: "Active Clients",
     sucOperations2: "Succesful Operations",
     typesCargo2: "Types of cargo",
-
     online: "Online",
     calc2: "Calculator",
+    calc3: "calculator",
     onlineCalc: "Online-Calculator",
     calcDesc: "Calculate the shipping cost of your shipment with our ",
     calcDesc2: "online calculator:",
@@ -55,7 +81,33 @@ const dictionary = {
     fieldPhone: "Phone",
     fieldWeight: "Weight",
     fieldVolume: "Volume",
-    fieldData: "Cargo data"
+    fieldData: "Cargo data",
+    from: "From",
+    to: "To",
+
+    fieldName2: "Your Name",
+    fieldPhone2: "Your Phone",
+    fieldEmail2: "Your e-mail",
+    fieldWeight2: "0 kg",
+    fieldVolume2: "0 m³",
+    fieldData2: "Type of Cargo",
+    from2: "Country and City",
+    to2: "Country and City",
+    send1: "Send",
+    send2: "Send",
+    send3: "Send"
+
+    // placeholder: "Your name"
+    // sucOperations2: "Успешных перевозок",
+    // typesCargo2: "Типов Товаров",
+    // online: "Онлайн",
+    // calc2: "калькулятор",
+    // onlineCalc: "Онлайн калькулятор",
+    // calcDesc: "Рассчитайте стоимость доставки вашего груза с помощью нашего ",
+    // calcDesc2: "онлайн калькулятора:",
+    // fieldName: "Имя",
+    // fieldPhone: "Телефон",
+    // fieldWeight: "Вес, кг"
   }
 };
 
@@ -63,6 +115,13 @@ function setLanguage(language) {
   localStorage.setItem("language", language);
 
   const texts = dictionary[language];
+  const inputs = document.querySelectorAll("[data-placeholder]");
+  inputs.forEach((input) => {
+    const placeholder = input.getAttribute(`data-placeholder-${language}`);
+    if (placeholder) {
+      input.setAttribute("placeholder", placeholder);
+    }
+  });
 
   const navMain = document.querySelector(".navMain");
   const navService = document.querySelector(".navService");
@@ -82,6 +141,8 @@ function setLanguage(language) {
 
   const online = document.querySelector(".online");
   const calc2 = document.querySelector(".calc2");
+  const calc3 = document.querySelector(".calc3");
+
   const onlineCalc = document.querySelector(".onlineCalc");
   const calcDesc = document.querySelector(".calcDesc");
   const calcDesc2 = document.querySelector(".calcDesc2");
@@ -90,6 +151,12 @@ function setLanguage(language) {
   const fieldWeight = document.querySelector(".fieldWeight");
   const fieldVolume = document.querySelector(".fieldVolume");
   const fieldData = document.querySelector(".fieldData");
+  const from = document.querySelector(".from");
+  const to = document.querySelector(".to");
+
+  const send1 = document.querySelector(".send1");
+  const send2 = document.querySelector(".send2");
+  const send3 = document.querySelector(".send3");
 
   // const textContainer = document.querySelector(
   //   ".change-text-animated-container"
@@ -97,6 +164,14 @@ function setLanguage(language) {
 
   // Скрытие текущего текста
   // textContainer.classList.remove("show");
+
+  // функция для инпутов
+  inputs.forEach((input) => {
+    const placeholder = input.getAttribute(`data-placeholder-${language}`);
+    if (placeholder) {
+      input.setAttribute("placeholder", placeholder);
+    }
+  });
 
   // Изменение текста
   if (navMain) {
@@ -194,6 +269,90 @@ function setLanguage(language) {
 
   if (calc2) {
     calc2.textContent = texts.calc2;
+  }
+
+  if (calc3) {
+    calc3.textContent = texts.calc3;
+  }
+
+  if (from) {
+    from.textContent = texts.from;
+  }
+
+  if (to) {
+    to.textContent = texts.to;
+  }
+
+  if (send1) {
+    send1.textContent = texts.send1;
+  }
+
+  if (send2) {
+    send2.textContent = texts.send2;
+  }
+
+  if (send3) {
+    send3.textContent = texts.send3;
+  }
+
+  if (fieldData) {
+    fieldData.textContent = texts.fieldData;
+  }
+
+  if (fieldData) {
+    fieldData.textContent = texts.fieldData;
+  }
+
+  if (fieldData) {
+    fieldData.textContent = texts.fieldData;
+  }
+
+  if (fieldData) {
+    fieldData.textContent = texts.fieldData;
+  }
+
+  if (fieldData) {
+    fieldData.textContent = texts.fieldData;
+  }
+
+  if (fieldData) {
+    fieldData.textContent = texts.fieldData;
+  }
+
+  if (fieldData) {
+    fieldData.textContent = texts.fieldData;
+  }
+
+  if (fieldData) {
+    fieldData.textContent = texts.fieldData;
+  }
+
+  if (fieldData) {
+    fieldData.textContent = texts.fieldData;
+  }
+
+  if (fieldData) {
+    fieldData.textContent = texts.fieldData;
+  }
+
+  if (fieldData) {
+    fieldData.textContent = texts.fieldData;
+  }
+
+  if (fieldData) {
+    fieldData.textContent = texts.fieldData;
+  }
+
+  if (fieldData) {
+    fieldData.textContent = texts.fieldData;
+  }
+
+  if (fieldData) {
+    fieldData.textContent = texts.fieldData;
+  }
+
+  if (fieldData) {
+    fieldData.textContent = texts.fieldData;
   }
 
   if (fieldData) {

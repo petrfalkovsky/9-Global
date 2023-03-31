@@ -220,9 +220,10 @@
         <form action="https://formsubmit.co/6c7703e77b79f01dd33c09c236f70173" method="POST"
           class="row g-3 needs-validation php-email-form shadows" novalidate>
           <h4 class="text-uppercase active-text onlineCalc">Онлайн калькулятор</h4>
-          <h3 class="center online">
-            Онлайн <span class="active-text calc2">калькулятор</span>
+          <h3 class="center">
+            <span class="online">Онлайн</span> <span class="active-text calc3">калькулятор</span>
           </h3>
+
           <p class="center calcDesc">
             Рассчитайте стоимость доставки вашего груза с помощью нашего
             <span class="active-text calcDesc2">онлайн калькулятора:</span>
@@ -230,53 +231,57 @@
           <div class="row row-cols-5 row-padding">
             <div class="col">
               <label for="validationCustom01" class="form-label fieldName">Имя</label>
-              <input type="text" name="Имя" class="form-control" id="validationCustom01" placeholder="Ваше имя"
-                required />
+              <input type="text" name="Имя" class="form-control" id="validationCustom01" data-placeholder="Ваше имя"
+                data-placeholder-ru="Ваше имя" data-placeholder-en="Your name" required>
               <div class="valid-feedback">Looks good!</div>
             </div>
             <div class="col">
               <label for="validationCustom02" class="form-label fieldPhone">Телефон</label>
-              <input type="text" name="Телефон" class="form-control" id="validationCustom02" placeholder="Ваш номер"
-                required />
+              <input type="text" name="Телефон" class="form-control" id="validationCustom02"
+                data-placeholder="Ваш телефон" data-placeholder-ru="Ваш телефон" data-placeholder-en="Your phone number"
+                required>
               <div class="valid-feedback">Looks good!</div>
             </div>
             <div class="col">
               <label for="validationCustom02" class="form-label">E-mail</label>
-              <input type="text" name="E-Mail" class="form-control" id="validationCustom02" placeholder="Ваш e-mail"
-                required />
+              <input type="text" name="E-Mail" class="form-control" id="validationCustom02"
+                data-placeholder="Ваш телефон" data-placeholder-ru="Ваш E-mail" data-placeholder-en="Your E-mail"
+                required>
               <div class="valid-feedback">Looks good!</div>
             </div>
             <div class="col">
               <label for="validationCustom02" class="form-label fieldWeight">Вес, кг</label>
-              <input type="text" name="Вес" class="form-control" id="validationCustom02" placeholder="0 кг" required />
-              <div class="valid-feedback">Looks good!</div>
+              <input type="text" name="Вес" class="form-control" id="validationCustom02" data-placeholder="Вес"
+                data-placeholder-ru="0 кг" data-placeholder-en="0 kg" required>
             </div>
             <div class="col">
               <label for="validationCustom02" class="form-label fieldVolume">Объём, м³</label>
-              <input type="text" name="Объём_м³" class="form-control" id="validationCustom02" placeholder="0 м³"
-                required />
+              <input type="text" name="Объём_м³" class="form-control" id="validationCustom02"
+                data-placeholder="Ваш телефон" data-placeholder-ru="0 м³" data-placeholder-en="0 m³" required>
               <div class="valid-feedback">Looks good!</div>
             </div>
             <div class="col-md-3">
               <label for="validationCustom03" class="form-label fieldData">Данные о грузе</label>
-              <input type="text" name="Тип_груза" class="form-control" id="validationCustom03" placeholder="Тип груза"
-                required />
+              <input type="text" name="Тип_груза" class="form-control" id="validationCustom03"
+                data-placeholder="Ваш телефон" data-placeholder-ru="Тип груза" data-placeholder-en="Cargo type"
+                required>
               <div class="invalid-feedback">
                 Please provide a valid value.
               </div>
             </div>
             <div class="col-md-3">
-              <label for="validationCustom03" class="form-label">Откуда</label>
+              <label for="validationCustom03" class="form-label from">Откуда</label>
               <input type="text" name="Откуда" class="form-control" id="validationCustom03"
-                placeholder="Название страны и города" required />
+                data-placeholder="Ваш телефон" data-placeholder-ru="Страна и город"
+                data-placeholder-en="Country and City" required>
               <div class="invalid-feedback">
                 Please provide a valid value.
               </div>
             </div>
             <div class="col-md-3">
-              <label for="validationCustom05" class="form-label">Куда</label>
-              <input type="text" name="Куда" class="form-control" id="validationCustom05"
-                placeholder="Название страны и города" required />
+              <label for="validationCustom05" class="form-label to">Куда</label>
+              <input type="text" name="Куда" class="form-control" id="validationCustom05" data-placeholder="Ваш телефон"
+                data-placeholder-ru="Страна и город" data-placeholder-en="Country and City" required>
               <div class="invalid-feedback">
                 Please provide a valid value.
               </div>
@@ -288,13 +293,13 @@
             <input type="hidden" name="_next" value="https://9global.net/thanks-page" />
             <div class="col-md-3 align-self-end">
               <div class="text-center btn-active">
-                <button href="#about" class="scrollto">Отправить</button>
+                <button href="#about" class="scrollto send1">Отправить</button>
               </div>
             </div>
           </div>
           <div class="new-row-btn">
             <div class="text-center btn-active-hidden">
-              <button href="#" class="">Отправить</button>
+              <button href="#" class="send2">Отправить</button>
             </div>
           </div>
 
@@ -660,17 +665,21 @@
                   role="form" class="php-email-form">
                   <div class="row gy-3">
                     <div class="col-md-12 col-sm-6">
-                      <input type="text" class="form-control" name="Имя" placeholder="Ваше имя*" required="" />
+                      <input type="text" class="form-control" name="Имя" data-placeholder="Ваш телефон"
+                        data-placeholder-ru="Ваше имя" data-placeholder-en="Your name" required>
                     </div>
                     <div class="col-md-12 col-sm-6">
-                      <input type="text" class="form-control" name="Телефон" placeholder="Ваш телефон*" required="" />
+                      <input type="text" class="form-control" name="Телефон" data-placeholder="Ваш телефон"
+                        data-placeholder-ru="Ваш телефон" data-placeholder-en="Your phone number" required>
                     </div>
                     <div class="col-md-12 col-sm-6">
-                      <input type="email" class="form-control" name="E-mail" placeholder="Ваш e-mail*" required="" />
+                      <input type="email" class="form-control" name="E-mail" data-placeholder="Ваш телефон"
+                        data-placeholder-ru="Ваш E-mail" data-placeholder-en="Your E-mail" required>
                     </div>
                     <div class="col-md-12 col-sm-6">
-                      <input type="text" class="form-control" name="Сообщение" placeholder="Опишите вашу проблему*"
-                        required="" />
+                      <input type="text" class="form-control" name="Сообщение" data-placeholder="Ваш телефон"
+                        data-placeholder-ru="Опишите Вашу проблему" data-placeholder-en="Describe your problem"
+                        required>
                     </div>
                   </div>
                   <input type="hidden" name="_subject" value="Новое письмо с сайта Global" />
@@ -680,7 +689,7 @@
                   <input type="hidden" name="_next" value="https://9global.net/thanks-page" />
                   <div class="d-flex justify-content-center justify-content-lg-start">
                     <div class="text-center btn-active">
-                      <button type="submit" class="scrollto">
+                      <button type="submit" class="scrollto send3">
                         Отправить
                       </button>
                     </div>
