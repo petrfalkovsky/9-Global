@@ -39,7 +39,52 @@ const dictionary = {
     to: "Куда",
     send1: "Отправить",
     send2: "Отправить",
-    send3: "Отправить"
+    send3: "Отправить",
+    our2: "Наши",
+    services2: "услуги",
+    descr2:
+      "Наша логистическая компания предоставляет комплексные и эффективные логистические решения для предприятий любого размера. Наши услуги включают в себя:",
+    orderService: "Заказать услугу",
+    our3: "Наши",
+    services3: "услуги",
+    descr3:
+      "Наша логистическая компания предоставляет комплексные и эффективные логистические решения для предприятий любого размера. Наши услуги включают в себя:",
+    zhd1: "Железнодорожные",
+    zhd2: "Железнодорожные",
+    transportation1: "перевозки",
+    transportation2: "перевозки",
+    zhdDesc1:
+      "Благодаря сети Ж/Д партнеров мы сможем быстро и безопасно доставить ваш груз к любой станции.",
+    zhdDesc2:
+      "Благодаря сети Ж/Д партнеров мы сможем быстро и безопасно доставить ваш груз к любой станции.",
+    trucking: "Автомобильные",
+    perevozki: "перевозки",
+    truckDesc:
+      "Обеспечиваем гибкий и надежный способ транспортировки ваших товаров по всей стране.",
+    trucking2: "Trucking",
+    perevozki2: "",
+    truckDesc2:
+      "Обеспечиваем гибкий и надежный способ транспортировки ваших товаров по всей стране.",
+    air1: "Авиа",
+    shipments1: "перевозки",
+    airShipmentsDesc1:
+      "Мы предлагаем надежные и экономичные услуги авиаперевозок для решения ваших задач.",
+    air2: "Авиа",
+    shipments2: "перевозки",
+    airShipmentsDesc2:
+      "Мы предлагаем надежные и экономичные услуги авиаперевозок для решения ваших задач.",
+    threePLDesc1:
+      "3PL и Fulfillment-By-Seller (ФБО), предоставляем хранение, сбор, упаковку и доставку продуктов вашим клиентам.",
+    threePLDesc2:
+      "3PL и Fulfillment-By-Seller (ФБО), предоставляем хранение, сбор, упаковку и доставку продуктов вашим клиентам.",
+    transportCars11: "Перевозки",
+    transportCars12: "автомобилей",
+    transportCars21: "Перевозки",
+    transportCars22: "автомобилей",
+    transportCarsDesc11:
+      "Выкуп и доставка любого автомобиля, привезем вовремя и в отличном состоянии.",
+    transportCarsDesc12:
+      "Выкуп и доставка любого автомобиля, привезем вовремя и в отличном состоянии."
   },
   en: {
     navMain: "Home",
@@ -81,7 +126,52 @@ const dictionary = {
     to2: "Country and City",
     send1: "Send",
     send2: "Send",
-    send3: "Send"
+    send3: "Send",
+    our2: "Our",
+    services2: "Service",
+    descr2:
+      "Our logistics company provides comprehensive and efficient logistics solutions for businesses of all sizes. Our services include:",
+    orderService: "Order Shipping",
+    our3: "Our",
+    services3: "Service",
+    descr3:
+      "Our logistics company provides comprehensive and efficient logistics solutions for businesses of all sizes. Our services include:",
+    zhd1: "Rail",
+    zhd2: "Rail",
+    transportation1: "transportation",
+    transportation2: "transportation",
+    zhdDesc1:
+      "Thanks to our network of railroad partners we can deliver your cargo to any station quickly and safely.",
+    zhdDesc2:
+      "Thanks to our network of railroad partners we can deliver your cargo to any station quickly and safely.",
+    trucking: "Trucking",
+    perevozki: "",
+    truckDesc:
+      "We provide a flexible and reliable way to transport your goods across the country.",
+    trucking2: "Trucking",
+    perevozki2: "",
+    truckDesc2:
+      "We provide a flexible and reliable way to transport your goods across the country.",
+    air1: "Air",
+    shipments1: "shipments",
+    airShipmentsDesc1:
+      "We offer reliable and cost-effective airfreight services to meet your needs.",
+    air2: "Авиа",
+    shipments2: "перевозки",
+    airShipmentsDesc2:
+      "We offer reliable and cost-effective airfreight services to meet your needs.",
+    threePLDesc1:
+      "3PL and Fulfillment-By-Seller (FBO), provide storage, collection, packaging and delivery of products to your customers.",
+    threePLDesc2:
+      "3PL and Fulfillment-By-Seller (FBO), provide storage, collection, packaging and delivery of products to your customers.",
+    transportCars11: "Transportation",
+    transportCars12: "cars",
+    transportCars21: "Transportation",
+    transportCars22: "cars",
+    transportCarsDesc11:
+      "Purchase and delivery of any car, will bring on time and in excellent condition.",
+    transportCarsDesc12:
+      "Purchase and delivery of any car, will bring on time and in excellent condition."
   }
 };
 
@@ -126,7 +216,38 @@ const selectors = {
   send2: ".send2",
   send3: ".send3",
   our2: ".our2",
+  descr2: ".descr2",
   services2: ".services2",
+  orderService: ".orderService",
+  our3: ".our3",
+  services3: ".services3",
+  descr3: ".descr3",
+  zhd1: ".zhd1",
+  zhd2: ".zhd2",
+  transportation1: ".transportation1",
+  transportation2: ".transportation2",
+  zhdDesc1: ".zhdDesc1",
+  zhdDesc2: ".zhdDesc2",
+  trucking: ".trucking",
+  perevozki: ".perevozki",
+  truckDesc: ".truckDesc",
+  trucking2: ".trucking2",
+  perevozki2: ".perevozki2",
+  truckDesc2: ".truckDesc2",
+  air1: ".air1",
+  shipments1: ".shipments1",
+  airShipmentsDesc1: ".airShipmentsDesc1",
+  air2: ".air2",
+  shipments2: ".shipments2",
+  airShipmentsDesc2: ".airShipmentsDesc2",
+  threePLDesc1: ".threePLDesc1",
+  threePLDesc2: ".threePLDesc2",
+  transportCars11: ".transportCars11",
+  transportCars12: ".transportCars12",
+  transportCars21: ".transportCars21",
+  transportCars22: ".transportCars22",
+  transportCarsDesc11: ".transportCarsDesc11",
+  transportCarsDesc12: ".transportCarsDesc12",
   inputs: "[data-placeholder]"
 };
 

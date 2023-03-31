@@ -216,6 +216,7 @@
   color: #000000;
   line-height: 82px;
   font-size: 60px;
+  min-width: 400px;
 }
 
 #calc .calc-img-background-bottom {
