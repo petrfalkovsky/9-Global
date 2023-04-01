@@ -70,6 +70,7 @@
     gtag("config", "G-H81MTSTBP9");
   </script>
 
+  <script src="assets/js/translator/translator.js" defer></script>
   <script src="assets/js/translator.js" defer></script>
 
   <meta charset="UTF-8" />
@@ -99,13 +100,14 @@
   <!-- Navbar -->
   <header id="header" class="fixed-top shadow-sm p-3 mb-5 bg-body rounded header-container-height">
     <div class="container d-flex align-items-center">
-      <a href="/" class="logo me-auto col align-self-start"><img class="img-fluid" src="assets/img/logo.svg" alt=""
-          class="img-fluid" /></a>
+      <a href="/" class="logo me-auto align-self-start"><img src="assets/img/logo.svg" alt="" class="img-fluid" /></a>
       <!-- Buttins Change Lang -->
-      <button onclick="setLanguage('ru')">Русский</button>
-      <button onclick="setLanguage('en')">English</button>
+      <div class="col btn-text-block">
+        <button class="btn-text" onclick="setLanguage('ru')">RUS</button>
+        <button class="btn-text disable" onclick="setLanguage('en')">ENG</button>
+      </div>
 
-      <nav id="navbar" class="navbar navbar-expand-lg bg-white">
+      <nav id="navbar" class="navbar navbar-expand-lg bg-white align-self-end">
         <div class="container-fluid">
           <a class=" navbar-brand" href="#"></a>
           <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -123,7 +125,7 @@
 
           <div id="nav-english">
 
-            <div class="collapse navbar-collapse change-text-animated-container" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
 
                 <li nav-item>

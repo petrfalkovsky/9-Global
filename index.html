@@ -67,6 +67,7 @@
     gtag("config", "G-H81MTSTBP9");
   </script>
   <script src="assets/js/translator/translator.js" defer></script>
+  <script src="assets/js/translator.js" defer></script>
 
 
   <meta charset="UTF-8" />
@@ -97,8 +98,13 @@
   <!-- Navbar -->
   <header id="header" class="fixed-top shadow-sm p-3 mb-5 bg-body rounded header-container-height">
     <div class="container d-flex align-items-center">
-      <a href="/" class="logo me-auto col align-self-start"><img src="assets/img/logo.svg" alt=""
-          class="img-fluid" /></a>
+      <a href="/" class="logo me-auto align-self-start"><img src="assets/img/logo.svg" alt="" class="img-fluid" /></a>
+      <!-- Buttins Change Lang -->
+      <div class="col btn-text-block">
+        <button class="btn-text" onclick="setLanguage('ru')">RUS</button>
+        <button class="btn-text disable" onclick="setLanguage('en')">ENG</button>
+      </div>
+
       <nav id="navbar" class="navbar navbar-expand-lg bg-white">
         <div class="container-fluid">
           <a class=" navbar-brand" href="#"></a>
@@ -116,10 +122,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li nav-item class="text-container">
-                <a class="nav-link scrollto active-text change-text navMain" href="/">Контакты</a>
+                <a class="nav-link scrollto active-text navMain" href="/">Главная</a>
               </li>
               <li>
-                <a class="nav-link scrollto change-text navService" href="/services">Услуги</a>
+                <a class="nav-link scrollto navService" href="/services">Услуги</a>
               </li>
               <li>
                 <a class=" nav-link scrollto navAbout" href="/about">О компании</a>
@@ -653,10 +659,10 @@
             data-aos-delay="200">
             <div class="calc-white-container-cta">
               <h3>
-                У вас есть вопросы?
-                <span class="active-text">Свяжитесь с нами</span>
+                <span class="haveQueation">У вас есть вопросы?</span>
+                <span class="active-text contactUS1">Свяжитесь с нами</span>
               </h3>
-              <p>
+              <p class="contactUS1Desc">
                 Если у Вас остались вопросы, обязательно напишите нам! Команда
                 9Global всегда на связи и мы готовы помочь Вам с любым типом
                 перевозки.
@@ -707,10 +713,10 @@
     <div id="copyright" class="container footer-bottom clearfix">
       <p class="copyright">
         © 2020-<span id="year"></span>
-        <strong><span>9 Global Logistics</span></strong>. Все права защищены.
+        <strong><span>9 Global Logistics</span></strong>. <span class="copyright1">Все права защищены.</span>
       </p>
-      <p class="credits">
-        Дизайн и разработка сайта:
+      <p class="credits "><span class="whoMadeThis">Дизайн и разработка сайта:</span>
+
         <a href="https://athenaplus.kz/">athenaplus.kz</a>
       </p>
     </div>
@@ -727,10 +733,10 @@
 
   <!-- Cookie-Alert -->
   <div id="cookie_note">
-    <p>
+    <p class="coockie">
       Этот сайт использует файлы cookie для улучшения пользовательского опыта.
     </p>
-    <button class="cookie_accept">Принять</button>
+    <button class="cookie_accept accept">Принять</button>
   </div>
   <!-- END Cookie-Alert -->
 

@@ -89,7 +89,6 @@
     font-size: 12px;
     line-height: 16px;
     color: #000000;
-    /* min-width: 13.2rem; */
   }
 
   #calc h3 {
@@ -106,36 +105,7 @@
     height: 38px;
     margin-top: 12px;
   }
-
-  /* #tabs .calc-img-background-bottom {
-        background-size: 63px;
-        margin-top: -100%;
-        margin-left: -10px;
-    } */
 }
-
-/* #tabs .calc-img-background-bottom {
-  background: url("../../img/frame.png") right bottom no-repeat;
-  margin-top: 60px;
-  margin-left: 100px;
-  height: 90px;
-  padding: 0px 0px 0px 0px;
-}
-
-@media (max-width: 991px) {
-  #tabs .calc-img-background-bottom {
-    text-align: left;
-  }
-} */
-
-/* 
-*блок скрывается только на размерах меньше 1200px 
-*/
-/* @media (max-width: 1199.98px) {
-  #tabs .calc-img-background-bottom {
-    display: none;
-  }
-} */
 
 /* 
 *блок скрывается только на размерах от 991px до 1200px 
@@ -151,8 +121,3 @@
     display: none;
   }
 }
-
-/* #tabs .row > * {
-  padding-right: none;
-  padding-left: 40px !important;
-} */
