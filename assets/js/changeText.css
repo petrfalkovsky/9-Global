@@ -1,0 +1,12 @@
+.change-text-animated-container {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.change-text-animated-container.shows {
+  opacity: 1;
+}
+
+.show100 {
+  opacity: 1 !important;
+}

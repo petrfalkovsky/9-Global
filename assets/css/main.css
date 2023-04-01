@@ -21,13 +21,17 @@
 @import "../../common.blocks/button-link/button-link__back-top/button-link__back-top.css";
 @import "../../common.blocks/button-link/button-link_focused/button-link_focused.css";
 @import "../../common.blocks/button-link/button-link__back-top/button-link__back-top_focused/button-link__back-top_focused.css";
-
 @import "../../desktop.blocks/button/button.css";
-
 @import "../../touch.blocks/header/__navbar/__burger/header__navbar-burger_animated.css";
 @import "../../touch.blocks/button/button.css";
 @import "../../touch.blocks/button/_focused/button_focused.css";
 @import "../../touch.blocks/button/_hide/buttun_hide.css";
+@import "../../assets/js/changeText.css";
+@import "../../common.blocks/button/__text/__text.css";
+
+html {
+  scroll-behavior: smooth;
+}
 
 /*--------------------------------------------------------------
 # Preloader
@@ -445,7 +449,7 @@ section {
   font-size: 13px;
 }
 
-.contact .php-email-form .error-message {
+.contact .php-email-form .error-service {
   display: none;
   color: var(--nine-global-color-background-light);
   background: #ed3c0d;
@@ -454,11 +458,11 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-service br + br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+.contact .php-email-form .sent-service {
   display: none;
   color: var(--nine-global-color-background-light);
   background: #18d26e;

@@ -1,0 +1,19 @@
+.btn-text {
+  font-family: var(--typo-control-font-family-bert);
+  font-weight: 500;
+  font-size: 24px;
+  display: inline-block;
+  border: none;
+  transition: 0.5s;
+  color: transparent;
+  background: transparent;
+  color: var(--nine-global-color-primary);
+}
+
+.btn-text.disable {
+  color: black;
+}
+
+.btn-text-block {
+  padding-left: 38px;
+}
