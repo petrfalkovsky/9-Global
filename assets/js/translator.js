@@ -40,6 +40,7 @@ const dictionary = {
     send1: "Отправить",
     send2: "Отправить",
     send3: "Отправить",
+    send4: "Отправить",
     our2: "Наши",
     services2: "услуги",
     descr2:
@@ -84,7 +85,62 @@ const dictionary = {
     transportCarsDesc11:
       "Выкуп и доставка любого автомобиля, привезем вовремя и в отличном состоянии.",
     transportCarsDesc12:
-      "Выкуп и доставка любого автомобиля, привезем вовремя и в отличном состоянии."
+      "Выкуп и доставка любого автомобиля, привезем вовремя и в отличном состоянии.",
+    customs1: "Таможенные",
+    operations1: "операции",
+    custOpDesc1:
+      "Знаем все процессы таможенного оформления, соблюдаем все применимые правил и требования.",
+    customs2: "Таможенные",
+    operations3: "операции",
+    custOpDesc4:
+      "Знаем все процессы таможенного оформления, соблюдаем все применимые правил и требования.",
+    haveQueation: "У вас есть вопросы?",
+    contactUS1: "Свяжитесь с нами",
+    contactUS1Desc:
+      "Если у Вас остались вопросы, обязательно напишите нам! Команда 9Global всегда на связи и мы готовы помочь Вам с любым типом перевозки.",
+    coockie:
+      "Этот сайт использует файлы cookie для улучшения пользовательского опыта.",
+    accept: "Принять",
+    copyright1: "Все права защищены.",
+    whoMadeThis: "Дизайн и разработка сайта:",
+    requestService: "Закажите услугу",
+    forTransportation: "на перевозку",
+    fillForm: "Заполните Форму и Закажите перевозку Вашего груза.",
+    chooseTr: "Выберите вид услуги",
+    zhdTr: "Железнодорожные перевозки",
+    truckTr: "Автомобильные перевозки",
+    airTr: "Авиа перевозки",
+    multiTr: "Мультимодальные перевозки",
+    carTr: "Перевозки автомобилей",
+    customTr: "Таможенные операции",
+    whatWe: "Что мы",
+    guarantee: "гарантируем",
+    security: "Сохранность",
+    ofCargo: "груза",
+    fast: "Быстрая",
+    delivery: "доставка",
+    customer: "Поддержка",
+    support: "клиентов",
+    whatWe2: "Что мы",
+    guarantee2: "гарантируем",
+    security2: "Сохранность",
+    ofCargo2: "груза",
+    fast2: "Быстрая",
+    delivery2: "доставка",
+    customer2: "Поддержка",
+    support2: "клиентов",
+    howWe: "Как мы",
+    work: "работаем",
+    howWeWorkDesc1:
+      "9 Global предлагает не только стандартные складские услуги, но также предлагает своим клиентам широкий спектр дополнительных услуг, от базовых операций по загрузке/разгрузке до услуг по комплексному комплектованию.",
+    howWeWorkDesc2:
+      "Все наши процессы полностью автоматизированы в рамках разработанных нами собственных WMS-систем, открыты для интеграции и взаимодействия, но при этом являются более гибкими, чем любой готовый продукт. Наши дополнительные услуги в сочетании с нашими предложениями решений обеспечат вам гибкость для удовлетворения ваших индивидуальных потребностей в логистике.",
+    nineDesc1:
+      "Когда вы ищете надежного партнера по складскому хранению, который заботится о ваших продуктах и ориентируется на высочайший уровень обслуживания в отрасли.",
+    nineDesc2:
+      "Когда вы ищете партнера, который выходит за рамки стандартного выполнения заказов и заинтересован в настройке своих услуг в соответствии с вашими потребностями",
+    nineDesc3:
+      "Когда вы ищете партнера, который поможет вам сделать ваш бизнес профессиональнее и расширить его."
   },
   en: {
     navMain: "Home",
@@ -127,6 +183,7 @@ const dictionary = {
     send1: "Send",
     send2: "Send",
     send3: "Send",
+    send4: "Send",
     our2: "Our",
     services2: "Service",
     descr2:
@@ -171,7 +228,62 @@ const dictionary = {
     transportCarsDesc11:
       "Purchase and delivery of any car, will bring on time and in excellent condition.",
     transportCarsDesc12:
-      "Purchase and delivery of any car, will bring on time and in excellent condition."
+      "Purchase and delivery of any car, will bring on time and in excellent condition.",
+
+    customs1: "Customs",
+    operations1: "operations",
+    custOpDesc1:
+      "We know all customs clearance processes, comply with all applicable rules and requirements.",
+    customs2: "Customs",
+    operations3: "operations",
+    custOpDesc4:
+      "We know all customs clearance processes, comply with all applicable rules and requirements.",
+    haveQueation: "Do you have questions?",
+    contactUS1: "Get in touch with us",
+    contactUS1Desc:
+      "If you still have questions, be sure to email us! The team at 9Global is always in touch and we are ready to help you with any type transportation.",
+    coockie: "This site uses cookies to improve the user experience.",
+    accept: "Accept",
+    copyright1: "All rights reserved.",
+    whoMadeThis: "Site design and development:",
+    requestService: "Book a service",
+    forTransportation: "for transportation",
+    fillForm: "Fill in the Form and Order carriage of your cargo.",
+    chooseTr: "Choose the type of service",
+    zhdTr: "Rail transportation",
+    truckTr: "Trucking",
+    airTr: "Air freight",
+    multiTr: "Multimodal transportations",
+    carTr: "Transportation of cars",
+    customTr: "Customs operations",
+    whatWe: "What we",
+    guarantee: "guarantee",
+    security: "Security",
+    ofCargo: "of cargo",
+    fast: "Fast",
+    delivery: "delivery",
+    customer: "Customer ",
+    support: "support",
+    whatWe2: "What we",
+    guarantee2: "guarantee",
+    security2: "Security",
+    ofCargo2: "of cargo",
+    fast2: "Fast",
+    delivery2: "delivery",
+    customer2: "Customer ",
+    support2: "support",
+    howWe: "How we",
+    work: "work",
+    howWeWorkDesc1:
+      "9 Global offers not only standard warehouse services, but also offers its customers a wide range of additional services, from basic loading/unloading operations to complex picking services.",
+    howWeWorkDesc2:
+      "All our processes are fully automated within our proprietary WMS systems, open to integration and collaboration, yet more flexible than any off-the-shelf product. Our value-added services combined with our solution offerings provide you with the flexibility to meet your individual logistics needs.",
+    nineDesc1:
+      "When you're looking for a reliable warehousing partner who cares about your products and focuses on the highest level of service in the industry.",
+    nineDesc2:
+      "When you're looking for a partner who goes beyond standard order fulfillment and is interested in customizing their services to your needs.",
+    nineDesc3:
+      "When you are looking for a partner to help you make your business more professional and expand your business."
   }
 };
 
@@ -215,6 +327,7 @@ const selectors = {
   send1: ".send1",
   send2: ".send2",
   send3: ".send3",
+  send4: ".send4",
   our2: ".our2",
   descr2: ".descr2",
   services2: ".services2",
@@ -248,11 +361,61 @@ const selectors = {
   transportCars22: ".transportCars22",
   transportCarsDesc11: ".transportCarsDesc11",
   transportCarsDesc12: ".transportCarsDesc12",
+  inputs: "[data-placeholder]",
+  customs1: ".customs1",
+  operations1: ".operations1",
+  custOpDesc1: ".custOpDesc1",
+  customs2: ".customs2",
+  operations2: ".operations2",
+  custOpDesc2: ".custOpDesc2",
+  haveQueation: ".haveQueation",
+  contactUS1: ".contactUS1",
+  contactUS1Desc: ".contactUS1Desc",
+  coockie: ".coockie",
+  accept: ".accept",
+  copyright1: ".copyright1",
+  whoMadeThis: ".whoMadeThis",
+  requestService: ".requestService",
+  forTransportation: ".forTransportation",
+  fillForm: ".fillForm",
+  chooseTr: ".chooseTr",
+  zhdTr: ".zhdTr",
+  truckTr: ".truckTr",
+  airTr: ".airTr",
+  multiTr: ".multiTr",
+  carTr: ".carTr",
+  customTr: ".customTr",
+  whatWe: ".whatWe",
+  guarantee: ".guarantee",
+  security: ".security",
+  ofCargo: ".ofCargo",
+  fast: ".fast",
+  delivery: ".delivery",
+  customer: ".customer ",
+  support: ".support",
+  whatWe2: ".whatWe2",
+  guarantee2: ".guarantee2",
+  security2: ".security2",
+  ofCargo2: ".ofCargo2",
+  fast2: ".fast2",
+  delivery2: ".delivery2",
+  customer2: ".customer2",
+  support2: ".support2",
+  howWe: ".howWe",
+  work: ".work",
+  howWeWorkDesc1: ".howWeWorkDesc1",
+  howWeWorkDesc2: ".howWeWorkDesc2",
+  nineDesc1: ".nineDesc1",
+  nineDesc2: ".nineDesc2",
+  nineDesc3: ".nineDesc3",
   inputs: "[data-placeholder]"
 };
 
 function setLanguage(language) {
   localStorage.setItem("language", language);
+
+  const formEn = document.querySelector("#form-en");
+  const formRu = document.querySelector("#form-ru");
 
   const texts = dictionary[language];
   const inputs = document.querySelectorAll(selectors.inputs);
@@ -273,6 +436,14 @@ function setLanguage(language) {
       element.textContent = text;
     }
   });
+
+  if (language === "en") {
+    formEn.style.display = "block";
+    formRu.style.display = "none";
+  } else if (language === "ru") {
+    formEn.style.display = "none";
+    formRu.style.display = "block";
+  }
 }
 
 const storedLanguage = localStorage.getItem("language");
