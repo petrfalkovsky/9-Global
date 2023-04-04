@@ -112,7 +112,35 @@ const dictionary = {
     airTr: "Авиа перевозки",
     multiTr: "Мультимодальные перевозки",
     carTr: "Перевозки автомобилей",
-    customTr: "Таможенные операции"
+    customTr: "Таможенные операции",
+    whatWe: "Что мы",
+    guarantee: "гарантируем",
+    security: "Сохранность",
+    ofCargo: "груза",
+    fast: "Быстрая",
+    delivery: "доставка",
+    customer: "Поддержка",
+    support: "клиентов",
+    whatWe2: "Что мы",
+    guarantee2: "гарантируем",
+    security2: "Сохранность",
+    ofCargo2: "груза",
+    fast2: "Быстрая",
+    delivery2: "доставка",
+    customer2: "Поддержка",
+    support2: "клиентов",
+    howWe: "Как мы",
+    work: "работаем",
+    howWeWorkDesc1:
+      "9 Global предлагает не только стандартные складские услуги, но также предлагает своим клиентам широкий спектр дополнительных услуг, от базовых операций по загрузке/разгрузке до услуг по комплексному комплектованию.",
+    howWeWorkDesc2:
+      "Все наши процессы полностью автоматизированы в рамках разработанных нами собственных WMS-систем, открыты для интеграции и взаимодействия, но при этом являются более гибкими, чем любой готовый продукт. Наши дополнительные услуги в сочетании с нашими предложениями решений обеспечат вам гибкость для удовлетворения ваших индивидуальных потребностей в логистике.",
+    nineDesc1:
+      "Когда вы ищете надежного партнера по складскому хранению, который заботится о ваших продуктах и ориентируется на высочайший уровень обслуживания в отрасли.",
+    nineDesc2:
+      "Когда вы ищете партнера, который выходит за рамки стандартного выполнения заказов и заинтересован в настройке своих услуг в соответствии с вашими потребностями",
+    nineDesc3:
+      "Когда вы ищете партнера, который поможет вам сделать ваш бизнес профессиональнее и расширить его."
   },
   en: {
     navMain: "Home",
@@ -227,7 +255,35 @@ const dictionary = {
     airTr: "Air freight",
     multiTr: "Multimodal transportations",
     carTr: "Transportation of cars",
-    customTr: "Customs operations"
+    customTr: "Customs operations",
+    whatWe: "What we",
+    guarantee: "guarantee",
+    security: "Security",
+    ofCargo: "of cargo",
+    fast: "Fast",
+    delivery: "delivery",
+    customer: "Customer ",
+    support: "support",
+    whatWe2: "What we",
+    guarantee2: "guarantee",
+    security2: "Security",
+    ofCargo2: "of cargo",
+    fast2: "Fast",
+    delivery2: "delivery",
+    customer2: "Customer ",
+    support2: "support",
+    howWe: "How we",
+    work: "work",
+    howWeWorkDesc1:
+      "9 Global offers not only standard warehouse services, but also offers its customers a wide range of additional services, from basic loading/unloading operations to complex picking services.",
+    howWeWorkDesc2:
+      "All our processes are fully automated within our proprietary WMS systems, open to integration and collaboration, yet more flexible than any off-the-shelf product. Our value-added services combined with our solution offerings provide you with the flexibility to meet your individual logistics needs.",
+    nineDesc1:
+      "When you're looking for a reliable warehousing partner who cares about your products and focuses on the highest level of service in the industry.",
+    nineDesc2:
+      "When you're looking for a partner who goes beyond standard order fulfillment and is interested in customizing their services to your needs.",
+    nineDesc3:
+      "When you are looking for a partner to help you make your business more professional and expand your business."
   }
 };
 
@@ -329,6 +385,29 @@ const selectors = {
   multiTr: ".multiTr",
   carTr: ".carTr",
   customTr: ".customTr",
+  whatWe: ".whatWe",
+  guarantee: ".guarantee",
+  security: ".security",
+  ofCargo: ".ofCargo",
+  fast: ".fast",
+  delivery: ".delivery",
+  customer: ".customer ",
+  support: ".support",
+  whatWe2: ".whatWe2",
+  guarantee2: ".guarantee2",
+  security2: ".security2",
+  ofCargo2: ".ofCargo2",
+  fast2: ".fast2",
+  delivery2: ".delivery2",
+  customer2: ".customer2",
+  support2: ".support2",
+  howWe: ".howWe",
+  work: ".work",
+  howWeWorkDesc1: ".howWeWorkDesc1",
+  howWeWorkDesc2: ".howWeWorkDesc2",
+  nineDesc1: ".nineDesc1",
+  nineDesc2: ".nineDesc2",
+  nineDesc3: ".nineDesc3",
   inputs: "[data-placeholder]"
 };
 
