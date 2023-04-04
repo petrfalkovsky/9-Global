@@ -66,7 +66,7 @@
     gtag("js", new Date());
     gtag("config", "G-H81MTSTBP9");
   </script>
-  <script src="assets/js/translator/translator.js" defer></script>
+  <!-- <script src="assets/js/translator/translator.js" defer></script> -->
   <script src="assets/js/translator.js" defer></script>
 
   <meta charset="UTF-8" />
@@ -147,36 +147,77 @@
     <div class="container d-flex align-items-start">
       <div id="order">
         <h2 class="fw-semibold fs-4 text-center">
-          Закажите услугу <span id="span">на перевозку</span>
+          <span class="requestService">Закажите услугу</span> <span class="forTransportation" id="span">на
+            перевозку</span>
         </h2>
-        <p class="text-center">
+        <p class="text-center fillForm">
           Заполните Форму и Закажите перевозку Вашего груза.
         </p>
-        <form action="https://formsubmit.co/6c7703e77b79f01dd33c09c236f70173" method="POST" class="row mx-auto form">
-          <div class="custom-select rounded-5 col-md-12 col-sm-6">
-            <select class="rounded-5" name="Вид услуги" id="select-profession" required>
-              <option selected>Выберите вид услуги</option>
-              <option>Железнодорожные перевозки</option>
-              <option>Автомобильные перевозки</option>
-              <option>Авиа перевозки</option>
-              <option>Мультимодальные перевозки</option>
-              <option>Перевозки автомобилей</option>
-              <option>Таможенные операции</option>
-            </select>
-          </div>
-          <input class="fw-semibold rounded-5 col-12" type="text" required name="Имя" placeholder="Ваше имя*" />
-          <input class="fw-semibold rounded-5 col-12" type="text" required name="Телефон" placeholder="Ваш телефон*" />
-          <input class="fw-semibold rounded-5 col-12" type="e-mail" required name="email" placeholder="Ваш e-mail*" />
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="text" name="_honey" style="display: none" />
-          <input type="hidden" name="_template" value="table" />
-          <input type="hidden" name="_next" value="https://9global.net/thanks-page" />
-          <div class="col-md-3 align-self-end">
-            <div class="text-center btn-active">
-              <button type="submit" class="scrollto">Отправить</button>
+
+        <div id="form-en">
+          <form action="https://formsubmit.co/6c7703e77b79f01dd33c09c236f70173" method="POST" id="form-ru class=" row
+            mx-auto form">
+            <div class="custom-select rounded-5 col-md-12 col-sm-6">
+              <select class="rounded-5" name="Вид услуги" id="select-profession" required>
+                <option selected><span class="chooseTr">&nbsp; &nbsp;Choose the type of service</span></option>
+                <option>Rail transportation</option>
+                <option>Trucking</option>
+                <option>Air freight</option>
+                <option>Multimodal transportations</option>
+                <option>Transportation of cars</option>
+                <option>Customs operations</option>
+              </select>
             </div>
-          </div>
-        </form>
+            <input class="fw-semibold rounded-5 col-12" type="text" data-placeholder="Ваше имя"
+              data-placeholder-ru="Ваше имя" data-placeholder-en="Your name" required>
+            <input class="fw-semibold rounded-5 col-12" type="text" data-placeholder="Ваш телефон"
+              data-placeholder-ru="Ваш телефон" data-placeholder-en="Your phone number" required>
+            <input class="fw-semibold rounded-5 col-12" type="e-mail" data-placeholder="Ваш телефон"
+              data-placeholder-ru="Ваш E-mail" data-placeholder-en="Your E-mail" required>
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="text" name="_honey" style="display: none" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_next" value="https://9global.net/thanks-page" />
+            <div class="col-md-3 align-self-end">
+              <div class="text-center btn-active">
+                <button type="submit" class="scrollto">Send</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div id="form-ru">
+          <form action="https://formsubmit.co/6c7703e77b79f01dd33c09c236f70173" method="POST" id="form-ru class=" row
+            mx-auto form">
+            <div class="custom-select rounded-5 col-md-12 col-sm-6">
+              <select class="rounded-5" name="Вид услуги" id="select-profession" required>
+                <option selected><span class="chooseTr">&nbsp; &nbsp;Выберите вид услуги</span></option>
+                <option>Железнодорожные перевозки</option>
+                <option>Автомобильные перевозки</option>
+                <option>Авиа перевозки</option>
+                <option>Мультимодальные перевозки</option>
+                <option>Перевозки автомобилей</option>
+                <option>Таможенные операции</option>
+              </select>
+            </div>
+            <input class="fw-semibold rounded-5 col-12" type="text" data-placeholder="Ваше имя"
+              data-placeholder-ru="Ваше имя" data-placeholder-en="Your name" required>
+            <input class="fw-semibold rounded-5 col-12" type="text" data-placeholder="Ваш телефон"
+              data-placeholder-ru="Ваш телефон" data-placeholder-en="Your phone number" required>
+            <input class="fw-semibold rounded-5 col-12" type="e-mail" data-placeholder="Ваш телефон"
+              data-placeholder-ru="Ваш E-mail" data-placeholder-en="Your E-mail" required>
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="text" name="_honey" style="display: none" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_next" value="https://9global.net/thanks-page" />
+            <div class="col-md-3 align-self-end">
+              <div class="text-center btn-active">
+                <button type="submit" class="scrollto ">Отправить</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
       </div>
       <div class="order-img">
         <img src="/assets/img/service-frame.png" alt="" />
@@ -304,11 +345,11 @@
     <div id="copyright" class="container footer-bottom clearfix">
       <p class="copyright">
         © 2020-<span id="year"></span>
-        <strong><span>9 Global Logistics</span></strong>. Все права защищены.
+        <strong><span>9 Global Logistics</span></strong>. <span class="copyright1">Все права защищены.</span>
       </p>
-      <p class="credits">
-        Дизайн и разработка сайта:
-        <a href="https://athenaplus.kz/" class="text-black">athenaplus.kz</a>
+      <p class="credits "><span class="whoMadeThis">Дизайн и разработка сайта:</span>
+
+        <a href="https://athenaplus.kz/">athenaplus.kz</a>
       </p>
     </div>
   </footer>
@@ -322,12 +363,12 @@
   </div>
   <!-- End Back to top button -->
 
-  <!-- START Cookie-Alert -->
+  <!-- Cookie-Alert -->
   <div id="cookie_note">
-    <p>
+    <p class="coockie">
       Этот сайт использует файлы cookie для улучшения пользовательского опыта.
     </p>
-    <button class="cookie_accept">Принять</button>
+    <button class="cookie_accept accept">Принять</button>
   </div>
   <!-- END Cookie-Alert -->
 

@@ -40,6 +40,7 @@ const dictionary = {
     send1: "Отправить",
     send2: "Отправить",
     send3: "Отправить",
+    send4: "Отправить",
     our2: "Наши",
     services2: "услуги",
     descr2:
@@ -84,7 +85,34 @@ const dictionary = {
     transportCarsDesc11:
       "Выкуп и доставка любого автомобиля, привезем вовремя и в отличном состоянии.",
     transportCarsDesc12:
-      "Выкуп и доставка любого автомобиля, привезем вовремя и в отличном состоянии."
+      "Выкуп и доставка любого автомобиля, привезем вовремя и в отличном состоянии.",
+    customs1: "Таможенные",
+    operations1: "операции",
+    custOpDesc1:
+      "Знаем все процессы таможенного оформления, соблюдаем все применимые правил и требования.",
+    customs2: "Таможенные",
+    operations3: "операции",
+    custOpDesc4:
+      "Знаем все процессы таможенного оформления, соблюдаем все применимые правил и требования.",
+    haveQueation: "У вас есть вопросы?",
+    contactUS1: "Свяжитесь с нами",
+    contactUS1Desc:
+      "Если у Вас остались вопросы, обязательно напишите нам! Команда 9Global всегда на связи и мы готовы помочь Вам с любым типом перевозки.",
+    coockie:
+      "Этот сайт использует файлы cookie для улучшения пользовательского опыта.",
+    accept: "Принять",
+    copyright1: "Все права защищены.",
+    whoMadeThis: "Дизайн и разработка сайта:",
+    requestService: "Закажите услугу",
+    forTransportation: "на перевозку",
+    fillForm: "Заполните Форму и Закажите перевозку Вашего груза.",
+    chooseTr: "Выберите вид услуги",
+    zhdTr: "Железнодорожные перевозки",
+    truckTr: "Автомобильные перевозки",
+    airTr: "Авиа перевозки",
+    multiTr: "Мультимодальные перевозки",
+    carTr: "Перевозки автомобилей",
+    customTr: "Таможенные операции"
   },
   en: {
     navMain: "Home",
@@ -127,6 +155,7 @@ const dictionary = {
     send1: "Send",
     send2: "Send",
     send3: "Send",
+    send4: "Send",
     our2: "Our",
     services2: "Service",
     descr2:
@@ -171,7 +200,34 @@ const dictionary = {
     transportCarsDesc11:
       "Purchase and delivery of any car, will bring on time and in excellent condition.",
     transportCarsDesc12:
-      "Purchase and delivery of any car, will bring on time and in excellent condition."
+      "Purchase and delivery of any car, will bring on time and in excellent condition.",
+
+    customs1: "Customs",
+    operations1: "operations",
+    custOpDesc1:
+      "We know all customs clearance processes, comply with all applicable rules and requirements.",
+    customs2: "Customs",
+    operations3: "operations",
+    custOpDesc4:
+      "We know all customs clearance processes, comply with all applicable rules and requirements.",
+    haveQueation: "Do you have questions?",
+    contactUS1: "Get in touch with us",
+    contactUS1Desc:
+      "If you still have questions, be sure to email us! The team at 9Global is always in touch and we are ready to help you with any type transportation.",
+    coockie: "This site uses cookies to improve the user experience.",
+    accept: "Accept",
+    copyright1: "All rights reserved.",
+    whoMadeThis: "Site design and development:",
+    requestService: "Book a service",
+    forTransportation: "for transportation",
+    fillForm: "Fill in the Form and Order carriage of your cargo.",
+    chooseTr: "Choose the type of service",
+    zhdTr: "Rail transportation",
+    truckTr: "Trucking",
+    airTr: "Air freight",
+    multiTr: "Multimodal transportations",
+    carTr: "Transportation of cars",
+    customTr: "Customs operations"
   }
 };
 
@@ -215,6 +271,7 @@ const selectors = {
   send1: ".send1",
   send2: ".send2",
   send3: ".send3",
+  send4: ".send4",
   our2: ".our2",
   descr2: ".descr2",
   services2: ".services2",
@@ -248,11 +305,38 @@ const selectors = {
   transportCars22: ".transportCars22",
   transportCarsDesc11: ".transportCarsDesc11",
   transportCarsDesc12: ".transportCarsDesc12",
+  inputs: "[data-placeholder]",
+  customs1: ".customs1",
+  operations1: ".operations1",
+  custOpDesc1: ".custOpDesc1",
+  customs2: ".customs2",
+  operations2: ".operations2",
+  custOpDesc2: ".custOpDesc2",
+  haveQueation: ".haveQueation",
+  contactUS1: ".contactUS1",
+  contactUS1Desc: ".contactUS1Desc",
+  coockie: ".coockie",
+  accept: ".accept",
+  copyright1: ".copyright1",
+  whoMadeThis: ".whoMadeThis",
+  requestService: ".requestService",
+  forTransportation: ".forTransportation",
+  fillForm: ".fillForm",
+  chooseTr: ".chooseTr",
+  zhdTr: ".zhdTr",
+  truckTr: ".truckTr",
+  airTr: ".airTr",
+  multiTr: ".multiTr",
+  carTr: ".carTr",
+  customTr: ".customTr",
   inputs: "[data-placeholder]"
 };
 
 function setLanguage(language) {
   localStorage.setItem("language", language);
+
+  const formEn = document.querySelector("#form-en");
+  const formRu = document.querySelector("#form-ru");
 
   const texts = dictionary[language];
   const inputs = document.querySelectorAll(selectors.inputs);
@@ -273,6 +357,14 @@ function setLanguage(language) {
       element.textContent = text;
     }
   });
+
+  if (language === "en") {
+    formEn.style.display = "block";
+    formRu.style.display = "none";
+  } else if (language === "ru") {
+    formEn.style.display = "none";
+    formRu.style.display = "block";
+  }
 }
 
 const storedLanguage = localStorage.getItem("language");
