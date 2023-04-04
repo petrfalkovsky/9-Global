@@ -140,7 +140,32 @@ const dictionary = {
     nineDesc2:
       "Когда вы ищете партнера, который выходит за рамки стандартного выполнения заказов и заинтересован в настройке своих услуг в соответствии с вашими потребностями",
     nineDesc3:
-      "Когда вы ищете партнера, который поможет вам сделать ваш бизнес профессиональнее и расширить его."
+      "Когда вы ищете партнера, который поможет вам сделать ваш бизнес профессиональнее и расширить его.",
+    about2: "О компании",
+    about2Desc:
+      "В 9Global мы понимаем важность своевременных и надежных логистических услуг, особенно когда речь идет о доставке товаров с азиатских продуктовых платформ, таких как QQ, WeChat, 1688, Alibaba и других. Мы специализируемся на предоставлении комплексных логистических решений, которые могут удовлетворить ваши уникальные потребности и требования, позволяя вам сосредоточиться на развитии своего бизнеса.",
+    geography: "География",
+    ofShipments: "перевозок",
+    our4: "Наши",
+    partners: "партнёры",
+    ways2:
+      "Мы работаем в следующих географических направлениях: Казахстан, Россия, Киргизстан, Таджикистан, Узбекистан, Китай, Корея, Япония, Малайзия, Дубай.",
+    docs: "Документы",
+    docsComing: "Документы скоро будут доступны",
+    contact3: "Контактная",
+    info: "информация",
+    stayTuned: "Оставайтесь на связи с",
+    adress: "Адрес:",
+    adressLocate: "Казахстан, г. Алматы, ул. Райымбека 208а",
+    phoneContact: "Телефон",
+    workingSchedule: "График работы:",
+    workingSchedule2: "пн-пт с 10:00 до 19:00",
+    socials: "Соц. сети:",
+    tnx: "Спасибо! Ваша заявка",
+    success: "успешно принята",
+    sucDesc:
+      "Мы приняли ваш запрос в обработку. Скоро мы свяжемся с вами для уточнения деталей. Оставайтесь с нашей компанией!",
+    backToHome: "Вернуться на главную"
   },
   en: {
     navMain: "Home",
@@ -283,7 +308,32 @@ const dictionary = {
     nineDesc2:
       "When you're looking for a partner who goes beyond standard order fulfillment and is interested in customizing their services to your needs.",
     nineDesc3:
-      "When you are looking for a partner to help you make your business more professional and expand your business."
+      "When you are looking for a partner to help you make your business more professional and expand your business.",
+    about2: "About",
+    about2Desc:
+      "At 9Global, we understand the importance of timely and reliable logistics services, especially when it comes to delivering goods from Asian product platforms such as QQ, WeChat, 1688, Alibaba and others. We specialize in providing comprehensive logistics solutions that can meet your unique needs and requirements, allowing you to focus on growing your business.",
+    geography: "Geography",
+    ofShipments: "of shipments",
+    our4: "Our",
+    partners: "partners",
+    ways2:
+      "We work in the following geographical areas: Kazakhstan, Russia, Kyrgyzstan, Tajikistan, Uzbekistan, China, Korea, Japan, Malaysia, Dubai.",
+    docs: "Documents",
+    docsComing: "Documents will be available soon",
+    contact3: "Contact",
+    info: "info",
+    stayTuned: "Stay in touch with",
+    adress: "Address:",
+    adressLocate: "Kazakhstan, Almaty, Raiymbeka str. 208a",
+    phoneContact: "Phone:",
+    workingSchedule: "Working schedule:",
+    workingSchedule2: "Monday through Friday from 10 a.m. to 7 p.m.",
+    socials: "Social networks:",
+    tnx: "Thank you! Your request",
+    success: "successfully accepted",
+    sucDesc:
+      "We have accepted your request. We will contact you soon for further details. Stay with our company!",
+    backToHome: "Back to Home"
   }
 };
 
@@ -408,6 +458,29 @@ const selectors = {
   nineDesc1: ".nineDesc1",
   nineDesc2: ".nineDesc2",
   nineDesc3: ".nineDesc3",
+  about2: ".about2",
+  about2Desc: ".about2Desc",
+  geography: ".geography",
+  ofShipments: ".ofShipments",
+  our4: ".our4",
+  partners: ".partners",
+  ways2: ".ways2",
+  docs: ".docs",
+  docsComing: ".docsComing",
+  contact3: ".contact3",
+  info: ".info",
+  stayTuned: ".stayTuned",
+  adress: ".adress",
+  adressLocate: ".adressLocate",
+  phoneContact: ".phoneContact",
+  emailContact: ".emailContact",
+  workingSchedule: ".workingSchedule",
+  workingSchedule2: ".workingSchedule2",
+  socials: ".socials",
+  tnx: ".tnx",
+  success: ".success",
+  sucDesc: ".sucDesc",
+  backToHome: ".backToHome",
   inputs: "[data-placeholder]"
 };
 
