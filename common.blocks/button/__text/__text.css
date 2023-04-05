@@ -1,4 +1,4 @@
-.btn-text {
+.btn-text-red {
   font-family: var(--typo-control-font-family-bert);
   font-weight: 500;
   font-size: 24px;
@@ -7,30 +7,50 @@
   transition: 0.5s;
   color: transparent;
   background: transparent;
-  /* color: var(--nine-global-color-primary); */
+  color: var(--nine-global-color-primary);
 }
 
-/* .btn-text.disable {
+.btn-text-black {
+  font-family: var(--typo-control-font-family-bert);
+  font-weight: 500;
+  font-size: 24px;
+  display: inline-block;
+  border: none;
+  transition: 0.5s;
+  color: transparent;
+  background: transparent;
+  color: var(--nine-global-color-primary-darkest);
+}
+
+@media (max-width: 768px) {
+  .btn-text-red {
+    font-size: 16px;
+  }
+
+  .btn-text-black {
+    font-size: 16px;
+  }
+
+  .logo {
+    justify-self: center;
+    min-width: 60px;
+  }
+}
+
+@media (max-width: 415px) {
+  .btn-text-red {
+    font-size: 14px;
+  }
+
+  .btn-text-black {
+    font-size: 14px;
+  }
+}
+
+.btn-text.disable {
   color: black;
-} */
+}
 
 .btn-text-block {
   padding-left: 38px;
 }
-
-.red {
-  color: red;
-}
-
-.blue {
-  color: blue;
-}
-
-/* для активной кнопки */
-/* .rus-text-color.active {
-  color: blue;
-}
-
-.eng-text-color.active {
-  color: red;
-} */

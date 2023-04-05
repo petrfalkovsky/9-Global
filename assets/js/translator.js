@@ -487,6 +487,9 @@ const selectors = {
 function setLanguage(language) {
   localStorage.setItem("language", language);
 
+  const btnEn = document.querySelector("#btn-en");
+  const btnRu = document.querySelector("#btn-ru");
+
   const formEn = document.querySelector("#form-en");
   const formRu = document.querySelector("#form-ru");
 
@@ -510,19 +513,35 @@ function setLanguage(language) {
     }
   });
 
-  // подмена английской формы на русскую, если она есть на странице
+  // смена цвета кнопки в зависимости от выбранного языка
+  btnEn.classList.add("btn-text-black");
+  btnRu.classList.add("btn-text-black");
+
   if (language === "en") {
-    if (formEn) {
-      formEn.style.display = "block";
+    if (btnEn && btnRu) {
+      btnEn.removeAttribute("class");
+      btnRu.removeAttribute("class");
+      btnRu.classList.add("btn-text-black");
+      btnEn.classList.add("btn-text-red");
     }
-    if (formRu) {
+  } else if (language === "ru") {
+    if (btnEn && btnRu) {
+      btnEn.removeAttribute("class");
+      btnRu.removeAttribute("class");
+      btnRu.classList.add("btn-text-red");
+      btnEn.classList.add("btn-text-black");
+    }
+  }
+
+  // подмена английской формы на русскоязычную, если она есть на странице
+  if (language === "en") {
+    if (formEn && formRu) {
+      formEn.style.display = "block";
       formRu.style.display = "none";
     }
   } else if (language === "ru") {
-    if (formEn) {
+    if (formEn && formRu) {
       formEn.style.display = "none";
-    }
-    if (formRu) {
       formRu.style.display = "block";
     }
   }
