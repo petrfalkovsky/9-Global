@@ -541,6 +541,9 @@ function setLanguage(language) {
   const formEn = document.querySelector("#form-en");
   const formRu = document.querySelector("#form-ru");
 
+  const labelEn = document.querySelector("#label-en");
+  const labelRu = document.querySelector("#label-ru");
+
   const texts = dictionary[language];
   const inputs = document.querySelectorAll(selectors.inputs);
 
@@ -582,7 +585,7 @@ function setLanguage(language) {
     }
   }
 
-  // подмена английской формы на русскоязычную, если она есть на странице
+  // подмена английской формы с селетками на русскоязычную, если она есть на странице
   if (language === "en") {
     if (formEn && formRu) {
       formEn.style.display = "block";
@@ -592,6 +595,19 @@ function setLanguage(language) {
     if (formEn && formRu) {
       formEn.style.display = "none";
       formRu.style.display = "block";
+    }
+  }
+
+  // подмена английских лейблов на карте на русскоязычные, если она есть на странице
+  if (language === "en") {
+    if (labelEn && labelRu) {
+      labelEn.style.display = "block";
+      labelRu.style.display = "none";
+    }
+  } else if (language === "ru") {
+    if (labelEn && labelRu) {
+      labelEn.style.display = "none";
+      labelRu.style.display = "block";
     }
   }
 }
