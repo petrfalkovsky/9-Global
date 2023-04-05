@@ -97,11 +97,11 @@
   <!-- Navbar -->
   <header id="header" class="fixed-top shadow-sm p-3 mb-5 bg-body rounded header-container-height">
     <div class="container d-flex align-items-center">
-      <a href="/" class="logo me-auto align-self-start"><img src="assets/img/logo.svg" alt="" class="img-fluid" /></a>
+      <a href="/" class="logo me-auto align-self-center"><img src="assets/img/logo.svg" alt="" class="img-fluid" /></a>
       <!-- Buttins Change Lang -->
       <div class="col btn-text-block">
-        <button class="btn-text" onclick="setLanguage('ru')">RUS</button>
-        <button class="btn-text disable" onclick="setLanguage('en')">ENG</button>
+        <button id="btn-ru" onclick="setLanguage('ru')">RUS</button>
+        <button id="btn-en" onclick="setLanguage('en')">ENG</button>
       </div>
 
       <nav id="navbar" class="navbar navbar-expand-lg bg-white">
@@ -155,11 +155,10 @@
         </p>
 
         <div id="form-en">
-          <form action="https://formsubmit.co/6c7703e77b79f01dd33c09c236f70173" method="POST" id="form-ru class=" row
-            mx-auto form">
+          <form action="https://formsubmit.co/6c7703e77b79f01dd33c09c236f70173" method="POST" class="row mx-auto form">
             <div class="custom-select rounded-5 col-md-12 col-sm-6">
               <select class="rounded-5" name="Вид услуги" id="select-profession" required>
-                <option selected><span class="chooseTr">&nbsp; &nbsp;Choose the type of service</span></option>
+                <option selected><span class="chooseTr">Choose the type of service</span></option>
                 <option>Rail transportation</option>
                 <option>Trucking</option>
                 <option>Air freight</option>
@@ -187,11 +186,10 @@
         </div>
 
         <div id="form-ru">
-          <form action="https://formsubmit.co/6c7703e77b79f01dd33c09c236f70173" method="POST" id="form-ru class=" row
-            mx-auto form">
+          <form action="https://formsubmit.co/6c7703e77b79f01dd33c09c236f70173" method="POST" class="row mx-auto form">
             <div class="custom-select rounded-5 col-md-12 col-sm-6">
               <select class="rounded-5" name="Вид услуги" id="select-profession" required>
-                <option selected><span class="chooseTr">&nbsp; &nbsp;Выберите вид услуги</span></option>
+                <option selected><span class="chooseTr">Выберите вид услуги</span></option>
                 <option>Железнодорожные перевозки</option>
                 <option>Автомобильные перевозки</option>
                 <option>Авиа перевозки</option>

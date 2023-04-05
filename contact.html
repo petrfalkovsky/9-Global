@@ -100,11 +100,11 @@
   <!-- Navbar -->
   <header id="header" class="fixed-top shadow-sm p-3 mb-5 bg-body rounded header-container-height">
     <div class="container d-flex align-items-center">
-      <a href="/" class="logo me-auto align-self-start"><img src="assets/img/logo.svg" alt="" class="img-fluid" /></a>
+      <a href="/" class="logo me-auto align-self-center"><img src="assets/img/logo.svg" alt="" class="img-fluid" /></a>
       <!-- Buttins Change Lang -->
       <div class="col btn-text-block">
-        <button class="btn-text" onclick="setLanguage('ru')">RUS</button>
-        <button class="btn-text disable" onclick="setLanguage('en')">ENG</button>
+        <button id="btn-ru" onclick="setLanguage('ru')">RUS</button>
+        <button id="btn-en" onclick="setLanguage('en')">ENG</button>
       </div>
 
       <nav id="navbar" class="navbar navbar-expand-lg bg-white align-self-end">
@@ -158,19 +158,15 @@
       <div class="raw">
         <div id="column-1" class="column">
           <div class="contact-info">
-            <h1 class="text-center ">
+            <h1 class="text-center">
               <span class="contact3">Контактная</span>
               <span class="active-text info">информация</span>
             </h1>
-            <h6 class="text-center ">
-              <span class="stayTuned">Оставайтесь на связи с</span>
-              9 Global!
-            </h6>
+            <h6 class="text-center stayTuned">Оставайтесь на связи с 9 Global!</h6>
             <div class="adress-container">
-              <p class="">
+              <p>
                 <span class="active-text adress">Адрес:</span>
-                <span class="adressLocate">Казахстан, г. Алматы,
-                  ул. Райымбека 208а</span>
+                <span class="adressLocate">Казахстан, г. Алматы, ул. Райымбека 208а</span>
 
               </p>
               <p>
@@ -179,19 +175,17 @@
               </p>
 
               <p>
-                <span class="active-text ">E-mail:</span>
-                <a href="mailto:9.loballogistics@gmail.com ">9.loballogistics@gmail.com</a>
+                <span class="active-text">E-mail:</span>
+                <a href="mailto:9.loballogistics@gmail.com">9.loballogistics@gmail.com</a>
               </p>
               <p>
-                <span class="active-text workingSchedule">
-                  График работы:</span>
-                <span class="workingSchedule2">
-                  пн-пт с 10:00
-                  до 19:00</span>
+                <span class="active-text workingSchedule">График работы:</span>
+                <span class="workingSchedule2">пн-пт с 10:00 до 19:00</span>
+
               </p>
-              <p class="">
-                <span class="active-text ">Соц. сети:</span>
-                <a class=" " href="https://wa.me/77004340002">WhatsApp</a>, Instagram
+              <p>
+                <span class="active-text socials">Соц. сети:</span>
+                <a href="https://wa.me/77004340002">WhatsApp</a>, Instagram
               </p>
             </div>
           </div>
@@ -206,25 +200,23 @@
             </div>
           </map>
 
-
-
-          <div class="raw" id="nav-russian" style="display: none;">
-            <!-- Контент на русском языке -->
-            <h2 class="">
-              Как заказать
-              <span class="active-text ">перевозку груза</span> или
-              <span class="active-text ">другие услуги?</span>
+          <div class="raw">
+            <h2>
+              <span class="howToOrder">Как заказать</span>
+              <span class="active-text transpCargo">перевозку груза</span>
+              <span class="or">или</span>
+              <span class="active-text otherServices">другие услуги?</span>
             </h2>
 
             <div class="row">
               <div class="parent-box d-flex justify-content-center">
                 <div class="col gy-3 child-box">
                   <ul>
-                    <li class="">Обратиться напрямую к нам в офис</li>
-                    <li class="">
+                    <li class="contactTo">Обратиться напрямую к нам в офис</li>
+                    <li class="fillSomeForm">
                       Заполнить форму заявки на сайте в разделе “Услуги”
                     </li>
-                    <li class="">
+                    <li class="useCalc">
                       Воспользоваться онлайн калькулятором на Главной странице
                       сайта
                     </li>
@@ -239,38 +231,6 @@
               </div>
             </div>
           </div>
-
-
-          <!-- Контент на английском языке -->
-          <!-- <div class="raw" id="nav-english">
-            <h2 class="">
-              How do I
-              <span class="active-text ">order shipping</span> or
-              <span class="active-text ">other services?</span>
-            </h2>
-
-            <div class="row">
-              <div class="parent-box d-flex justify-content-center">
-                <div class="col gy-3 child-box">
-                  <ul>
-                    <li>Contact our office directly</li>
-                    <li>
-                      Fill in the order form at the site in the "Services" section
-                    </li>
-                    <li>
-                      Use online calculator on the Main page
-                    </li>
-                  </ul>
-                </div>
-                <div id="second-column" class="col gy-3 child-box">
-                  <div class="gy-3">
-                    <img class="img-fluid" src="assets/img/contact/ship-container.png"
-                      alt="Контейнер для отправки грузов" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
         </div>
 
         <!-- End Mobile Map -->
@@ -279,16 +239,20 @@
       <div id="column-2">
         <div class="column">
           <div class="container contact-info-block-2 text-start">
-            <h2 class="">
-              Как заказать
-              <span class="active-text ">перевозку груза</span> или
-              <span class="active-text ">другие услуги?</span>
+            <h2>
+              <span class="howToOrder2">Как заказать</span>
+              <span class="active-text transpCargo2">перевозку груза</span>
+              <span class="or2">или</span>
+              <span class="active-text otherServices2">другие услуги?</span>
             </h2>
             <ul>
-              <li class="">Обратиться напрямую к нам в офис</li>
-              <li class="">Заполнить форму заявки на сайте в разделе “Услуги”</li>
-              <li class="">
-                Воспользоваться онлайн калькулятором на Главной странице сайта
+              <li class="contactTo2">Обратиться напрямую к нам в офис</li>
+              <li class="fillSomeForm2">
+                Заполнить форму заявки на сайте в разделе “Услуги”
+              </li>
+              <li class="useCalc2">
+                Воспользоваться онлайн калькулятором на Главной странице
+                сайта
               </li>
             </ul>
             <img class="img-fluid" src="assets/img/contact/ship-container.png" class="text-end"
@@ -333,12 +297,12 @@
   </div>
   <!-- End Back to top button -->
 
-  <!-- Cookie-Alert -->
+  <!-- START Cookie-Alert -->
   <div id="cookie_note">
-    <p class="coockie">
+    <p>
       Этот сайт использует файлы cookie для улучшения пользовательского опыта.
     </p>
-    <button class="cookie_accept accept">Принять</button>
+    <button class="cookie_accept">Принять</button>
   </div>
   <!-- END Cookie-Alert -->
 

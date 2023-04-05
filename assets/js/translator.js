@@ -165,7 +165,21 @@ const dictionary = {
     success: "успешно принята",
     sucDesc:
       "Мы приняли ваш запрос в обработку. Скоро мы свяжемся с вами для уточнения деталей. Оставайтесь с нашей компанией!",
-    backToHome: "Вернуться на главную"
+    backToHome: "Вернуться на главную",
+    howToOrder: "Как заказать",
+    transpCargo: "перевозку груза",
+    or: "или",
+    otherServices: "другие услуги?",
+    contactTo: "Обратиться напрямую к нам в офис",
+    fillSomeForm: "Заполнить форму заявки на сайте в разделе “Услуги”",
+    useCalc: "Воспользоваться онлайн калькулятором на Главной странице сайта",
+    howToOrder2: "Как заказать",
+    transpCargo2: "перевозку груза",
+    or2: "или",
+    otherServices2: "другие услуги?",
+    contactTo2: "Обратиться напрямую к нам в офис",
+    fillSomeForm2: "Заполнить форму заявки на сайте в разделе “Услуги”",
+    useCalc2: "Воспользоваться онлайн калькулятором на Главной странице сайта"
   },
   en: {
     navMain: "Home",
@@ -333,7 +347,23 @@ const dictionary = {
     success: "successfully accepted",
     sucDesc:
       "We have accepted your request. We will contact you soon for further details. Stay with our company!",
-    backToHome: "Back to Home"
+    backToHome: "Back to Home",
+    howToOrder: "How do I order",
+    transpCargo: "shipping",
+    or: "or",
+    otherServices: "other services?",
+    contactTo: "Contact our office directly",
+    fillSomeForm:
+      "Fill in the order form at the site in the «Services» section",
+    useCalc: "Use online calculator on the Main page",
+    howToOrder2: "How do I order",
+    transpCargo2: "shipping",
+    or2: "or",
+    otherServices2: "other services?",
+    contactTo2: "Contact our office directly",
+    fillSomeForm2:
+      "Fill in the order form at the site in the «Services» section",
+    useCalc2: "Use online calculator on the Main page"
   }
 };
 
@@ -481,11 +511,32 @@ const selectors = {
   success: ".success",
   sucDesc: ".sucDesc",
   backToHome: ".backToHome",
+  socials: ".socials",
+  howToOrder: ".howToOrder",
+  transpCargo: ".transpCargo",
+  or: ".or",
+  otherServices: ".otherServices",
+  contactTo: ".contactTo",
+  fillSomeForm: ".fillSomeForm",
+  useCalc: ".useCalc",
+  howToOrder2: ".howToOrder2",
+  transpCargo2: ".transpCargo2",
+  or2: ".or2",
+  otherServices2: ".otherServices2",
+  contactTo2: ".contactTo2",
+  fillSomeForm2: ".fillSomeForm2",
+  useCalc2: ".useCalc2",
+
   inputs: "[data-placeholder]"
 };
 
+// ! Danger Zone: при добавлении в словарь новых переменных, не правьте функцию
 function setLanguage(language) {
+  // устанавливаем и храненим значение языка в локалсторид
   localStorage.setItem("language", language);
+
+  const btnEn = document.querySelector("#btn-en");
+  const btnRu = document.querySelector("#btn-ru");
 
   const formEn = document.querySelector("#form-en");
   const formRu = document.querySelector("#form-ru");
@@ -493,6 +544,7 @@ function setLanguage(language) {
   const texts = dictionary[language];
   const inputs = document.querySelectorAll(selectors.inputs);
 
+  // обработка плейсхолдеров в инпутах
   inputs.forEach((input) => {
     const placeholder = input.getAttribute(`data-placeholder-${language}`);
     if (placeholder) {
@@ -510,15 +562,41 @@ function setLanguage(language) {
     }
   });
 
+  // смена цвета кнопки в зависимости от выбранного языка
+  btnEn.classList.add("btn-text-black");
+  btnRu.classList.add("btn-text-black");
+
   if (language === "en") {
-    formEn.style.display = "block";
-    formRu.style.display = "none";
+    if (btnEn && btnRu) {
+      btnEn.removeAttribute("class");
+      btnRu.removeAttribute("class");
+      btnRu.classList.add("btn-text-black");
+      btnEn.classList.add("btn-text-red");
+    }
   } else if (language === "ru") {
-    formEn.style.display = "none";
-    formRu.style.display = "block";
+    if (btnEn && btnRu) {
+      btnEn.removeAttribute("class");
+      btnRu.removeAttribute("class");
+      btnRu.classList.add("btn-text-red");
+      btnEn.classList.add("btn-text-black");
+    }
+  }
+
+  // подмена английской формы на русскоязычную, если она есть на странице
+  if (language === "en") {
+    if (formEn && formRu) {
+      formEn.style.display = "block";
+      formRu.style.display = "none";
+    }
+  } else if (language === "ru") {
+    if (formEn && formRu) {
+      formEn.style.display = "none";
+      formRu.style.display = "block";
+    }
   }
 }
 
+// получаем значение языка из локал сторидж
 const storedLanguage = localStorage.getItem("language");
 const language = storedLanguage || "ru";
 setLanguage(language);
