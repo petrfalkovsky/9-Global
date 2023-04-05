@@ -510,12 +510,21 @@ function setLanguage(language) {
     }
   });
 
+  // подмена английской формы на русскую, если она есть на странице
   if (language === "en") {
-    formEn.style.display = "block";
-    formRu.style.display = "none";
+    if (formEn) {
+      formEn.style.display = "block";
+    }
+    if (formRu) {
+      formRu.style.display = "none";
+    }
   } else if (language === "ru") {
-    formEn.style.display = "none";
-    formRu.style.display = "block";
+    if (formEn) {
+      formEn.style.display = "none";
+    }
+    if (formRu) {
+      formRu.style.display = "block";
+    }
   }
 }
 
