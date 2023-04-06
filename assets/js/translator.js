@@ -88,6 +88,7 @@ const dictionary = {
       "Выкуп и доставка любого автомобиля, привезем вовремя и в отличном состоянии.",
     customs1: "Таможенные",
     operations1: "операции",
+    operations2: "операции",
     custOpDesc1:
       "Знаем все процессы таможенного оформления, соблюдаем все применимые правил и требования.",
     customs2: "Таможенные",
@@ -271,6 +272,7 @@ const dictionary = {
 
     customs1: "Customs",
     operations1: "operations",
+    operations2: "operations",
     custOpDesc1:
       "We know all customs clearance processes, comply with all applicable rules and requirements.",
     custOpDesc2:
@@ -447,9 +449,9 @@ const selectors = {
   customs1: ".customs1",
   operations1: ".operations1",
   custOpDesc1: ".custOpDesc1",
+  custOpDesc2: ".custOpDesc2",
   customs2: ".customs2",
   operations2: ".operations2",
-  custOpDesc2: ".custOpDesc2",
   haveQueation: ".haveQueation",
   contactUS1: ".contactUS1",
   contactUS1Desc: ".contactUS1Desc",
