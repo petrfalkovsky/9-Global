@@ -252,8 +252,8 @@ const dictionary = {
     shipments1: "shipments",
     airShipmentsDesc1:
       "We offer reliable and cost-effective airfreight services to meet your needs.",
-    air2: "Авиа",
-    shipments2: "перевозки",
+    air2: "Air",
+    shipments2: "shipments",
     airShipmentsDesc2:
       "We offer reliable and cost-effective airfreight services to meet your needs.",
     threePLDesc1:
@@ -272,6 +272,8 @@ const dictionary = {
     customs1: "Customs",
     operations1: "operations",
     custOpDesc1:
+      "We know all customs clearance processes, comply with all applicable rules and requirements.",
+    custOpDesc2:
       "We know all customs clearance processes, comply with all applicable rules and requirements.",
     customs2: "Customs",
     operations3: "operations",
